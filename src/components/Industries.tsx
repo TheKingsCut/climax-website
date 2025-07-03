@@ -1,32 +1,34 @@
+import { Heart, Music, Cpu, UtensilsCrossed, Leaf, Wine } from "lucide-react";
+
 const Industries = () => {
   const industries = [
     {
-      icon: "🥩",
+      icon: Heart,
       title: "Meat Curing & Charcuterie",
       details: ["Stable 75% RH control", "Temperature stable", "Quality consistency"]
     },
     {
-      icon: "🎵", 
+      icon: Music,
       title: "Musical Instruments",
       details: ["40-55% RH control", "Temperature protection", "Insurance compliance"]
     },
     {
-      icon: "🔧",
+      icon: Cpu,
       title: "Electronics Manufacturing", 
       details: ["ESD prevention", "Quality control", "Yield improvement"]
     },
     {
-      icon: "🍽️",
+      icon: UtensilsCrossed,
       title: "Food Processing",
       details: ["Food safety", "Shelf life extension", "Quality assurance"]
     },
     {
-      icon: "🌿",
+      icon: Leaf,
       title: "Cannabis Cultivation",
       details: ["Optimal growing conditions", "Yield maximization", "Quality control"]
     },
     {
-      icon: "🍷",
+      icon: Wine,
       title: "Wine & Beverage", 
       details: ["Fermentation control", "Storage optimization", "Quality consistency"]
     }
@@ -53,20 +55,27 @@ const Industries = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {industries.map((industry, index) => (
-            <div key={index} className="text-center p-6 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow duration-300">
-              <div className="text-4xl mb-4">{industry.icon}</div>
-              <h3 className="text-xl font-bold text-foreground mb-4">{industry.title}</h3>
-              <ul className="space-y-2">
-                {industry.details.map((detail, detailIndex) => (
-                  <li key={detailIndex} className="text-sm text-muted-foreground flex items-center justify-center">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                    {detail}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          {industries.map((industry, index) => {
+            const IconComponent = industry.icon;
+            return (
+              <div key={index} className="p-6 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow duration-300">
+                <div className="flex justify-center mb-4">
+                  <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center">
+                    <IconComponent className="w-8 h-8 text-gray-600" />
+                  </div>
+                </div>
+                <h3 className="text-xl font-bold text-foreground mb-4 text-center">{industry.title}</h3>
+                <ul className="space-y-2">
+                  {industry.details.map((detail, detailIndex) => (
+                    <li key={detailIndex} className="text-sm text-muted-foreground flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-3 flex-shrink-0"></span>
+                      {detail}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
         </div>
 
         {/* Stats */}
