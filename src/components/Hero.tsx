@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
+import { Thermometer, Shield, Zap, Clock } from "lucide-react";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -9,96 +9,85 @@ const Hero = () => {
     }
   };
 
-  const scrollToProducts = () => {
-    const element = document.querySelector("#products");
+  const scrollToAbout = () => {
+    const element = document.querySelector("#about");
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
   return (
-    <section id="home" className="relative min-h-screen bg-gradient-hero overflow-hidden">
-      {/* Background overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/20"></div>
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary to-secondary overflow-hidden">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width=%2260%22%20height=%2260%22%20viewBox=%220%200%2060%2060%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20fill=%22none%22%20fill-rule=%22evenodd%22%3E%3Cg%20fill=%22%23ffffff%22%20fill-opacity=%220.05%22%3E%3Ccircle%20cx=%2230%22%20cy=%2230%22%20r=%222%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
       
-      {/* Hero Content */}
-      <div className="relative z-10 container mx-auto px-4 pt-24 pb-16 lg:pt-32 lg:pb-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center min-h-[calc(100vh-12rem)]">
-          {/* Text Content */}
-          <div className="text-center lg:text-left">
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              <span className="block">Environmental</span>
-              <span className="block bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">
-                Control Systems
-              </span>
-            </h1>
-            
-            <p className="text-lg sm:text-xl lg:text-2xl text-white/90 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Professional climate control solutions for industrial, commercial, and specialized environments. 
-              Precision engineering meets reliability.
-            </p>
+      <div className="relative z-10 container mx-auto px-4 py-20">
+        <div className="max-w-4xl mx-auto text-center">
+          {/* Main Heading */}
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+            Professional
+            <span className="block bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">
+              Climate Control
+            </span>
+          </h1>
+          
+          <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">
+            Precision environmental systems for industrial, commercial, and specialized applications. 
+            Where reliability meets innovation.
+          </p>
 
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button 
-                onClick={scrollToProducts}
-                size="lg" 
-                className="touch-target bg-primary hover:bg-primary-light text-white font-semibold px-8 py-4 text-lg smooth-transition"
-              >
-                Explore Products
-              </Button>
-              <Button 
-                onClick={scrollToContact}
-                variant="outline" 
-                size="lg" 
-                className="touch-target border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 text-lg smooth-transition"
-              >
-                Get Quote
-              </Button>
-            </div>
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+            <Button 
+              onClick={scrollToAbout}
+              size="lg" 
+              className="bg-accent hover:bg-accent-light text-accent-foreground font-semibold px-8 py-4 text-lg transition-all duration-300 transform hover:scale-105"
+            >
+              Learn More
+            </Button>
+            <Button 
+              onClick={scrollToContact}
+              variant="outline" 
+              size="lg" 
+              className="border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 text-lg transition-all duration-300"
+            >
+              Get Quote
+            </Button>
           </div>
 
-          {/* Features Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
-            <Card className="glass p-6 border-0">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-xl">24/7</span>
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Always On</h3>
-                <p className="text-white/80 text-sm">Continuous monitoring and support</p>
+          {/* Feature Icons */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center mb-4 transition-all duration-300 hover:bg-white/20">
+                <Thermometer className="h-8 w-8 text-white" />
               </div>
-            </Card>
-
-            <Card className="glass p-6 border-0">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-xl">±1°</span>
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Precision</h3>
-                <p className="text-white/80 text-sm">Industry-leading accuracy</p>
+              <h3 className="text-white font-semibold mb-2">Precision Control</h3>
+              <p className="text-white/70 text-sm">±0.5°C accuracy</p>
+            </div>
+            
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center mb-4 transition-all duration-300 hover:bg-white/20">
+                <Shield className="h-8 w-8 text-white" />
               </div>
-            </Card>
-
-            <Card className="glass p-6 border-0">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-xl">30%</span>
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Efficiency</h3>
-                <p className="text-white/80 text-sm">Energy cost reduction</p>
+              <h3 className="text-white font-semibold mb-2">Reliable Systems</h3>
+              <p className="text-white/70 text-sm">99.9% uptime</p>
+            </div>
+            
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center mb-4 transition-all duration-300 hover:bg-white/20">
+                <Zap className="h-8 w-8 text-white" />
               </div>
-            </Card>
-
-            <Card className="glass p-6 border-0">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-primary-light rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-xl">10+</span>
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Experience</h3>
-                <p className="text-white/80 text-sm">Years of expertise</p>
+              <h3 className="text-white font-semibold mb-2">Energy Efficient</h3>
+              <p className="text-white/70 text-sm">30% savings</p>
+            </div>
+            
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center mb-4 transition-all duration-300 hover:bg-white/20">
+                <Clock className="h-8 w-8 text-white" />
               </div>
-            </Card>
+              <h3 className="text-white font-semibold mb-2">24/7 Support</h3>
+              <p className="text-white/70 text-sm">Always available</p>
+            </div>
           </div>
         </div>
       </div>
