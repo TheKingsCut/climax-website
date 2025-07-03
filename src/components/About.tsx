@@ -1,3 +1,5 @@
+import { Thermometer, Snowflake, Droplets } from "lucide-react";
+
 const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-50">
@@ -16,7 +18,7 @@ const About = () => {
           {/* Precision Heating */}
           <div className="text-center">
             <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <span className="text-3xl">🌡️</span>
+              <Thermometer className="w-8 h-8 text-primary" />
             </div>
             <h3 className="text-2xl font-bold text-foreground mb-4">Precision Heating</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
@@ -30,8 +32,8 @@ const About = () => {
 
           {/* Efficient Cooling */}
           <div className="text-center">
-            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <span className="text-3xl">❄️</span>
+            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <Snowflake className="w-8 h-8 text-gray-600" />
             </div>
             <h3 className="text-2xl font-bold text-foreground mb-4">Efficient Cooling</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
@@ -46,7 +48,7 @@ const About = () => {
           {/* Smart Dehumidification */}
           <div className="text-center">
             <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <span className="text-3xl">💧</span>
+              <Droplets className="w-8 h-8 text-primary" />
             </div>
             <h3 className="text-2xl font-bold text-foreground mb-4">Smart Dehumidification</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
