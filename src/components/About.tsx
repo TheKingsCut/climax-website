@@ -2,10 +2,10 @@
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-gray-50">
+    <section id="about" className="py-12 bg-gray-50">
       <div className="container mx-auto px-4">
         {/* CTA Section */}
-        <div className="bg-gray-200 rounded-lg p-12 text-center">
+        <div className="bg-gray-200 rounded-lg p-8 text-center">
           <h3 className="text-3xl font-bold text-foreground mb-6">
             Why Choose Separate Systems When One Does It All?
           </h3>

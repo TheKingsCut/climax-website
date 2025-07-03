@@ -114,8 +114,8 @@ const Hero = () => {
         {/* Feature Pills */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
           {/* Precision Heating */}
-          <div className="bg-white rounded-lg p-6 shadow-sm">
-            <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+          <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover-scale hover:shadow-xl transition-all duration-300 hover:bg-gradient-to-br hover:from-white hover:to-primary/5">
+            <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-primary/20">
               <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
@@ -124,14 +124,14 @@ const Hero = () => {
             <p className="text-sm text-muted-foreground mb-3">
               Advanced heating technology maintains exact temperature control for optimal environmental conditions.
             </p>
-            <div className="bg-primary/5 rounded-lg p-2">
+            <div className="bg-primary/10 rounded-lg p-2 border border-primary/20">
               <div className="text-primary font-semibold text-sm">5°C to 40°C Range</div>
             </div>
           </div>
 
           {/* Efficient Cooling */}
-          <div className="bg-white rounded-lg p-6 shadow-sm">
-            <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mb-4">
+          <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover-scale hover:shadow-xl transition-all duration-300 hover:bg-gradient-to-br hover:from-white hover:to-secondary/5">
+            <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mb-4 transition-all duration-300">
               <svg className="w-6 h-6 text-secondary-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
               </svg>
@@ -140,14 +140,14 @@ const Hero = () => {
             <p className="text-sm text-muted-foreground mb-3">
               High-performance cooling system with intelligent load management for stable temperatures.
             </p>
-            <div className="bg-primary/5 rounded-lg p-2">
+            <div className="bg-primary/10 rounded-lg p-2 border border-primary/20">
               <div className="text-primary font-semibold text-sm">7-60 kW Range</div>
             </div>
           </div>
 
           {/* Smart Dehumidification */}
-          <div className="bg-white rounded-lg p-6 shadow-sm">
-            <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+          <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover-scale hover:shadow-xl transition-all duration-300 hover:bg-gradient-to-br hover:from-white hover:to-primary/5">
+            <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4 transition-all duration-300">
               <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
               </svg>
@@ -156,7 +156,7 @@ const Hero = () => {
             <p className="text-sm text-muted-foreground mb-3">
               Integrated moisture control prevents humidity fluctuations that damage sensitive products.
             </p>
-            <div className="bg-primary/5 rounded-lg p-2">
+            <div className="bg-primary/10 rounded-lg p-2 border border-primary/20">
               <div className="text-primary font-semibold text-sm">32% RH Accuracy</div>
             </div>
           </div>
