@@ -17,21 +17,21 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* Cli-Max Brand Colors */
-    --primary: 210 100% 50%; /* Professional blue */
+    /* Cli-Max Brand Colors - Orange theme */
+    --primary: 25 100% 50%; /* Cli-Max Orange */
     --primary-foreground: 0 0% 100%;
-    --primary-light: 210 100% 60%;
-    --primary-dark: 210 100% 40%;
+    --primary-light: 25 100% 60%;
+    --primary-dark: 25 100% 40%;
 
-    --secondary: 170 60% 45%; /* Teal green */
-    --secondary-foreground: 0 0% 100%;
-    --secondary-light: 170 60% 55%;
-    --secondary-dark: 170 60% 35%;
+    --secondary: 210 10% 95%; /* Light gray */
+    --secondary-foreground: 210 10% 20%;
+    --secondary-light: 210 10% 98%;
+    --secondary-dark: 210 10% 90%;
 
-    --accent: 42 100% 60%; /* Warm gold */
-    --accent-foreground: 222.2 84% 4.9%;
-    --accent-light: 42 100% 70%;
-    --accent-dark: 42 100% 50%;
+    --accent: 25 100% 50%; /* Same as primary orange */
+    --accent-foreground: 0 0% 100%;
+    --accent-light: 25 100% 60%;
+    --accent-dark: 25 100% 40%;
 
     --muted: 210 20% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;

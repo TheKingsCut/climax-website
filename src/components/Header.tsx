@@ -7,10 +7,12 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: "Home", href: "#home" },
-    { label: "About", href: "#about" },
-    { label: "Services", href: "#services" },
-    { label: "Contact", href: "#contact" },
+    { label: "HOME", href: "#home" },
+    { label: "ABOUT", href: "#about" },
+    { label: "PRODUCTS", href: "#products" },
+    { label: "INDUSTRIES", href: "#industries" },
+    { label: "CONTACT", href: "#contact" },
+    { label: "PARTNERS", href: "#partners" },
   ];
 
   const scrollToSection = (href: string) => {
@@ -22,13 +24,16 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+    <header className="bg-white border-b border-border sticky top-0 z-50">
+      <div className="bg-primary text-white text-center py-2 text-sm">
+        📞 24/7 Emergency Support: +27 11 123 4567
+      </div>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-primary">
-              Cli-Max
+            <h1 className="text-3xl font-bold text-primary">
+              CLI-MAX
             </h1>
           </div>
 
