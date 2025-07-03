@@ -100,7 +100,18 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Feature Pills - Moved from About section */}
+        {/* Main Heading Section - Moved from About */}
+        <div className="text-center mt-16 mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
+            One System. Three Functions. Zero Compromise.
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            Integrated heating, cooling, and dehumidification in a single professional-grade unit. Simplify 
+            your installations while delivering superior performance.
+          </p>
+        </div>
+
+        {/* Feature Pills */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
           {/* Precision Heating */}
           <div className="bg-white rounded-lg p-6 shadow-sm">

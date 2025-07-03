@@ -4,17 +4,6 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
-            One System. Three Functions. Zero Compromise.
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Integrated heating, cooling, and dehumidification in a single professional-grade unit. Simplify 
-            your installations while delivering superior performance.
-          </p>
-        </div>
-
-
         {/* CTA Section */}
         <div className="bg-gray-200 rounded-lg p-12 text-center">
           <h3 className="text-3xl font-bold text-foreground mb-6">
