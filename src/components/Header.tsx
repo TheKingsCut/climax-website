@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Menu, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import climaxLogo from "@/assets/climax-logo.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,9 +33,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-3xl font-bold text-primary">
-              CLI-MAX
-            </h1>
+            <img src={climaxLogo} alt="Cli-Max Logo" className="h-10 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
@@ -79,9 +78,7 @@ const Header = () => {
             <SheetContent side="right" className="w-80">
               <div className="flex flex-col space-y-6 mt-8">
                 <div className="text-center">
-                  <h2 className="text-2xl font-bold text-primary">
-                    Cli-Max
-                  </h2>
+                  <img src={climaxLogo} alt="Cli-Max Logo" className="h-8 w-auto mx-auto" />
                 </div>
                 
                 <nav className="flex flex-col space-y-4">

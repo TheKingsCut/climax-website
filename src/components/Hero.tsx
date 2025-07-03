@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import unitImage from "@/assets/unit-image-10.png";
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -73,17 +74,13 @@ const Hero = () => {
           {/* Right Content - Product Image */}
           <div className="relative">
             <div className="bg-gray-100 rounded-lg p-8 relative">
-              {/* Product mockup */}
+              {/* Actual Product Image */}
               <div className="bg-white rounded-lg shadow-lg p-6 relative">
-                <div className="w-full h-64 bg-gray-200 rounded flex items-center justify-center relative">
-                  <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold text-xl">CLI-MAX</span>
-                  </div>
-                  {/* Control panel mockup */}
-                  <div className="absolute top-4 right-4 w-16 h-12 bg-gray-800 rounded text-white text-xs flex items-center justify-center">
-                    Display
-                  </div>
-                </div>
+                <img 
+                  src={unitImage} 
+                  alt="Cli-Max Environmental Control System" 
+                  className="w-full h-64 object-contain rounded"
+                />
                 {/* Quality badge */}
                 <div className="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold">
                   Most Popular

@@ -1,3 +1,7 @@
+import unitImage02 from "@/assets/unit-image-02.png";
+import unitImage10 from "@/assets/unit-image-10.png";
+import unitImage12 from "@/assets/unit-image-12.png";
+
 const Products = () => {
   const products = [
     {
@@ -6,7 +10,7 @@ const Products = () => {
       badge: "Most Popular",
       description: "Intelligent control, highly-efficient technology, CE certification, and remote monitoring capabilities.",
       applications: ["Food processing", "Electronics manufacturing"],
-      image: "water-cooled"
+      image: unitImage10
     },
     {
       name: "Air Cooled MAX 3.0 Combo", 
@@ -14,7 +18,7 @@ const Products = () => {
       badge: "",
       description: "Outdoor installation ready, weather-resistant construction, quiet operation with advanced noise reduction technology.",
       applications: ["Meat curing", "Medical instruments", "Wine storage"],
-      image: "air-cooled-combo"
+      image: unitImage02
     },
     {
       name: "Air Cooled Chiller MAX 3.0 HFO",
@@ -22,7 +26,7 @@ const Products = () => {
       badge: "",
       description: "Eco-friendly HFO refrigerant, modular design for scalability, advanced diagnostics for predictive maintenance.",
       applications: ["Large facilities", "Industrial processes", "Data centers"],
-      image: "air-cooled-chiller"
+      image: unitImage12
     }
   ];
 
@@ -43,16 +47,12 @@ const Products = () => {
           {products.map((product, index) => (
             <div key={index} className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
               {/* Product Image */}
-              <div className="relative bg-gray-100 h-64 flex items-center justify-center">
-                <div className="w-full h-full bg-gray-200 rounded flex items-center justify-center relative">
-                  <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">CLI-MAX</span>
-                  </div>
-                  {/* Control panel */}
-                  <div className="absolute top-4 right-4 w-12 h-8 bg-gray-800 rounded text-white text-xs flex items-center justify-center">
-                    LCD
-                  </div>
-                </div>
+              <div className="relative bg-gray-100 h-64 flex items-center justify-center p-4">
+                <img 
+                  src={product.image} 
+                  alt={product.name} 
+                  className="w-full h-full object-contain rounded"
+                />
                 {product.badge && (
                   <div className="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">
                     {product.badge}
