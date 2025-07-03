@@ -1,200 +1,183 @@
-import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { MapPin, Phone, Mail, Clock, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import { useToast } from "@/hooks/use-toast";
+import { Textarea } from "@/components/ui/textarea";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    company: "",
-    message: ""
-  });
-  const { toast } = useToast();
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Here you would typically send the form data to your backend
-    console.log("Form submitted:", formData);
-    toast({
-      title: "Message sent!",
-      description: "We'll get back to you within 24 hours.",
-    });
-    setFormData({ name: "", email: "", phone: "", company: "", message: "" });
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const contactInfo = [
-    {
-      icon: Phone,
-      title: "Phone",
-      details: "(123) 456-7890",
-      description: "Call us for immediate assistance"
-    },
-    {
-      icon: Mail,
-      title: "Email",
-      details: "info@cli-max.com",
-      description: "Send us your questions"
-    },
-    {
-      icon: MapPin,
-      title: "Location",
-      details: "123 Industrial Blvd, City, State 12345",
-      description: "Visit our headquarters"
-    },
-    {
-      icon: Clock,
-      title: "Hours",
-      details: "24/7 Emergency Support",
-      description: "Mon-Fri 8AM-6PM Regular Hours"
-    }
-  ];
-
   return (
-    <section id="contact" className="py-20 bg-background">
+    <section id="contact" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
+        {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Contact <span className="text-primary">Us</span>
+            Ready to Optimize Your Environment?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Ready to discuss your environmental control needs? Get in touch with our experts 
-            for a free consultation and custom solution.
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+            Get in touch with our technical team for expert consultation and customized solutions for your 
+            specific application requirements.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Contact Form */}
-          <Card className="border hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <CardTitle className="text-2xl">Get a Free Quote</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <Label htmlFor="name">Name *</Label>
-                    <Input
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                      className="mt-1"
-                    />
-                  </div>
-                  <div>
-                    <Label htmlFor="email">Email *</Label>
-                    <Input
-                      id="email"
-                      name="email"
-                      type="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                      className="mt-1"
-                    />
-                  </div>
-                </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <Label htmlFor="phone">Phone</Label>
-                    <Input
-                      id="phone"
-                      name="phone"
-                      value={formData.phone}
-                      onChange={handleChange}
-                      className="mt-1"
-                    />
-                  </div>
-                  <div>
-                    <Label htmlFor="company">Company</Label>
-                    <Input
-                      id="company"
-                      name="company"
-                      value={formData.company}
-                      onChange={handleChange}
-                      className="mt-1"
-                    />
-                  </div>
-                </div>
-
+          <div className="bg-white rounded-lg p-8 shadow-sm">
+            <h3 className="text-2xl font-bold text-foreground mb-6">Request Free Consultation</h3>
+            <form className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <Label htmlFor="message">Message *</Label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    className="mt-1 min-h-[120px]"
-                    placeholder="Tell us about your environmental control requirements..."
+                  <Label htmlFor="name" className="text-foreground">Full Name *</Label>
+                  <Input
+                    id="name"
+                    type="text"
+                    placeholder="Your full name"
+                    className="mt-1"
                   />
                 </div>
+                <div>
+                  <Label htmlFor="email" className="text-foreground">Email Address *</Label>
+                  <Input
+                    id="email"
+                    type="email"
+                    placeholder="your.email@company.com"
+                    className="mt-1"
+                  />
+                </div>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <Label htmlFor="company" className="text-foreground">Company Name</Label>
+                  <Input
+                    id="company"
+                    type="text"
+                    placeholder="Your company name"
+                    className="mt-1"
+                  />
+                </div>
+                <div>
+                  <Label htmlFor="phone" className="text-foreground">Phone</Label>
+                  <Input
+                    id="phone"
+                    type="tel"
+                    placeholder="+27 11 123 4567"
+                    className="mt-1"
+                  />
+                </div>
+              </div>
 
-                <Button 
-                  type="submit" 
-                  size="lg" 
-                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-3 transition-all duration-300"
-                >
-                  Send Message
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
+              <div>
+                <Label htmlFor="industry" className="text-foreground">Industry/Application</Label>
+                <Select>
+                  <SelectTrigger className="mt-1">
+                    <SelectValue placeholder="Select your industry" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="meat-processing">Meat Processing</SelectItem>
+                    <SelectItem value="food-beverage">Food & Beverage</SelectItem>
+                    <SelectItem value="pharmaceuticals">Pharmaceuticals</SelectItem>
+                    <SelectItem value="electronics">Electronics</SelectItem>
+                    <SelectItem value="textiles">Textiles</SelectItem>
+                    <SelectItem value="agriculture">Agriculture</SelectItem>
+                    <SelectItem value="other">Other</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div>
+                <Label htmlFor="details" className="text-foreground">Project Details</Label>
+                <Textarea
+                  id="details"
+                  rows={4}
+                  placeholder="Tell us about your project requirements, space size, and specific needs..."
+                  className="mt-1"
+                />
+              </div>
+
+              <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3">
+                Get Free Consultation
+              </Button>
+              <p className="text-sm text-muted-foreground text-center">
+                We'll respond within 24 hours with a detailed proposal.
+              </p>
+            </form>
+          </div>
 
           {/* Contact Information */}
-          <div className="space-y-8">
-            <div>
-              <h3 className="text-2xl font-bold text-foreground mb-6">
-                Get in Touch
-              </h3>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                Our team of environmental control experts is ready to help you find the perfect 
-                solution for your facility. Contact us today to get started.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {contactInfo.map((info, index) => {
-                const IconComponent = info.icon;
-                return (
-                  <Card key={index} className="p-6 border hover:shadow-md transition-shadow duration-300">
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                        <IconComponent className="h-6 w-6 text-primary" />
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-foreground mb-1">{info.title}</h4>
-                        <p className="text-primary font-medium mb-1">{info.details}</p>
-                        <p className="text-sm text-muted-foreground">{info.description}</p>
-                      </div>
+          <div>
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold text-foreground mb-6">Contact Information</h3>
+                
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3 text-orange-500">
+                    <Phone className="w-5 h-5" />
+                    <div>
+                      <h4 className="font-semibold text-foreground">Phone</h4>
+                      <p className="text-muted-foreground">+27 11 123 4567</p>
                     </div>
-                  </Card>
-                );
-              })}
-            </div>
+                  </div>
 
-            <Card className="p-6 bg-gradient-to-r from-primary/5 to-secondary/5 border-0">
-              <h4 className="font-semibold text-foreground mb-3">Emergency Support</h4>
-              <p className="text-muted-foreground">
-                Need immediate assistance? Our 24/7 emergency support team is always available 
-                to help with critical environmental control issues.
-              </p>
-              <Button variant="outline" className="mt-4">
-                Call Emergency Line: (123) 456-7890
-              </Button>
-            </Card>
+                  <div className="flex items-center space-x-3 text-orange-500">
+                    <Mail className="w-5 h-5" />
+                    <div>
+                      <h4 className="font-semibold text-foreground">Email</h4>
+                      <p className="text-muted-foreground">info@cli-max.co.za</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center space-x-3 text-orange-500">
+                    <MapPin className="w-5 h-5" />
+                    <div>
+                      <h4 className="font-semibold text-foreground">Location</h4>
+                      <p className="text-muted-foreground">Johannesburg, South Africa</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center space-x-3 text-orange-500">
+                    <Clock className="w-5 h-5" />
+                    <div>
+                      <h4 className="font-semibold text-foreground">Support Hours</h4>
+                      <p className="text-muted-foreground">24/7 Emergency Support</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold text-foreground mb-6">Technical Team</h3>
+                
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3">
+                    <User className="w-5 h-5 text-orange-500" />
+                    <div>
+                      <h4 className="font-semibold text-foreground">Jonathan Smith</h4>
+                      <p className="text-sm text-muted-foreground">Senior Technical Consultant</p>
+                      <p className="text-sm text-orange-500">jonathan@cli-max.co.za</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center space-x-3">
+                    <User className="w-5 h-5 text-orange-500" />
+                    <div>
+                      <h4 className="font-semibold text-foreground">Courtney Williams</h4>
+                      <p className="text-sm text-muted-foreground">Lead Design Engineer</p>
+                      <p className="text-sm text-orange-500">courtney@cli-max.co.za</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold text-foreground mb-6">Quick Response Promise</h3>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li>• Quote within 24 hours</li>
+                  <li>• Technical consultation within 24 hours</li>
+                  <li>• Detailed proposal within 48 hours</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
