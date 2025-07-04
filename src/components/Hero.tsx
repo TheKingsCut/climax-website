@@ -55,60 +55,8 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Description and CTAs */}
-        <div className="text-center mb-16">
-          <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-4xl mx-auto">
-            Professional-grade environmental control systems that combine heating, cooling, and 
-            dehumidification in one integrated solution. European quality with local South African 
-            support.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button 
-              onClick={scrollToAbout}
-              className="bg-primary hover:bg-primary-dark text-white px-8 py-3 text-lg font-semibold"
-            >
-              LEARN MORE
-            </Button>
-            <Button 
-              onClick={scrollToContact}
-              variant="outline" 
-              className="border-2 border-foreground text-foreground hover:bg-foreground hover:text-white px-8 py-3 text-lg font-semibold"
-            >
-              GET QUOTE
-            </Button>
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">40%</div>
-              <div className="text-sm text-muted-foreground">Energy Savings</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">R8M</div>
-              <div className="text-sm text-muted-foreground">Proven Sales</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">CE</div>
-              <div className="text-sm text-muted-foreground">Certified</div>
-            </div>
-          </div>
-        </div>
-
-        {/* Main Heading Section - Moved from About */}
-        <div className="text-center mt-16 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
-            One System. Three Functions. Zero Compromise.
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Integrated heating, cooling, and dehumidification in a single professional-grade unit. Simplify 
-            your installations while delivering superior performance.
-          </p>
-        </div>
-
         {/* Feature Pills */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           {/* Precision Heating */}
           <div className="group bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:scale-105 hover:shadow-xl transition-all duration-300 hover:bg-gradient-to-br hover:from-white hover:to-primary/15 cursor-pointer">
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-primary/25">
@@ -157,6 +105,57 @@ const Hero = () => {
             </div>
           </div>
         </div>
+
+        {/* Main Heading Section - Moved from About */}
+        <div className="text-center mt-16 mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
+            One System. Three Functions. Zero Compromise.
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            Integrated heating, cooling, and dehumidification in a single professional-grade unit. Simplify 
+            your installations while delivering superior performance.
+          </p>
+        </div>
+
+        {/* Description and CTAs */}
+        <div className="text-center mb-16">
+          <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-4xl mx-auto">
+            Integrated heating, cooling, and dehumidification in a single professional-grade unit. European quality, simplified installation, and superior performance—backed by local South African support.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <Button 
+              onClick={scrollToAbout}
+              className="bg-primary hover:bg-primary-dark text-white px-8 py-3 text-lg font-semibold"
+            >
+              LEARN MORE
+            </Button>
+            <Button 
+              onClick={scrollToContact}
+              variant="outline" 
+              className="border-2 border-foreground text-foreground hover:bg-foreground hover:text-white px-8 py-3 text-lg font-semibold"
+            >
+              GET QUOTE
+            </Button>
+          </div>
+
+          {/* Stats */}
+          <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
+            <div className="text-center">
+              <div className="text-4xl font-bold text-primary mb-2">40%</div>
+              <div className="text-sm text-muted-foreground">Energy Savings</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-primary mb-2">R8M</div>
+              <div className="text-sm text-muted-foreground">Proven Sales</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-primary mb-2">CE</div>
+              <div className="text-sm text-muted-foreground">Certified</div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );
