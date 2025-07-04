@@ -19,60 +19,22 @@ const Hero = () => {
   return (
     <section id="home" className="bg-white py-20">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
-          <div>
-            <h1 className="text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-              ENVIRONMENTAL
-              <br />
-              <span className="text-foreground">CONTROL SYSTEMS</span>
-            </h1>
-            
-            <h2 className="text-2xl text-primary font-semibold mb-8">
-              HVAC Solutions for Every Application
-            </h2>
-            
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Professional-grade environmental control systems that combine heating, cooling, and 
-              dehumidification in one integrated solution. European quality with local South African 
-              support.
-            </p>
+        {/* Centered Hero Content */}
+        <div className="text-center mb-16">
+          <h1 className="text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
+            ENVIRONMENTAL
+            <br />
+            <span className="text-foreground">CONTROL SYSTEMS</span>
+          </h1>
+          
+          <h2 className="text-2xl text-primary font-semibold mb-8">
+            HVAC Solutions for Every Application
+          </h2>
+        </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button 
-                onClick={scrollToAbout}
-                className="bg-primary hover:bg-primary-dark text-white px-8 py-3 text-lg font-semibold"
-              >
-                LEARN MORE
-              </Button>
-              <Button 
-                onClick={scrollToContact}
-                variant="outline" 
-                className="border-2 border-foreground text-foreground hover:bg-foreground hover:text-white px-8 py-3 text-lg font-semibold"
-              >
-                GET QUOTE
-              </Button>
-            </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">40%</div>
-                <div className="text-sm text-muted-foreground">Energy Savings</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">R8M</div>
-                <div className="text-sm text-muted-foreground">Proven Sales</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">CE</div>
-                <div className="text-sm text-muted-foreground">Certified</div>
-              </div>
-            </div>
-          </div>
-
-          {/* Right Content - Video */}
-          <div className="relative">
+        {/* Central Video */}
+        <div className="flex justify-center mb-16">
+          <div className="relative w-full max-w-2xl">
             <div className="relative aspect-video">
               <video 
                 className="w-full h-full object-contain"
@@ -89,6 +51,47 @@ const Hero = () => {
                   className="w-full h-full object-contain"
                 />
               </video>
+            </div>
+          </div>
+        </div>
+
+        {/* Description and CTAs */}
+        <div className="text-center mb-16">
+          <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-4xl mx-auto">
+            Professional-grade environmental control systems that combine heating, cooling, and 
+            dehumidification in one integrated solution. European quality with local South African 
+            support.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <Button 
+              onClick={scrollToAbout}
+              className="bg-primary hover:bg-primary-dark text-white px-8 py-3 text-lg font-semibold"
+            >
+              LEARN MORE
+            </Button>
+            <Button 
+              onClick={scrollToContact}
+              variant="outline" 
+              className="border-2 border-foreground text-foreground hover:bg-foreground hover:text-white px-8 py-3 text-lg font-semibold"
+            >
+              GET QUOTE
+            </Button>
+          </div>
+
+          {/* Stats */}
+          <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
+            <div className="text-center">
+              <div className="text-4xl font-bold text-primary mb-2">40%</div>
+              <div className="text-sm text-muted-foreground">Energy Savings</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-primary mb-2">R8M</div>
+              <div className="text-sm text-muted-foreground">Proven Sales</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-primary mb-2">CE</div>
+              <div className="text-sm text-muted-foreground">Certified</div>
             </div>
           </div>
         </div>
