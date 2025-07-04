@@ -84,42 +84,11 @@ export default {
 					to: {
 						height: '0'
 					}
-				},
-				'count-up': {
-					from: {
-						transform: 'translateY(10px)',
-						opacity: '0'
-					},
-					to: {
-						transform: 'translateY(0)',
-						opacity: '1'
-					}
-				},
-				'progress-fill': {
-					from: {
-						width: '0%'
-					},
-					to: {
-						width: '100%'
-					}
-				},
-				'badge-reveal': {
-					from: {
-						transform: 'scale(0.5) rotate(10deg)',
-						opacity: '0'
-					},
-					to: {
-						transform: 'scale(1) rotate(0deg)',
-						opacity: '1'
-					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out',
-				'count-up': 'count-up 0.6s ease-out',
-				'progress-fill': 'progress-fill 1.2s ease-out',
-				'badge-reveal': 'badge-reveal 0.8s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out'
 			}
 		}
 	},
