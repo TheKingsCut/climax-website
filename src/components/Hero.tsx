@@ -34,7 +34,7 @@ const Hero = () => {
 
         {/* Central Video */}
         <div className="flex justify-center mb-16">
-          <div className="relative w-full max-w-2xl">
+          <div className="relative w-full max-w-4xl">
             <div className="relative aspect-video">
               <video 
                 className="w-full h-full object-contain"
