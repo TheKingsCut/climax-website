@@ -73,29 +73,22 @@ const Hero = () => {
 
           {/* Right Content - Video */}
           <div className="relative">
-            <div className="bg-white rounded-lg p-8 relative">
-              {/* Video Container */}
-              <div className="bg-white rounded-lg shadow-lg relative aspect-video">
-                <video 
-                  className="w-full h-full object-contain rounded"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                >
-                  <source src="/path-to-your-360-video.mp4" type="video/mp4" />
-                  {/* Fallback image */}
-                  <img 
-                    src={unitImage} 
-                    alt="Cli-Max Environmental Control System" 
-                    className="w-full h-full object-contain rounded"
-                  />
-                </video>
-                {/* Quality badge */}
-                <div className="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold">
-                  Most Popular
-                </div>
-              </div>
+            <div className="relative aspect-video">
+              <video 
+                className="w-full h-full object-contain"
+                autoPlay
+                loop
+                muted
+                playsInline
+              >
+                <source src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/RENDERS/CLIMAX-360/CLIMAX_360_01.webm" type="video/webm" />
+                {/* Fallback image */}
+                <img 
+                  src={unitImage} 
+                  alt="Cli-Max Environmental Control System" 
+                  className="w-full h-full object-contain"
+                />
+              </video>
             </div>
           </div>
         </div>
