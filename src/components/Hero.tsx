@@ -111,9 +111,6 @@ const Hero = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
             One System. Three Functions. Zero Compromise.
           </h2>
-          <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Integrated heating, cooling, and dehumidification in a single professional-grade unit. European quality, simplified installation, and superior performance—backed by local South African support.
-          </p>
         </div>
 
         {/* Description and CTAs */}
