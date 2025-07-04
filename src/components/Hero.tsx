@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { AnimatedStats } from "@/components/ui/animated-stats";
 import unitImage from "@/assets/unit-image-10.png";
 
 const Hero = () => {
@@ -135,21 +136,8 @@ const Hero = () => {
             </Button>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">40%</div>
-              <div className="text-sm text-muted-foreground">Energy Savings</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">R8M</div>
-              <div className="text-sm text-muted-foreground">Proven Sales</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">CE</div>
-              <div className="text-sm text-muted-foreground">Certified</div>
-            </div>
-          </div>
+          {/* Animated Stats */}
+          <AnimatedStats />
         </div>
 
       </div>
