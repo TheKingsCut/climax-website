@@ -23,15 +23,21 @@ export const useScrollAnimation = () => {
 
       const rect = element.getBoundingClientRect();
       const windowHeight = window.innerHeight;
-      
-      // Calculate progress based on element position in viewport
-      const elementTop = rect.top;
       const elementHeight = rect.height;
       
-      // Progress from 0 to 1 as element moves through viewport
-      const progress = Math.max(0, Math.min(1, 
-        (windowHeight - elementTop) / (windowHeight + elementHeight)
-      ));
+      // Calculate element center position relative to viewport center
+      const elementCenter = rect.top + elementHeight / 2;
+      const viewportCenter = windowHeight / 2;
+      
+      // Distance from viewport center (0 when centered)
+      const distanceFromCenter = Math.abs(elementCenter - viewportCenter);
+      
+      // Maximum distance where animation should be active
+      const maxDistance = windowHeight / 2 + elementHeight / 2;
+      
+      // Progress: 1 when centered, 0 when at max distance
+      // Creates a bell curve: 0 → 1 → 0
+      const progress = Math.max(0, 1 - (distanceFromCenter / maxDistance));
       
       setScrollProgress(progress);
     };

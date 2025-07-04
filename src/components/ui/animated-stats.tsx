@@ -1,7 +1,7 @@
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
 import { AnimatedCounter } from './animated-counter';
 import { AnimatedProgress } from './animated-progress';
-import { AnimatedBadge } from './animated-badge';
+import { AnimatedTick } from './animated-tick';
 
 export const AnimatedStats = () => {
   const { scrollProgress, elementRef } = useScrollAnimation();
@@ -29,7 +29,7 @@ export const AnimatedStats = () => {
       <div className="text-center space-y-4">
         <div className="text-5xl font-bold text-primary mb-2">
           <AnimatedCounter
-            end={8}
+            end={2}
             progress={scrollProgress}
             prefix="R"
             suffix="M"
@@ -48,14 +48,12 @@ export const AnimatedStats = () => {
         <div className="text-sm text-muted-foreground font-medium">Proven Sales</div>
       </div>
 
-      {/* CE Certified */}
+      {/* Certified Tick */}
       <div className="text-center space-y-4">
-        <AnimatedBadge
+        <AnimatedTick
           progress={scrollProgress}
           className="inline-block"
-        >
-          <div className="text-5xl font-bold text-primary">CE</div>
-        </AnimatedBadge>
+        />
         <div className="text-sm text-muted-foreground font-medium">Certified</div>
       </div>
     </div>
