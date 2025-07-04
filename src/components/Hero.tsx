@@ -112,8 +112,7 @@ const Hero = () => {
             One System. Three Functions. Zero Compromise.
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Integrated heating, cooling, and dehumidification in a single professional-grade unit. Simplify 
-            your installations while delivering superior performance.
+            Integrated heating, cooling, and dehumidification in a single professional-grade unit. European quality, simplified installation, and superior performance—backed by local South African support.
           </p>
         </div>
 
