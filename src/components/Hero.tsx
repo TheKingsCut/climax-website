@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
 
         {/* Feature Pills */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {/* Precision Heating */}
           <div className="group bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:scale-105 hover:shadow-xl transition-all duration-300 hover:bg-gradient-to-br hover:from-white hover:to-primary/15 cursor-pointer">
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-primary/25">
@@ -106,8 +106,8 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Main Heading Section - Moved from About */}
-        <div className="text-center mt-16 mb-16">
+        {/* Main Heading */}
+        <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
             One System. Three Functions. Zero Compromise.
           </h2>
