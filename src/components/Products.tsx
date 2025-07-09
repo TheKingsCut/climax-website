@@ -974,299 +974,301 @@ const Products = () => {
               </div>
             </div>
 
-            {/* Technical Specifications */}
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h4 className="text-xl font-semibold text-foreground mb-4">Technical Specifications</h4>
-              <div className="relative">
-                <div className="overflow-x-auto border border-gray-300 rounded-lg">
-                  <div className="min-w-max">
-                    <Table className="w-full">
-                      <TableHeader className="sticky top-0 z-10 bg-white border-b-2 border-gray-300">
-                        <TableRow>
-                          <TableHead className="border-r border-gray-300 text-center font-semibold bg-gray-100 text-xs px-2 py-3 min-w-[140px]">Category</TableHead>
-                          <TableHead className="border-r border-gray-300 text-center font-semibold bg-blue-50 text-xs px-2 py-3 min-w-[100px]">
-                            <div>CM-D138</div>
-                            <div className="text-[10px] text-muted-foreground">/Floor</div>
-                          </TableHead>
-                          <TableHead className="border-r border-gray-300 text-center font-semibold bg-blue-50 text-xs px-2 py-3 min-w-[100px]">
-                            <div>CM-D156</div>
-                            <div className="text-[10px] text-muted-foreground">/Floor</div>
-                          </TableHead>
-                          <TableHead className="border-r border-gray-300 text-center font-semibold bg-blue-50 text-xs px-2 py-3 min-w-[100px]">
-                            <div>CM-D380</div>
-                            <div className="text-[10px] text-muted-foreground">/Floor</div>
-                          </TableHead>
-                          <TableHead className="border-r border-gray-300 text-center font-semibold bg-blue-50 text-xs px-2 py-3 min-w-[100px]">
-                            <div>CM-D720</div>
-                            <div className="text-[10px] text-muted-foreground">/Floor</div>
-                          </TableHead>
-                          <TableHead className="border-r border-gray-300 text-center font-semibold bg-blue-50 text-xs px-2 py-3 min-w-[100px]">
-                            <div>CM-D960</div>
-                            <div className="text-[10px] text-muted-foreground">/Floor</div>
-                          </TableHead>
-                          <TableHead className="border-r border-gray-300 text-center font-semibold bg-green-50 text-xs px-2 py-3 min-w-[100px]">
-                            <div>CM-DE136</div>
-                            <div className="text-[10px] text-muted-foreground">/Ceiling</div>
-                          </TableHead>
-                          <TableHead className="border-r border-gray-300 text-center font-semibold bg-green-50 text-xs px-2 py-3 min-w-[100px]">
-                            <div>CM-DE168</div>
-                            <div className="text-[10px] text-muted-foreground">/Ceiling</div>
-                          </TableHead>
-                          <TableHead className="border-r border-gray-300 text-center font-semibold bg-green-50 text-xs px-2 py-3 min-w-[100px]">
-                            <div>CM-DE240</div>
-                            <div className="text-[10px] text-muted-foreground">/Ceiling</div>
-                          </TableHead>
-                          <TableHead className="border-r border-gray-300 text-center font-semibold bg-green-50 text-xs px-2 py-3 min-w-[100px]">
-                            <div>CM-DE360</div>
-                            <div className="text-[10px] text-muted-foreground">/Ceiling</div>
-                          </TableHead>
-                          <TableHead className="text-center font-semibold bg-green-50 text-xs px-2 py-3 min-w-[100px]">
-                            <div>CM-DE480</div>
-                            <div className="text-[10px] text-muted-foreground">/Ceiling</div>
-                          </TableHead>
-                        </TableRow>
-                      </TableHeader>
-                      <TableBody>
-                        <TableRow className="border-b border-gray-200">
-                          <TableCell className="border-r border-gray-300 text-left font-medium bg-gray-50 text-xs px-2 py-2">Dehumidification Capacity</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">138 L/day</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">156 L/day</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">380 L/day</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">720 L/day</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">960 L/day</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">136.8 L/day</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">168 L/day</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">240 L/day</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">360 L/day</TableCell>
-                          <TableCell className="text-center text-xs px-2 py-2">480 L/day</TableCell>
-                        </TableRow>
-                        <TableRow className="border-b border-gray-200">
-                          <TableCell className="border-r border-gray-300 text-left font-medium bg-gray-50 text-xs px-2 py-2">Power Supply</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">220V/50Hz/1P</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">220V/50Hz/1P</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">380V/50Hz/3P</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">380V/50Hz/3P</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">380V/50Hz/3P</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">220V/50Hz/1P</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">380V/50Hz/3P</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">380V/50Hz/3P</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">380V/50Hz/3P</TableCell>
-                          <TableCell className="text-center text-xs px-2 py-2">380V/50Hz/3P</TableCell>
-                        </TableRow>
-                        <TableRow className="border-b border-gray-200">
-                          <TableCell className="border-r border-gray-300 text-left font-medium bg-gray-50 text-xs px-2 py-2">Power</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">2 KW</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">2.3 KW</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">6.5 KW</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">16 KW</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">20 KW</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">2.5 KW</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">3.0 KW</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">5.0 KW</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">6.5 KW</TableCell>
-                          <TableCell className="text-center text-xs px-2 py-2">10 KW</TableCell>
-                        </TableRow>
-                        <TableRow className="border-b border-gray-200">
-                          <TableCell className="border-r border-gray-300 text-left font-medium bg-gray-50 text-xs px-2 py-2">Humidity Regulation</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">10% - 95% RH</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">10% - 95% RH</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">10% - 95% RH</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">10% - 95% RH</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">10% - 95% RH</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">10% - 95%RH</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="text-center text-xs px-2 py-2">-</TableCell>
-                        </TableRow>
-                        <TableRow className="border-b border-gray-200">
-                          <TableCell className="border-r border-gray-300 text-left font-medium bg-gray-50 text-xs px-2 py-2">Control Accuracy</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">±3% RH</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">±3% RH</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">±3% RH</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">±3% RH</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">±3% RH</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">±1% RH</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="text-center text-xs px-2 py-2">-</TableCell>
-                        </TableRow>
-                        <TableRow className="border-b border-gray-200">
-                          <TableCell className="border-r border-gray-300 text-left font-medium bg-gray-50 text-xs px-2 py-2">Proper Temperature</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">5~38℃</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">5~38℃</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">5~38℃</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">5~38℃</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">5~38℃</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">5~38℃</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">5~38℃</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">5~38℃</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">5~38℃</TableCell>
-                          <TableCell className="text-center text-xs px-2 py-2">5~38℃</TableCell>
-                        </TableRow>
-                        <TableRow className="border-b border-gray-200">
-                          <TableCell className="border-r border-gray-300 text-left font-medium bg-gray-50 text-xs px-2 py-2">Protection Level</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">IPX04</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">IPX04</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">IPX04</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">IPX04</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">IPX04</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="text-center text-xs px-2 py-2">-</TableCell>
-                        </TableRow>
-                        <TableRow className="border-b border-gray-200">
-                          <TableCell className="border-r border-gray-300 text-left font-medium bg-gray-50 text-xs px-2 py-2">Application Area</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">150-200m2 (2.8m high)</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">100-260m2 (2.8m high)</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">400-600m2 (2.8m high)</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">700-1000m2 (2.8m high)</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">900-1300m2 (2.8m high)</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">150-200m2 (2.8m high)</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">200-300m2 (2.8m high)</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">300-500m2 (2.8m high)</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">400-600m2 (2.8m high)</TableCell>
-                          <TableCell className="text-center text-xs px-2 py-2">500-800m2 (2.8m high)</TableCell>
-                        </TableRow>
-                        <TableRow className="border-b border-gray-200">
-                          <TableCell className="border-r border-gray-300 text-left font-medium bg-gray-50 text-xs px-2 py-2">Dimensions (L*W*H)</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">480*420*1050 mm</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">480*420*1050 mm</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">1180*470*1790 mm</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">1200*700*1790 mm</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">1380*700*2000 mm</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">900*500*430 mm</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">1000*600*700 mm</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">1000*800*750 mm</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">1200*1100*700 mm</TableCell>
-                          <TableCell className="text-center text-xs px-2 py-2">1200*1100*700 mm</TableCell>
-                        </TableRow>
-                        <TableRow>
-                          <TableCell className="border-r border-gray-300 text-left font-medium bg-gray-50 text-xs px-2 py-2">Air Flow</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">-</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">1300m3/h</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">2800m3/h</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">3000m3/h</TableCell>
-                          <TableCell className="border-r border-gray-300 text-center text-xs px-2 py-2">4000m3/h</TableCell>
-                          <TableCell className="text-center text-xs px-2 py-2">6000m3/h</TableCell>
-                        </TableRow>
-                      </TableBody>
-                    </Table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* 6. Ultrasonic Humidifier Series */}
-          <div className="product-category">
-            <h3 className="text-3xl font-bold text-foreground mb-8">Ultrasonic Humidifier Series</h3>
-            
-            {/* Product Image Placeholder */}
-            <div className="w-full h-64 bg-gray-100 flex items-center justify-center mb-8">
-              <div className="text-muted-foreground text-lg">Product Image Placeholder</div>
-            </div>
-
-            {/* Features & Benefits */}
-            <div className="mb-8">
-              <h4 className="text-xl font-semibold text-foreground mb-4">Features & Benefits</h4>
-              <div className="grid md:grid-cols-2 gap-6">
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Precision humidification control with 10%-99% humidity range</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Advanced ultrasonic technology with 99% atomization rate</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Ultra-fine water mist particles (1-5 microns)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Energy-efficient operation requiring only 0.06kW per kg of water</span>
-                  </li>
-                </ul>
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Intelligent waterproof fan system with delay function</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Direct water connection with automatic level adjustment</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Prevents water condensation and eliminates germ breeding</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Stainless steel crystal construction for durability</span>
-                  </li>
-                </ul>
+            {/* Technical Specifications - Floor Units */}
+            <div className="bg-gray-50 rounded-lg p-6 mb-8">
+              <h4 className="text-xl font-semibold text-foreground mb-4">Floor Units</h4>
+              <div className="border border-gray-200 rounded bg-white max-h-96 overflow-y-auto">
+                <style dangerouslySetInnerHTML={{__html: `
+                  .sticky-table {
+                    border-collapse: separate;
+                    border-spacing: 0;
+                    width: 100%;
+                    min-width: 1200px;
+                  }
+                  .sticky-table th {
+                    position: sticky;
+                    top: 0;
+                    background: white;
+                    z-index: 20;
+                    border-bottom: 2px solid #e5e7eb;
+                    border-right: 1px solid #e5e7eb;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                  }
+                  .sticky-table td {
+                    border-bottom: 1px solid #e5e7eb;
+                    border-right: 1px solid #e5e7eb;
+                  }
+                  .sticky-table th:first-child,
+                  .sticky-table td:first-child {
+                    border-left: 1px solid #e5e7eb;
+                  }
+                  .sticky-table th:last-child,
+                  .sticky-table td:last-child {
+                    border-right: 1px solid #e5e7eb;
+                  }
+                  .compact-header {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    line-height: 1.2;
+                    padding: 8px;
+                  }
+                  .model-number {
+                    font-weight: 600;
+                    font-size: 0.9em;
+                  }
+                  .series-name {
+                    font-weight: 400;
+                    font-size: 0.8em;
+                    margin-top: 2px;
+                  }
+                `}} />
+                <table className="sticky-table">
+                  <thead>
+                    <tr>
+                      <th className="min-w-[200px] text-left p-4">Category</th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CM-D138</div>
+                          <div className="series-name">Floor</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CM-D156</div>
+                          <div className="series-name">Floor</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CM-D380</div>
+                          <div className="series-name">Floor</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CM-D720</div>
+                          <div className="series-name">Floor</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CM-D960</div>
+                          <div className="series-name">Floor</div>
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="font-medium p-4">Dehumidification Capacity</td>
+                      <td className="text-center p-4">138 L/day</td>
+                      <td className="text-center p-4">156 L/day</td>
+                      <td className="text-center p-4">380 L/day</td>
+                      <td className="text-center p-4">720 L/day</td>
+                      <td className="text-center p-4">960 L/day</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Power Supply</td>
+                      <td className="text-center p-4">220V/50Hz/1P</td>
+                      <td className="text-center p-4">220V/50Hz/1P</td>
+                      <td className="text-center p-4">380V/50Hz/3P</td>
+                      <td className="text-center p-4">380V/50Hz/3P</td>
+                      <td className="text-center p-4">380V/50Hz/3P</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Power</td>
+                      <td className="text-center p-4">2 KW</td>
+                      <td className="text-center p-4">2.3 KW</td>
+                      <td className="text-center p-4">6.5 KW</td>
+                      <td className="text-center p-4">16 KW</td>
+                      <td className="text-center p-4">20 KW</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Humidity Regulation</td>
+                      <td className="text-center p-4">10% - 95% RH</td>
+                      <td className="text-center p-4">10% - 95% RH</td>
+                      <td className="text-center p-4">10% - 95% RH</td>
+                      <td className="text-center p-4">10% - 95% RH</td>
+                      <td className="text-center p-4">10% - 95% RH</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Control Accuracy</td>
+                      <td className="text-center p-4">±3% RH</td>
+                      <td className="text-center p-4">±3% RH</td>
+                      <td className="text-center p-4">±3% RH</td>
+                      <td className="text-center p-4">±3% RH</td>
+                      <td className="text-center p-4">±3% RH</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Proper Temperature</td>
+                      <td className="text-center p-4">5~38℃</td>
+                      <td className="text-center p-4">5~38℃</td>
+                      <td className="text-center p-4">5~38℃</td>
+                      <td className="text-center p-4">5~38℃</td>
+                      <td className="text-center p-4">5~38℃</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Protection Level</td>
+                      <td className="text-center p-4">IPX04</td>
+                      <td className="text-center p-4">IPX04</td>
+                      <td className="text-center p-4">IPX04</td>
+                      <td className="text-center p-4">IPX04</td>
+                      <td className="text-center p-4">IPX04</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Application Area</td>
+                      <td className="text-center p-4">150-200m2 (2.8m high)</td>
+                      <td className="text-center p-4">100-260m2 (2.8m high)</td>
+                      <td className="text-center p-4">400-600m2 (2.8m high)</td>
+                      <td className="text-center p-4">700-1000m2 (2.8m high)</td>
+                      <td className="text-center p-4">900-1300m2 (2.8m high)</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Dimensions (L*W*H)</td>
+                      <td className="text-center p-4">480*420*1050 mm</td>
+                      <td className="text-center p-4">480*420*1050 mm</td>
+                      <td className="text-center p-4">1180*470*1790 mm</td>
+                      <td className="text-center p-4">1200*700*1790 mm</td>
+                      <td className="text-center p-4">1380*700*2000 mm</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Air Flow</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
 
-            {/* Technical Specifications */}
+            {/* Technical Specifications - Ceiling Units */}
             <div className="bg-gray-50 rounded-lg p-6">
-              <h4 className="text-xl font-semibold text-foreground mb-4">Technical Specifications</h4>
-              <div className="overflow-x-auto">
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead>Model</TableHead>
-                      <TableHead>Humidification Capacity (kg/h)</TableHead>
-                      <TableHead>Coverage Area (m²)</TableHead>
-                      <TableHead>Power Input (kW)</TableHead>
-                      <TableHead>Water Tank (L)</TableHead>
-                      <TableHead>Humidity Control Range</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    <TableRow>
-                      <TableCell className="font-medium">CMH-UH16</TableCell>
-                      <TableCell>1.6</TableCell>
-                      <TableCell>10-50</TableCell>
-                      <TableCell>0.10</TableCell>
-                      <TableCell>15</TableCell>
-                      <TableCell>10%-99%</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">CMH-UH60</TableCell>
-                      <TableCell>6.0</TableCell>
-                      <TableCell>50-100</TableCell>
-                      <TableCell>0.36</TableCell>
-                      <TableCell>25</TableCell>
-                      <TableCell>10%-99%</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">CMH-UH120</TableCell>
-                      <TableCell>12.0</TableCell>
-                      <TableCell>100-150</TableCell>
-                      <TableCell>0.72</TableCell>
-                      <TableCell>40</TableCell>
-                      <TableCell>10%-99%</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">CMH-UH180</TableCell>
-                      <TableCell>18.0</TableCell>
-                      <TableCell>150-200</TableCell>
-                      <TableCell>1.08</TableCell>
-                      <TableCell>60</TableCell>
-                      <TableCell>10%-99%</TableCell>
-                    </TableRow>
-                  </TableBody>
-                </Table>
+              <h4 className="text-xl font-semibold text-foreground mb-4">Ceiling Units</h4>
+              <div className="border border-gray-200 rounded bg-white max-h-96 overflow-y-auto">
+                <table className="sticky-table">
+                  <thead>
+                    <tr>
+                      <th className="min-w-[200px] text-left p-4">Category</th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CM-DE136</div>
+                          <div className="series-name">Ceiling</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CM-DE168</div>
+                          <div className="series-name">Ceiling</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CM-DE240</div>
+                          <div className="series-name">Ceiling</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CM-DE360</div>
+                          <div className="series-name">Ceiling</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CM-DE480</div>
+                          <div className="series-name">Ceiling</div>
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="font-medium p-4">Dehumidification Capacity</td>
+                      <td className="text-center p-4">136.8 L/day</td>
+                      <td className="text-center p-4">168 L/day</td>
+                      <td className="text-center p-4">240 L/day</td>
+                      <td className="text-center p-4">360 L/day</td>
+                      <td className="text-center p-4">480 L/day</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Power Supply</td>
+                      <td className="text-center p-4">220V/50Hz/1P</td>
+                      <td className="text-center p-4">380V/50Hz/3P</td>
+                      <td className="text-center p-4">380V/50Hz/3P</td>
+                      <td className="text-center p-4">380V/50Hz/3P</td>
+                      <td className="text-center p-4">380V/50Hz/3P</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Power</td>
+                      <td className="text-center p-4">2.5 KW</td>
+                      <td className="text-center p-4">3.0 KW</td>
+                      <td className="text-center p-4">5.0 KW</td>
+                      <td className="text-center p-4">6.5 KW</td>
+                      <td className="text-center p-4">10 KW</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Humidity Regulation</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">10% - 95%RH</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Control Accuracy</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">±1% RH</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Proper Temperature</td>
+                      <td className="text-center p-4">5~38℃</td>
+                      <td className="text-center p-4">5~38℃</td>
+                      <td className="text-center p-4">5~38℃</td>
+                      <td className="text-center p-4">5~38℃</td>
+                      <td className="text-center p-4">5~38℃</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Protection Level</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Application Area</td>
+                      <td className="text-center p-4">150-200m2 (2.8m high)</td>
+                      <td className="text-center p-4">200-300m2 (2.8m high)</td>
+                      <td className="text-center p-4">300-500m2 (2.8m high)</td>
+                      <td className="text-center p-4">400-600m2 (2.8m high)</td>
+                      <td className="text-center p-4">500-800m2 (2.8m high)</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Dimensions (L*W*H)</td>
+                      <td className="text-center p-4">900*500*430 mm</td>
+                      <td className="text-center p-4">1000*600*700 mm</td>
+                      <td className="text-center p-4">1000*800*750 mm</td>
+                      <td className="text-center p-4">1200*1100*700 mm</td>
+                      <td className="text-center p-4">1200*1100*700 mm</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Air Flow</td>
+                      <td className="text-center p-4">1300m3/h</td>
+                      <td className="text-center p-4">2800m3/h</td>
+                      <td className="text-center p-4">3000m3/h</td>
+                      <td className="text-center p-4">4000m3/h</td>
+                      <td className="text-center p-4">6000m3/h</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
