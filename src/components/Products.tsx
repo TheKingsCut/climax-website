@@ -411,7 +411,7 @@ const Products = () => {
           {/* 2. Water Cooled Inverter MAX 5.0 Series */}
           <div className="product-category">
             <div className="flex items-center gap-4 mb-8">
-              <h3 className="text-3xl font-bold text-foreground">Water Cooled Inverter MAX 5.0 Series</h3>
+              <h3 className="text-3xl font-bold text-foreground">Inverter Water Cooled MAX 5.0 Combo Series</h3>
               <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">Most Popular</span>
             </div>
             
@@ -466,139 +466,252 @@ const Products = () => {
             {/* Technical Specifications */}
             <div className="bg-gray-50 rounded-lg p-6">
               <h4 className="text-xl font-semibold text-foreground mb-4">Technical Specifications</h4>
-              <div className="overflow-x-auto">
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead className="min-w-[120px]">Model</TableHead>
-                      <TableHead className="min-w-[100px]">Cooling Capacity (kW)</TableHead>
-                      <TableHead className="min-w-[120px]">Dehumidification Capacity (L/D)</TableHead>
-                      <TableHead className="min-w-[120px]">Electrical Heater (Options) (kW)</TableHead>
-                      <TableHead className="min-w-[100px]">Cooling Input Power (kW)</TableHead>
-                      <TableHead className="min-w-[120px]">Heating Capacity (Heat pump type only) (kW)</TableHead>
-                      <TableHead className="min-w-[120px]">Heating Input Power (Heat pump type only) (kW)</TableHead>
-                      <TableHead className="min-w-[120px]">Rated Air Flow Volume (m³/h)</TableHead>
-                      <TableHead className="min-w-[100px]">Max Static Pressure (Pa)</TableHead>
-                      <TableHead className="min-w-[100px]">Compressor Type</TableHead>
-                      <TableHead className="min-w-[100px]">Compressor Quantity</TableHead>
-                      <TableHead className="min-w-[120px]">Condenser/Evaporator</TableHead>
-                      <TableHead className="min-w-[100px]">Power Supply</TableHead>
-                      <TableHead className="min-w-[80px]">Refrigerant</TableHead>
-                      <TableHead className="min-w-[80px]">Noise dB(A)</TableHead>
-                      <TableHead className="min-w-[150px]">Net Dimension (L×W×H) (mm)</TableHead>
-                      <TableHead className="min-w-[100px]">Net Weight (kg)</TableHead>
-                      <TableHead className="min-w-[150px]">Packing Dimension (L×W×H) (mm)</TableHead>
-                      <TableHead className="min-w-[100px]">Gross Weight (kg)</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    <TableRow>
-                      <TableCell className="font-medium">6000 PRO5 (INV)</TableCell>
-                      <TableCell>6.0</TableCell>
-                      <TableCell>144</TableCell>
-                      <TableCell>3/6/9</TableCell>
-                      <TableCell>2.1</TableCell>
-                      <TableCell>6.9</TableCell>
-                      <TableCell>2.4</TableCell>
-                      <TableCell>2100</TableCell>
-                      <TableCell>250</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>55</TableCell>
-                      <TableCell>1000×700×950</TableCell>
-                      <TableCell>120</TableCell>
-                      <TableCell>1140×840×1090</TableCell>
-                      <TableCell>135</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">10500 PRO5 (1P) (INV)</TableCell>
-                      <TableCell>10.5</TableCell>
-                      <TableCell>252</TableCell>
-                      <TableCell>3/6/9</TableCell>
-                      <TableCell>3.7</TableCell>
-                      <TableCell>12.1</TableCell>
-                      <TableCell>4.3</TableCell>
-                      <TableCell>3700</TableCell>
-                      <TableCell>300</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>1Ph/220V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>58</TableCell>
-                      <TableCell>1200×800×1050</TableCell>
-                      <TableCell>145</TableCell>
-                      <TableCell>1340×940×1190</TableCell>
-                      <TableCell>160</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">10500 PRO5 (3P) (INV)</TableCell>
-                      <TableCell>10.5</TableCell>
-                      <TableCell>252</TableCell>
-                      <TableCell>3/6/9</TableCell>
-                      <TableCell>3.7</TableCell>
-                      <TableCell>12.1</TableCell>
-                      <TableCell>4.3</TableCell>
-                      <TableCell>3700</TableCell>
-                      <TableCell>300</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>58</TableCell>
-                      <TableCell>1200×800×1050</TableCell>
-                      <TableCell>145</TableCell>
-                      <TableCell>1340×940×1190</TableCell>
-                      <TableCell>160</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">16000 PRO5 (INV)</TableCell>
-                      <TableCell>16.0</TableCell>
-                      <TableCell>384</TableCell>
-                      <TableCell>3/6/9/12</TableCell>
-                      <TableCell>5.6</TableCell>
-                      <TableCell>18.5</TableCell>
-                      <TableCell>6.5</TableCell>
-                      <TableCell>5600</TableCell>
-                      <TableCell>350</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>62</TableCell>
-                      <TableCell>1500×1000×1200</TableCell>
-                      <TableCell>175</TableCell>
-                      <TableCell>1640×1140×1340</TableCell>
-                      <TableCell>195</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">30000 PRO5 (INV)</TableCell>
-                      <TableCell>30.0</TableCell>
-                      <TableCell>720</TableCell>
-                      <TableCell>6/9/12/15/18</TableCell>
-                      <TableCell>10.6</TableCell>
-                      <TableCell>34.6</TableCell>
-                      <TableCell>12.2</TableCell>
-                      <TableCell>10600</TableCell>
-                      <TableCell>400</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>2</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>68</TableCell>
-                      <TableCell>1800×1200×1400</TableCell>
-                      <TableCell>250</TableCell>
-                      <TableCell>1940×1340×1540</TableCell>
-                      <TableCell>275</TableCell>
-                    </TableRow>
-                  </TableBody>
-                </Table>
+              <div className="border border-gray-200 rounded bg-white" style={{height: '400px', overflow: 'auto'}}>
+                <style dangerouslySetInnerHTML={{__html: `
+                  .water-cooled-table {
+                    border-collapse: separate;
+                    border-spacing: 0;
+                    width: 100%;
+                    min-width: 1200px;
+                  }
+                  .water-cooled-table th {
+                    position: sticky;
+                    top: 0;
+                    background: white;
+                    z-index: 20;
+                    border-bottom: 2px solid #e5e7eb;
+                    border-right: 1px solid #e5e7eb;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                  }
+                  .water-cooled-table td {
+                    border-bottom: 1px solid #e5e7eb;
+                    border-right: 1px solid #e5e7eb;
+                  }
+                  .water-cooled-table th:first-child,
+                  .water-cooled-table td:first-child {
+                    border-left: 1px solid #e5e7eb;
+                  }
+                  .water-cooled-table th:last-child,
+                  .water-cooled-table td:last-child {
+                    border-right: 1px solid #e5e7eb;
+                  }
+                  .water-compact-header {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    line-height: 1.2;
+                    padding: 8px;
+                  }
+                  .water-model-number {
+                    font-weight: 600;
+                    font-size: 0.9em;
+                  }
+                  .water-series-name {
+                    font-weight: 400;
+                    font-size: 0.8em;
+                    margin-top: 2px;
+                  }
+                `}} />
+                <table className="water-cooled-table">
+                  <thead>
+                    <tr>
+                      <th className="min-w-[200px] text-left p-4">Item</th>
+                      <th className="min-w-[80px] text-center p-4">Unit</th>
+                      <th className="min-w-[120px] text-center">
+                        <div className="water-compact-header">
+                          <div className="water-model-number">6000</div>
+                          <div className="water-series-name">PRO5 (INV)</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[120px] text-center">
+                        <div className="water-compact-header">
+                          <div className="water-model-number">10500</div>
+                          <div className="water-series-name">PRO5 (1P) (INV)</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[120px] text-center">
+                        <div className="water-compact-header">
+                          <div className="water-model-number">10500</div>
+                          <div className="water-series-name">PRO5 (3P) (INV)</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[120px] text-center">
+                        <div className="water-compact-header">
+                          <div className="water-model-number">16000</div>
+                          <div className="water-series-name">PRO5 (INV)</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[120px] text-center">
+                        <div className="water-compact-header">
+                          <div className="water-model-number">30000</div>
+                          <div className="water-series-name">PRO5 (INV)</div>
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="font-medium p-4">Cooling capacity</td>
+                      <td className="text-center p-4">KW</td>
+                      <td className="text-center p-4">6</td>
+                      <td className="text-center p-4">10.5</td>
+                      <td className="text-center p-4">10.5</td>
+                      <td className="text-center p-4">16</td>
+                      <td className="text-center p-4">30</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Rated input power</td>
+                      <td className="text-center p-4">KW</td>
+                      <td className="text-center p-4">1.11</td>
+                      <td className="text-center p-4">1.93</td>
+                      <td className="text-center p-4">1.93</td>
+                      <td className="text-center p-4">2.92</td>
+                      <td className="text-center p-4">5.43</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Electrical Heater</td>
+                      <td className="text-center p-4">KW</td>
+                      <td className="text-center p-4">2×1.5</td>
+                      <td className="text-center p-4">2×2.0</td>
+                      <td className="text-center p-4">2×2.0</td>
+                      <td className="text-center p-4">2×2.0</td>
+                      <td className="text-center p-4">3×3.0</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Dehumidification Capacity</td>
+                      <td className="text-center p-4">l/h</td>
+                      <td className="text-center p-4">2.2</td>
+                      <td className="text-center p-4">3.4</td>
+                      <td className="text-center p-4">6</td>
+                      <td className="text-center p-4">8.6</td>
+                      <td className="text-center p-4">12.2</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Power Supply</td>
+                      <td className="text-center p-4"></td>
+                      <td className="text-center p-4">220V/50Hz/1Ph</td>
+                      <td className="text-center p-4">220V/50Hz/1Ph</td>
+                      <td className="text-center p-4">380V/50Hz/3Ph</td>
+                      <td className="text-center p-4">380V/50Hz/3Ph</td>
+                      <td className="text-center p-4">380V/50Hz/3Ph</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Compressor Type</td>
+                      <td className="text-center p-4"></td>
+                      <td className="text-center p-4">Rotary</td>
+                      <td className="text-center p-4">Rotary</td>
+                      <td className="text-center p-4">Scroll</td>
+                      <td className="text-center p-4">Scroll</td>
+                      <td className="text-center p-4">Scroll</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Compressor Quantity</td>
+                      <td className="text-center p-4">Qty</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Refrigerant</td>
+                      <td className="text-center p-4"></td>
+                      <td className="text-center p-4"></td>
+                      <td className="text-center p-4">R410A</td>
+                      <td className="text-center p-4">R410A</td>
+                      <td className="text-center p-4">R410A</td>
+                      <td className="text-center p-4">R410A</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Protection</td>
+                      <td className="text-center p-4"></td>
+                      <td className="text-center p-4">High/low pressure protection</td>
+                      <td className="text-center p-4" colSpan={4}>High/low pressure protection, over-heat protection, over-current protection, water-break protection</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Air flow</td>
+                      <td className="text-center p-4">m3/h</td>
+                      <td className="text-center p-4">1200</td>
+                      <td className="text-center p-4">2000</td>
+                      <td className="text-center p-4">2000</td>
+                      <td className="text-center p-4">2600</td>
+                      <td className="text-center p-4">6000</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Power</td>
+                      <td className="text-center p-4">W</td>
+                      <td className="text-center p-4">100</td>
+                      <td className="text-center p-4">275</td>
+                      <td className="text-center p-4">275</td>
+                      <td className="text-center p-4">450</td>
+                      <td className="text-center p-4">1100</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Static pressure</td>
+                      <td className="text-center p-4">Pa</td>
+                      <td className="text-center p-4">30</td>
+                      <td className="text-center p-4">40</td>
+                      <td className="text-center p-4">40</td>
+                      <td className="text-center p-4">40</td>
+                      <td className="text-center p-4">40</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Cooling Water Flow</td>
+                      <td className="text-center p-4">m3/h</td>
+                      <td className="text-center p-4">0.25</td>
+                      <td className="text-center p-4">0.32</td>
+                      <td className="text-center p-4">0.32</td>
+                      <td className="text-center p-4">0.5</td>
+                      <td className="text-center p-4">1.2</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Cooling Water Flow (Connect chiller)</td>
+                      <td className="text-center p-4">m3/h</td>
+                      <td className="text-center p-4">1.4</td>
+                      <td className="text-center p-4">2.4</td>
+                      <td className="text-center p-4">2.4</td>
+                      <td className="text-center p-4">3.4</td>
+                      <td className="text-center p-4">7</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Cooling Water Pipe</td>
+                      <td className="text-center p-4"></td>
+                      <td className="text-center p-4">DN20</td>
+                      <td className="text-center p-4">DN20</td>
+                      <td className="text-center p-4">DN20</td>
+                      <td className="text-center p-4">DN20</td>
+                      <td className="text-center p-4">DN32</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Noise</td>
+                      <td className="text-center p-4">dB(A)</td>
+                      <td className="text-center p-4">50</td>
+                      <td className="text-center p-4">58</td>
+                      <td className="text-center p-4">58</td>
+                      <td className="text-center p-4">58</td>
+                      <td className="text-center p-4">62</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Net dimension (L×W×H)</td>
+                      <td className="text-center p-4">mm</td>
+                      <td className="text-center p-4">1068×644×475</td>
+                      <td className="text-center p-4">1408×695×550</td>
+                      <td className="text-center p-4">1408×695×550</td>
+                      <td className="text-center p-4">1408×762×550</td>
+                      <td className="text-center p-4">2170×1090×771</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Net weight</td>
+                      <td className="text-center p-4">Kg</td>
+                      <td className="text-center p-4">90</td>
+                      <td className="text-center p-4">120</td>
+                      <td className="text-center p-4">120</td>
+                      <td className="text-center p-4">130</td>
+                      <td className="text-center p-4">260</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
