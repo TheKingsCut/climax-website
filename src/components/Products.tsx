@@ -1273,6 +1273,137 @@ const Products = () => {
             </div>
           </div>
 
+          {/* 5. Ultrasonic Humidifier Series */}
+          <div className="product-category">
+            <h3 className="text-3xl font-bold text-foreground mb-8">Ultrasonic Humidifier Series</h3>
+            
+            {/* Product Image Placeholder */}
+            <div className="w-full h-64 bg-gray-100 flex items-center justify-center mb-8">
+              <div className="text-muted-foreground text-lg">Product Image Placeholder</div>
+            </div>
+
+            {/* Features & Benefits */}
+            <div className="mb-8">
+              <h4 className="text-xl font-semibold text-foreground mb-4">Features & Benefits</h4>
+              <div className="grid md:grid-cols-2 gap-6">
+                <ul className="space-y-2">
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Wide humidification capacity range from 1.6kg/h to 18kg/h for diverse applications</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Coverage area from 10m² to 200m² with precise humidity control (10%-99%)</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Advanced ultrasonic atomization technology with 99% atomization efficiency</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Ultra-fine water mist particles (1-5 microns) for uniform humidification</span>
+                  </li>
+                </ul>
+                <ul className="space-y-2">
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Exceptional energy efficiency - only 0.06kW per 1kg water atomization</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Dedicated waterproof fan with delay function prevents mist backflow</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Direct water pipe connection with automatic level adjustment</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Prevents plant decay and germ breeding through condensation rejection</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Technical Specifications */}
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h4 className="text-xl font-semibold text-foreground mb-4">Technical Specifications</h4>
+              <div className="border border-gray-200 rounded bg-white max-h-96 overflow-y-auto">
+                <table className="sticky-table">
+                  <thead>
+                    <tr>
+                      <th className="min-w-[200px] text-left p-4">Item</th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CMD-UH16</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CMD-UH60</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CMD-UH120</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CMD-UH180</div>
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="font-medium p-4">Humidification Capacity (kg/h)</td>
+                      <td className="text-center p-4">1.6</td>
+                      <td className="text-center p-4">6</td>
+                      <td className="text-center p-4">12</td>
+                      <td className="text-center p-4">18</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Application Area</td>
+                      <td className="text-center p-4">Within 25 m²</td>
+                      <td className="text-center p-4">50~70 m²</td>
+                      <td className="text-center p-4">120~150 m²</td>
+                      <td className="text-center p-4">170~200 m²</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Power (kW)</td>
+                      <td className="text-center p-4">0.12</td>
+                      <td className="text-center p-4">0.6</td>
+                      <td className="text-center p-4">1.2</td>
+                      <td className="text-center p-4">1.8</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Spray Jet</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">2</td>
+                      <td className="text-center p-4">3</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Control Method</td>
+                      <td className="text-center p-4">Automatic/Manual Control Switch</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">-</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Dimensions (mm)</td>
+                      <td className="text-center p-4">605×405×250</td>
+                      <td className="text-center p-4">540×330×440</td>
+                      <td className="text-center p-4">640×420×500</td>
+                      <td className="text-center p-4">640×640×500</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
