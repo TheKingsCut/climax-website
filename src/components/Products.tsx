@@ -18,9 +18,9 @@ const Products = () => {
         {/* Product Categories */}
         <div className="space-y-20">
           
-          {/* 1. Air Cooled MAX 5.0 Combo Series */}
+          {/* 1. Inverter Air Cooled MAX 5.0 Combo Series */}
           <div className="product-category">
-            <h3 className="text-3xl font-bold text-foreground mb-8">Air Cooled MAX 5.0 Combo Series</h3>
+            <h3 className="text-3xl font-bold text-foreground mb-8">Inverter Air Cooled MAX 5.0 Combo Series</h3>
             
             {/* Product Image Placeholder */}
             <div className="w-full h-64 bg-gray-100 flex items-center justify-center mb-8">
@@ -77,237 +77,246 @@ const Products = () => {
                 <Table>
                   <TableHeader>
                     <TableRow>
-                      <TableHead className="min-w-[120px]">Model</TableHead>
-                      <TableHead className="min-w-[100px]">Cooling Capacity (kW)</TableHead>
-                      <TableHead className="min-w-[120px]">Dehumidification Capacity (L/D)</TableHead>
-                      <TableHead className="min-w-[120px]">Electrical Heater (Options) (kW)</TableHead>
-                      <TableHead className="min-w-[100px]">Cooling Input Power (kW)</TableHead>
-                      <TableHead className="min-w-[120px]">Heating Capacity (Heat pump type only) (kW)</TableHead>
-                      <TableHead className="min-w-[120px]">Heating Input Power (Heat pump type only) (kW)</TableHead>
-                      <TableHead className="min-w-[120px]">Rated Air Flow Volume (m³/h)</TableHead>
-                      <TableHead className="min-w-[100px]">Max Static Pressure (Pa)</TableHead>
-                      <TableHead className="min-w-[100px]">Compressor Type</TableHead>
-                      <TableHead className="min-w-[100px]">Compressor Quantity</TableHead>
-                      <TableHead className="min-w-[120px]">Condenser/Evaporator</TableHead>
-                      <TableHead className="min-w-[100px]">Power Supply</TableHead>
-                      <TableHead className="min-w-[80px]">Refrigerant</TableHead>
-                      <TableHead className="min-w-[80px]">Noise dB(A)</TableHead>
-                      <TableHead className="min-w-[150px]">Net Dimension (L×W×H) (mm)</TableHead>
-                      <TableHead className="min-w-[100px]">Net Weight (kg)</TableHead>
-                      <TableHead className="min-w-[150px]">Packing Dimension (L×W×H) (mm)</TableHead>
-                      <TableHead className="min-w-[100px]">Gross Weight (kg)</TableHead>
+                      <TableHead className="min-w-[200px]">Item</TableHead>
+                      <TableHead className="min-w-[80px]">Unit</TableHead>
+                      <TableHead className="min-w-[100px]">7000 PRO5</TableHead>
+                      <TableHead className="min-w-[100px]">9000 PRO5</TableHead>
+                      <TableHead className="min-w-[100px]">10500 PRO5</TableHead>
+                      <TableHead className="min-w-[100px]">15000 PRO5</TableHead>
+                      <TableHead className="min-w-[100px]">17500 PRO5</TableHead>
+                      <TableHead className="min-w-[100px]">21000 PRO5</TableHead>
+                      <TableHead className="min-w-[100px]">26000 PRO5</TableHead>
+                      <TableHead className="min-w-[100px]">30000 PRO5</TableHead>
+                      <TableHead className="min-w-[100px]">35000 PRO5</TableHead>
+                      <TableHead className="min-w-[100px]">70000 PRO5</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
                     <TableRow>
-                      <TableCell className="font-medium">7000 PRO5</TableCell>
-                      <TableCell>7.0</TableCell>
-                      <TableCell>168</TableCell>
-                      <TableCell>3/6/9</TableCell>
-                      <TableCell>2.5</TableCell>
-                      <TableCell>8.1</TableCell>
-                      <TableCell>2.9</TableCell>
-                      <TableCell>2500</TableCell>
-                      <TableCell>300</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>60</TableCell>
-                      <TableCell>1200×800×1050</TableCell>
-                      <TableCell>140</TableCell>
-                      <TableCell>1340×940×1190</TableCell>
-                      <TableCell>155</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">9000 PRO5</TableCell>
-                      <TableCell>9.0</TableCell>
-                      <TableCell>216</TableCell>
-                      <TableCell>3/6/9</TableCell>
-                      <TableCell>3.2</TableCell>
-                      <TableCell>10.4</TableCell>
-                      <TableCell>3.7</TableCell>
-                      <TableCell>3200</TableCell>
-                      <TableCell>300</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>62</TableCell>
-                      <TableCell>1200×800×1050</TableCell>
-                      <TableCell>145</TableCell>
-                      <TableCell>1340×940×1190</TableCell>
-                      <TableCell>160</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">10500 PRO5</TableCell>
+                      <TableCell className="font-medium">Cooling Capacity</TableCell>
+                      <TableCell>kW</TableCell>
+                      <TableCell>7</TableCell>
+                      <TableCell>9</TableCell>
                       <TableCell>10.5</TableCell>
-                      <TableCell>252</TableCell>
-                      <TableCell>3/6/9</TableCell>
-                      <TableCell>3.7</TableCell>
-                      <TableCell>12.1</TableCell>
-                      <TableCell>4.3</TableCell>
-                      <TableCell>3700</TableCell>
-                      <TableCell>300</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>64</TableCell>
-                      <TableCell>1200×800×1050</TableCell>
-                      <TableCell>150</TableCell>
-                      <TableCell>1340×940×1190</TableCell>
-                      <TableCell>165</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">15000 PRO5</TableCell>
-                      <TableCell>15.0</TableCell>
-                      <TableCell>360</TableCell>
-                      <TableCell>3/6/9/12</TableCell>
-                      <TableCell>5.3</TableCell>
-                      <TableCell>17.3</TableCell>
-                      <TableCell>6.1</TableCell>
-                      <TableCell>5300</TableCell>
-                      <TableCell>350</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>66</TableCell>
-                      <TableCell>1500×1000×1200</TableCell>
-                      <TableCell>180</TableCell>
-                      <TableCell>1640×1140×1340</TableCell>
-                      <TableCell>200</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">17500 PRO5</TableCell>
+                      <TableCell>15</TableCell>
                       <TableCell>17.5</TableCell>
-                      <TableCell>420</TableCell>
-                      <TableCell>3/6/9/12</TableCell>
-                      <TableCell>6.2</TableCell>
-                      <TableCell>20.2</TableCell>
-                      <TableCell>7.1</TableCell>
-                      <TableCell>6200</TableCell>
-                      <TableCell>350</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>68</TableCell>
-                      <TableCell>1500×1000×1200</TableCell>
-                      <TableCell>185</TableCell>
-                      <TableCell>1640×1140×1340</TableCell>
-                      <TableCell>205</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">21000 PRO5</TableCell>
-                      <TableCell>21.0</TableCell>
-                      <TableCell>504</TableCell>
-                      <TableCell>3/6/9/12/15</TableCell>
-                      <TableCell>7.4</TableCell>
-                      <TableCell>24.2</TableCell>
-                      <TableCell>8.5</TableCell>
-                      <TableCell>7400</TableCell>
-                      <TableCell>350</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
+                      <TableCell>21</TableCell>
+                      <TableCell>26</TableCell>
+                      <TableCell>30</TableCell>
+                      <TableCell>35</TableCell>
                       <TableCell>70</TableCell>
-                      <TableCell>1500×1000×1200</TableCell>
-                      <TableCell>190</TableCell>
-                      <TableCell>1640×1140×1340</TableCell>
-                      <TableCell>210</TableCell>
                     </TableRow>
                     <TableRow>
-                      <TableCell className="font-medium">26000 PRO5</TableCell>
-                      <TableCell>26.0</TableCell>
-                      <TableCell>624</TableCell>
-                      <TableCell>6/9/12/15/18</TableCell>
-                      <TableCell>9.2</TableCell>
-                      <TableCell>30.0</TableCell>
-                      <TableCell>10.6</TableCell>
-                      <TableCell>9200</TableCell>
-                      <TableCell>400</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>2</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>72</TableCell>
-                      <TableCell>1800×1200×1400</TableCell>
-                      <TableCell>250</TableCell>
-                      <TableCell>1940×1340×1540</TableCell>
-                      <TableCell>275</TableCell>
+                      <TableCell className="font-medium">Dehumidification Capacity</TableCell>
+                      <TableCell>L/D</TableCell>
+                      <TableCell>178</TableCell>
+                      <TableCell>224</TableCell>
+                      <TableCell>261</TableCell>
+                      <TableCell>396</TableCell>
+                      <TableCell>462</TableCell>
+                      <TableCell>549</TableCell>
+                      <TableCell>679</TableCell>
+                      <TableCell>792</TableCell>
+                      <TableCell>927</TableCell>
+                      <TableCell>1854</TableCell>
                     </TableRow>
                     <TableRow>
-                      <TableCell className="font-medium">30000 PRO5</TableCell>
-                      <TableCell>30.0</TableCell>
-                      <TableCell>720</TableCell>
-                      <TableCell>6/9/12/15/18</TableCell>
-                      <TableCell>10.6</TableCell>
-                      <TableCell>34.6</TableCell>
-                      <TableCell>12.2</TableCell>
-                      <TableCell>10600</TableCell>
-                      <TableCell>400</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>2</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>74</TableCell>
-                      <TableCell>1800×1200×1400</TableCell>
-                      <TableCell>260</TableCell>
-                      <TableCell>1940×1340×1540</TableCell>
-                      <TableCell>285</TableCell>
+                      <TableCell className="font-medium">Electrical Heater (Options)</TableCell>
+                      <TableCell>kW</TableCell>
+                      <TableCell>1×1.5</TableCell>
+                      <TableCell>1×1.5</TableCell>
+                      <TableCell>2×2.0</TableCell>
+                      <TableCell>2×2.0</TableCell>
+                      <TableCell>2×2.0</TableCell>
+                      <TableCell>2×3.0</TableCell>
+                      <TableCell>2×3.0</TableCell>
+                      <TableCell>4×2.0</TableCell>
+                      <TableCell>4×2.0</TableCell>
+                      <TableCell>4×3.0</TableCell>
                     </TableRow>
                     <TableRow>
-                      <TableCell className="font-medium">35000 PRO5</TableCell>
-                      <TableCell>35.0</TableCell>
-                      <TableCell>840</TableCell>
-                      <TableCell>6/9/12/15/18/21</TableCell>
-                      <TableCell>12.4</TableCell>
-                      <TableCell>40.4</TableCell>
-                      <TableCell>14.3</TableCell>
-                      <TableCell>12400</TableCell>
-                      <TableCell>400</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell>2</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
+                      <TableCell className="font-medium">Cooling Input Power</TableCell>
+                      <TableCell>kW</TableCell>
+                      <TableCell>1.95</TableCell>
+                      <TableCell>2.5</TableCell>
+                      <TableCell>2.91</TableCell>
+                      <TableCell>4.15</TableCell>
+                      <TableCell>4.84</TableCell>
+                      <TableCell>5.8</TableCell>
+                      <TableCell>7.18</TableCell>
+                      <TableCell>8.25</TableCell>
+                      <TableCell>9.63</TableCell>
+                      <TableCell>19.3</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Heating Capacity (Heat pump type only)</TableCell>
+                      <TableCell>kW</TableCell>
+                      <TableCell>7.5</TableCell>
+                      <TableCell>9.5</TableCell>
+                      <TableCell>11</TableCell>
+                      <TableCell>16.5</TableCell>
+                      <TableCell>19.5</TableCell>
+                      <TableCell>23</TableCell>
+                      <TableCell>28</TableCell>
+                      <TableCell>32.5</TableCell>
+                      <TableCell>37.9</TableCell>
                       <TableCell>76</TableCell>
-                      <TableCell>1800×1200×1400</TableCell>
-                      <TableCell>270</TableCell>
-                      <TableCell>1940×1340×1540</TableCell>
-                      <TableCell>295</TableCell>
                     </TableRow>
                     <TableRow>
-                      <TableCell className="font-medium">70000 PRO5</TableCell>
-                      <TableCell>70.0</TableCell>
-                      <TableCell>1680</TableCell>
-                      <TableCell>12/18/24/30</TableCell>
-                      <TableCell>24.8</TableCell>
-                      <TableCell>80.8</TableCell>
-                      <TableCell>28.6</TableCell>
-                      <TableCell>24800</TableCell>
-                      <TableCell>500</TableCell>
+                      <TableCell className="font-medium">Heating Input Power (Heat pump type only)</TableCell>
+                      <TableCell>kW</TableCell>
+                      <TableCell>2.08</TableCell>
+                      <TableCell>2.6</TableCell>
+                      <TableCell>3</TableCell>
+                      <TableCell>4.5</TableCell>
+                      <TableCell>5.18</TableCell>
+                      <TableCell>6.27</TableCell>
+                      <TableCell>7.6</TableCell>
+                      <TableCell>8.8</TableCell>
+                      <TableCell>10.3</TableCell>
+                      <TableCell>20.66</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Rated Air Flow Volume</TableCell>
+                      <TableCell>m³/h</TableCell>
+                      <TableCell>1400</TableCell>
+                      <TableCell>1800</TableCell>
+                      <TableCell>2200</TableCell>
+                      <TableCell>3300</TableCell>
+                      <TableCell>3400</TableCell>
+                      <TableCell>4200</TableCell>
+                      <TableCell>5200</TableCell>
+                      <TableCell>5600</TableCell>
+                      <TableCell>6000</TableCell>
+                      <TableCell>12300</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Max Static Pressure</TableCell>
+                      <TableCell>Pa</TableCell>
+                      <TableCell>30</TableCell>
+                      <TableCell>30</TableCell>
+                      <TableCell>40</TableCell>
+                      <TableCell>40</TableCell>
+                      <TableCell>50</TableCell>
+                      <TableCell>50</TableCell>
+                      <TableCell>60</TableCell>
+                      <TableCell>60</TableCell>
+                      <TableCell>60</TableCell>
+                      <TableCell>100</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Compressor Type</TableCell>
+                      <TableCell></TableCell>
+                      <TableCell>Rotary</TableCell>
+                      <TableCell>Rotary/Scroll</TableCell>
                       <TableCell>Scroll</TableCell>
-                      <TableCell>4</TableCell>
-                      <TableCell>Fin & Tube</TableCell>
-                      <TableCell>3Ph/380V/50Hz</TableCell>
-                      <TableCell>R410A</TableCell>
-                      <TableCell>80</TableCell>
-                      <TableCell>2400×1500×1600</TableCell>
-                      <TableCell>480</TableCell>
-                      <TableCell>2540×1640×1740</TableCell>
-                      <TableCell>520</TableCell>
+                      <TableCell></TableCell>
+                      <TableCell></TableCell>
+                      <TableCell></TableCell>
+                      <TableCell></TableCell>
+                      <TableCell></TableCell>
+                      <TableCell></TableCell>
+                      <TableCell></TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Compressor Quantity</TableCell>
+                      <TableCell>Quantity</TableCell>
+                      <TableCell>1</TableCell>
+                      <TableCell>1</TableCell>
+                      <TableCell>1</TableCell>
+                      <TableCell>1</TableCell>
+                      <TableCell>1</TableCell>
+                      <TableCell>1</TableCell>
+                      <TableCell>1</TableCell>
+                      <TableCell>1</TableCell>
+                      <TableCell>1</TableCell>
+                      <TableCell>2</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Condenser/Evaporator</TableCell>
+                      <TableCell></TableCell>
+                      <TableCell colSpan={10}>Hydrophilic Blue Fin; Innergroover tube type</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Power Supply</TableCell>
+                      <TableCell></TableCell>
+                      <TableCell colSpan={2}>220V/1P/50Hz</TableCell>
+                      <TableCell colSpan={8}>380V/3P/50Hz</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Refrigerant</TableCell>
+                      <TableCell></TableCell>
+                      <TableCell colSpan={10}>R417A / R410A</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Noise</TableCell>
+                      <TableCell>dB(A)</TableCell>
+                      <TableCell>46</TableCell>
+                      <TableCell>48</TableCell>
+                      <TableCell>50</TableCell>
+                      <TableCell>54</TableCell>
+                      <TableCell>56</TableCell>
+                      <TableCell>58</TableCell>
+                      <TableCell>60</TableCell>
+                      <TableCell>62</TableCell>
+                      <TableCell>62</TableCell>
+                      <TableCell>70</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Net Dimension (L×W×H)</TableCell>
+                      <TableCell>mm</TableCell>
+                      <TableCell>650×540×1840</TableCell>
+                      <TableCell>650×560×1840</TableCell>
+                      <TableCell>700×575×1840</TableCell>
+                      <TableCell>840×620×1840</TableCell>
+                      <TableCell>920×645×1840</TableCell>
+                      <TableCell>1220×690×1840</TableCell>
+                      <TableCell>1400×760×1840</TableCell>
+                      <TableCell>1650×1270×1365</TableCell>
+                      <TableCell>1650×1270×1365</TableCell>
+                      <TableCell>2530×1993×1130</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Net Weight</TableCell>
+                      <TableCell>kg</TableCell>
+                      <TableCell>135</TableCell>
+                      <TableCell>162</TableCell>
+                      <TableCell>180</TableCell>
+                      <TableCell>225</TableCell>
+                      <TableCell>250</TableCell>
+                      <TableCell>285</TableCell>
+                      <TableCell>340</TableCell>
+                      <TableCell>380</TableCell>
+                      <TableCell>400</TableCell>
+                      <TableCell>760</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Packing Dimension (L×W×H)</TableCell>
+                      <TableCell>mm</TableCell>
+                      <TableCell>730×620×1990</TableCell>
+                      <TableCell>780×655×1990</TableCell>
+                      <TableCell>920×700×1990</TableCell>
+                      <TableCell>1680×820×1990</TableCell>
+                      <TableCell>2030×890×1840</TableCell>
+                      <TableCell>1000×725×1990</TableCell>
+                      <TableCell>1950×880×1990</TableCell>
+                      <TableCell>2030×880×1990</TableCell>
+                      <TableCell>1730×1350×1515</TableCell>
+                      <TableCell>2610×2073×1280</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Gross Weight</TableCell>
+                      <TableCell>kg</TableCell>
+                      <TableCell>155</TableCell>
+                      <TableCell>182</TableCell>
+                      <TableCell>200</TableCell>
+                      <TableCell>250</TableCell>
+                      <TableCell>275</TableCell>
+                      <TableCell>320</TableCell>
+                      <TableCell>370</TableCell>
+                      <TableCell>420</TableCell>
+                      <TableCell>450</TableCell>
+                      <TableCell>825</TableCell>
                     </TableRow>
                   </TableBody>
                 </Table>
