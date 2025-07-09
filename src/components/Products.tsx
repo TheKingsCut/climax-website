@@ -73,11 +73,12 @@ const Products = () => {
             {/* Technical Specifications */}
             <div className="bg-gray-50 rounded-lg p-6">
               <h4 className="text-xl font-semibold text-foreground mb-4">Technical Specifications</h4>
-              <div className="overflow-x-auto max-h-96 overflow-y-auto">
+              <div className="max-h-96 overflow-auto border border-gray-200 rounded">
                 <style dangerouslySetInnerHTML={{__html: `
                   .spec-table {
                     border-collapse: separate;
                     border-spacing: 0;
+                    position: relative;
                   }
                   .spec-table td,
                   .spec-table th {
@@ -91,11 +92,12 @@ const Products = () => {
                   .spec-table thead tr:first-child th {
                     border-top: 1px solid #e5e7eb;
                   }
-                  .spec-table thead {
+                  .spec-table thead th {
                     position: sticky;
                     top: 0;
                     z-index: 10;
                     background: white;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
                   }
                   .compact-header {
                     display: flex;
@@ -113,8 +115,27 @@ const Products = () => {
                     font-size: 0.8em;
                     margin-top: 2px;
                   }
+                  /* Ensure scrollbars are always visible when needed */
+                  .table-container {
+                    scrollbar-width: thin;
+                    scrollbar-color: #cbd5e1 #f1f5f9;
+                  }
+                  .table-container::-webkit-scrollbar {
+                    width: 8px;
+                    height: 8px;
+                  }
+                  .table-container::-webkit-scrollbar-track {
+                    background: #f1f5f9;
+                  }
+                  .table-container::-webkit-scrollbar-thumb {
+                    background: #cbd5e1;
+                    border-radius: 4px;
+                  }
+                  .table-container::-webkit-scrollbar-thumb:hover {
+                    background: #94a3b8;
+                  }
                 `}} />
-                <Table className="spec-table">
+                <Table className="spec-table table-container">
                   <TableHeader>
                     <TableRow>
                       <TableHead className="min-w-[200px] text-left">Item</TableHead>
