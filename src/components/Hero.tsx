@@ -116,7 +116,7 @@ const Hero = () => {
         {/* Description and CTAs */}
         <div className="text-center mb-16">
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-4xl mx-auto">
-            Integrated heating, cooling, and dehumidification in a single professional-grade unit. European quality, simplified installation, and superior performance—backed by local South African support.
+            Reduce complexity, maintenance costs, and installation time while improving performance and energy efficiency. Our integrated approach delivers superior results with simplified operations through integrated heating, cooling, and dehumidification in a single professional-grade unit. European quality, simplified installation, and superior performance—backed by local South African support.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
