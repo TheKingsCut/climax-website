@@ -406,8 +406,6 @@ const Products = () => {
                 </table>
               </div>
             </div>
-              </div>
-            </div>
           </div>
 
           {/* 2. Water Cooled Inverter MAX 5.0 Series */}
