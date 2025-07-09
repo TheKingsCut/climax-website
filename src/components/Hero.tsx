@@ -17,7 +17,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="bg-white py-20">
+    <section id="home" className="bg-white pt-20 pb-8">
       <div className="container mx-auto px-4">
         {/* Centered Hero Content */}
         <div className="text-center mb-16">
@@ -53,6 +53,13 @@ const Hero = () => {
               </video>
             </div>
           </div>
+        </div>
+
+        {/* Main Heading */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
+            One System. Three Functions. Zero Compromise.
+          </h2>
         </div>
 
         {/* Feature Pills */}
@@ -106,12 +113,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Main Heading */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
-            One System. Three Functions. Zero Compromise.
-          </h2>
-        </div>
 
         {/* Description and CTAs */}
         <div className="text-center mb-16">
@@ -136,7 +137,7 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
+          <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto mb-0">
             <div className="text-center">
               <div className="text-4xl font-bold text-primary mb-2">40%</div>
               <div className="text-sm text-muted-foreground">Energy Savings</div>
