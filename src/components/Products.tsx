@@ -74,249 +74,332 @@ const Products = () => {
             <div className="bg-gray-50 rounded-lg p-6">
               <h4 className="text-xl font-semibold text-foreground mb-4">Technical Specifications</h4>
               <div className="overflow-x-auto">
-                <Table>
+                <style dangerouslySetInnerHTML={{__html: `
+                  .spec-table {
+                    border-collapse: separate;
+                    border-spacing: 0;
+                  }
+                  .spec-table td,
+                  .spec-table th {
+                    border-right: 1px solid #e5e7eb;
+                    border-bottom: 1px solid #e5e7eb;
+                  }
+                  .spec-table th:first-child,
+                  .spec-table td:first-child {
+                    border-left: 1px solid #e5e7eb;
+                  }
+                  .spec-table thead tr:first-child th {
+                    border-top: 1px solid #e5e7eb;
+                  }
+                  .spec-table thead {
+                    position: sticky;
+                    top: 0;
+                    z-index: 10;
+                    background: white;
+                  }
+                  .compact-header {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    line-height: 1.2;
+                  }
+                  .model-number {
+                    font-weight: 600;
+                    font-size: 0.9em;
+                  }
+                  .series-name {
+                    font-weight: 400;
+                    font-size: 0.8em;
+                    margin-top: 2px;
+                  }
+                `}} />
+                <Table className="spec-table">
                   <TableHeader>
                     <TableRow>
-                      <TableHead className="min-w-[200px]">Item</TableHead>
-                      <TableHead className="min-w-[80px]">Unit</TableHead>
-                      <TableHead className="min-w-[100px]">7000 PRO5</TableHead>
-                      <TableHead className="min-w-[100px]">9000 PRO5</TableHead>
-                      <TableHead className="min-w-[100px]">10500 PRO5</TableHead>
-                      <TableHead className="min-w-[100px]">15000 PRO5</TableHead>
-                      <TableHead className="min-w-[100px]">17500 PRO5</TableHead>
-                      <TableHead className="min-w-[100px]">21000 PRO5</TableHead>
-                      <TableHead className="min-w-[100px]">26000 PRO5</TableHead>
-                      <TableHead className="min-w-[100px]">30000 PRO5</TableHead>
-                      <TableHead className="min-w-[100px]">35000 PRO5</TableHead>
-                      <TableHead className="min-w-[100px]">70000 PRO5</TableHead>
+                      <TableHead className="min-w-[200px] text-left">Item</TableHead>
+                      <TableHead className="min-w-[80px] text-center">Unit</TableHead>
+                      <TableHead className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">7000</div>
+                          <div className="series-name">PRO5</div>
+                        </div>
+                      </TableHead>
+                      <TableHead className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">9000</div>
+                          <div className="series-name">PRO5</div>
+                        </div>
+                      </TableHead>
+                      <TableHead className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">10500</div>
+                          <div className="series-name">PRO5</div>
+                        </div>
+                      </TableHead>
+                      <TableHead className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">15000</div>
+                          <div className="series-name">PRO5</div>
+                        </div>
+                      </TableHead>
+                      <TableHead className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">17500</div>
+                          <div className="series-name">PRO5</div>
+                        </div>
+                      </TableHead>
+                      <TableHead className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">21000</div>
+                          <div className="series-name">PRO5</div>
+                        </div>
+                      </TableHead>
+                      <TableHead className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">26000</div>
+                          <div className="series-name">PRO5</div>
+                        </div>
+                      </TableHead>
+                      <TableHead className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">30000</div>
+                          <div className="series-name">PRO5</div>
+                        </div>
+                      </TableHead>
+                      <TableHead className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">35000</div>
+                          <div className="series-name">PRO5</div>
+                        </div>
+                      </TableHead>
+                      <TableHead className="min-w-[100px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">70000</div>
+                          <div className="series-name">PRO5</div>
+                        </div>
+                      </TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
                     <TableRow>
                       <TableCell className="font-medium">Cooling Capacity</TableCell>
-                      <TableCell>kW</TableCell>
-                      <TableCell>7</TableCell>
-                      <TableCell>9</TableCell>
-                      <TableCell>10.5</TableCell>
-                      <TableCell>15</TableCell>
-                      <TableCell>17.5</TableCell>
-                      <TableCell>21</TableCell>
-                      <TableCell>26</TableCell>
-                      <TableCell>30</TableCell>
-                      <TableCell>35</TableCell>
-                      <TableCell>70</TableCell>
+                      <TableCell className="text-center">kW</TableCell>
+                      <TableCell className="text-center">7</TableCell>
+                      <TableCell className="text-center">9</TableCell>
+                      <TableCell className="text-center">10.5</TableCell>
+                      <TableCell className="text-center">15</TableCell>
+                      <TableCell className="text-center">17.5</TableCell>
+                      <TableCell className="text-center">21</TableCell>
+                      <TableCell className="text-center">26</TableCell>
+                      <TableCell className="text-center">30</TableCell>
+                      <TableCell className="text-center">35</TableCell>
+                      <TableCell className="text-center">70</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Dehumidification Capacity</TableCell>
-                      <TableCell>L/D</TableCell>
-                      <TableCell>178</TableCell>
-                      <TableCell>224</TableCell>
-                      <TableCell>261</TableCell>
-                      <TableCell>396</TableCell>
-                      <TableCell>462</TableCell>
-                      <TableCell>549</TableCell>
-                      <TableCell>679</TableCell>
-                      <TableCell>792</TableCell>
-                      <TableCell>927</TableCell>
-                      <TableCell>1854</TableCell>
+                      <TableCell className="text-center">L/D</TableCell>
+                      <TableCell className="text-center">178</TableCell>
+                      <TableCell className="text-center">224</TableCell>
+                      <TableCell className="text-center">261</TableCell>
+                      <TableCell className="text-center">396</TableCell>
+                      <TableCell className="text-center">462</TableCell>
+                      <TableCell className="text-center">549</TableCell>
+                      <TableCell className="text-center">679</TableCell>
+                      <TableCell className="text-center">792</TableCell>
+                      <TableCell className="text-center">927</TableCell>
+                      <TableCell className="text-center">1854</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Electrical Heater (Options)</TableCell>
-                      <TableCell>kW</TableCell>
-                      <TableCell>1×1.5</TableCell>
-                      <TableCell>1×1.5</TableCell>
-                      <TableCell>2×2.0</TableCell>
-                      <TableCell>2×2.0</TableCell>
-                      <TableCell>2×2.0</TableCell>
-                      <TableCell>2×3.0</TableCell>
-                      <TableCell>2×3.0</TableCell>
-                      <TableCell>4×2.0</TableCell>
-                      <TableCell>4×2.0</TableCell>
-                      <TableCell>4×3.0</TableCell>
+                      <TableCell className="text-center">kW</TableCell>
+                      <TableCell className="text-center">1×1.5</TableCell>
+                      <TableCell className="text-center">1×1.5</TableCell>
+                      <TableCell className="text-center">2×2.0</TableCell>
+                      <TableCell className="text-center">2×2.0</TableCell>
+                      <TableCell className="text-center">2×2.0</TableCell>
+                      <TableCell className="text-center">2×3.0</TableCell>
+                      <TableCell className="text-center">2×3.0</TableCell>
+                      <TableCell className="text-center">4×2.0</TableCell>
+                      <TableCell className="text-center">4×2.0</TableCell>
+                      <TableCell className="text-center">4×3.0</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Cooling Input Power</TableCell>
-                      <TableCell>kW</TableCell>
-                      <TableCell>1.95</TableCell>
-                      <TableCell>2.5</TableCell>
-                      <TableCell>2.91</TableCell>
-                      <TableCell>4.15</TableCell>
-                      <TableCell>4.84</TableCell>
-                      <TableCell>5.8</TableCell>
-                      <TableCell>7.18</TableCell>
-                      <TableCell>8.25</TableCell>
-                      <TableCell>9.63</TableCell>
-                      <TableCell>19.3</TableCell>
+                      <TableCell className="text-center">kW</TableCell>
+                      <TableCell className="text-center">1.95</TableCell>
+                      <TableCell className="text-center">2.5</TableCell>
+                      <TableCell className="text-center">2.91</TableCell>
+                      <TableCell className="text-center">4.15</TableCell>
+                      <TableCell className="text-center">4.84</TableCell>
+                      <TableCell className="text-center">5.8</TableCell>
+                      <TableCell className="text-center">7.18</TableCell>
+                      <TableCell className="text-center">8.25</TableCell>
+                      <TableCell className="text-center">9.63</TableCell>
+                      <TableCell className="text-center">19.3</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Heating Capacity (Heat pump type only)</TableCell>
-                      <TableCell>kW</TableCell>
-                      <TableCell>7.5</TableCell>
-                      <TableCell>9.5</TableCell>
-                      <TableCell>11</TableCell>
-                      <TableCell>16.5</TableCell>
-                      <TableCell>19.5</TableCell>
-                      <TableCell>23</TableCell>
-                      <TableCell>28</TableCell>
-                      <TableCell>32.5</TableCell>
-                      <TableCell>37.9</TableCell>
-                      <TableCell>76</TableCell>
+                      <TableCell className="text-center">kW</TableCell>
+                      <TableCell className="text-center">7.5</TableCell>
+                      <TableCell className="text-center">9.5</TableCell>
+                      <TableCell className="text-center">11</TableCell>
+                      <TableCell className="text-center">16.5</TableCell>
+                      <TableCell className="text-center">19.5</TableCell>
+                      <TableCell className="text-center">23</TableCell>
+                      <TableCell className="text-center">28</TableCell>
+                      <TableCell className="text-center">32.5</TableCell>
+                      <TableCell className="text-center">37.9</TableCell>
+                      <TableCell className="text-center">76</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Heating Input Power (Heat pump type only)</TableCell>
-                      <TableCell>kW</TableCell>
-                      <TableCell>2.08</TableCell>
-                      <TableCell>2.6</TableCell>
-                      <TableCell>3</TableCell>
-                      <TableCell>4.5</TableCell>
-                      <TableCell>5.18</TableCell>
-                      <TableCell>6.27</TableCell>
-                      <TableCell>7.6</TableCell>
-                      <TableCell>8.8</TableCell>
-                      <TableCell>10.3</TableCell>
-                      <TableCell>20.66</TableCell>
+                      <TableCell className="text-center">kW</TableCell>
+                      <TableCell className="text-center">2.08</TableCell>
+                      <TableCell className="text-center">2.6</TableCell>
+                      <TableCell className="text-center">3</TableCell>
+                      <TableCell className="text-center">4.5</TableCell>
+                      <TableCell className="text-center">5.18</TableCell>
+                      <TableCell className="text-center">6.27</TableCell>
+                      <TableCell className="text-center">7.6</TableCell>
+                      <TableCell className="text-center">8.8</TableCell>
+                      <TableCell className="text-center">10.3</TableCell>
+                      <TableCell className="text-center">20.66</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Rated Air Flow Volume</TableCell>
-                      <TableCell>m³/h</TableCell>
-                      <TableCell>1400</TableCell>
-                      <TableCell>1800</TableCell>
-                      <TableCell>2200</TableCell>
-                      <TableCell>3300</TableCell>
-                      <TableCell>3400</TableCell>
-                      <TableCell>4200</TableCell>
-                      <TableCell>5200</TableCell>
-                      <TableCell>5600</TableCell>
-                      <TableCell>6000</TableCell>
-                      <TableCell>12300</TableCell>
+                      <TableCell className="text-center">m³/h</TableCell>
+                      <TableCell className="text-center">1400</TableCell>
+                      <TableCell className="text-center">1800</TableCell>
+                      <TableCell className="text-center">2200</TableCell>
+                      <TableCell className="text-center">3300</TableCell>
+                      <TableCell className="text-center">3400</TableCell>
+                      <TableCell className="text-center">4200</TableCell>
+                      <TableCell className="text-center">5200</TableCell>
+                      <TableCell className="text-center">5600</TableCell>
+                      <TableCell className="text-center">6000</TableCell>
+                      <TableCell className="text-center">12300</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Max Static Pressure</TableCell>
-                      <TableCell>Pa</TableCell>
-                      <TableCell>30</TableCell>
-                      <TableCell>30</TableCell>
-                      <TableCell>40</TableCell>
-                      <TableCell>40</TableCell>
-                      <TableCell>50</TableCell>
-                      <TableCell>50</TableCell>
-                      <TableCell>60</TableCell>
-                      <TableCell>60</TableCell>
-                      <TableCell>60</TableCell>
-                      <TableCell>100</TableCell>
+                      <TableCell className="text-center">Pa</TableCell>
+                      <TableCell className="text-center">30</TableCell>
+                      <TableCell className="text-center">30</TableCell>
+                      <TableCell className="text-center">40</TableCell>
+                      <TableCell className="text-center">40</TableCell>
+                      <TableCell className="text-center">50</TableCell>
+                      <TableCell className="text-center">50</TableCell>
+                      <TableCell className="text-center">60</TableCell>
+                      <TableCell className="text-center">60</TableCell>
+                      <TableCell className="text-center">60</TableCell>
+                      <TableCell className="text-center">100</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Compressor Type</TableCell>
-                      <TableCell></TableCell>
-                      <TableCell>Rotary</TableCell>
-                      <TableCell>Rotary/Scroll</TableCell>
-                      <TableCell>Scroll</TableCell>
-                      <TableCell></TableCell>
-                      <TableCell></TableCell>
-                      <TableCell></TableCell>
-                      <TableCell></TableCell>
-                      <TableCell></TableCell>
-                      <TableCell></TableCell>
-                      <TableCell></TableCell>
+                      <TableCell className="text-center"></TableCell>
+                      <TableCell className="text-center">Rotary</TableCell>
+                      <TableCell className="text-center" colSpan={2}>Rotary/Scroll</TableCell>
+                      <TableCell className="text-center" colSpan={7}>Scroll</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Compressor Quantity</TableCell>
-                      <TableCell>Quantity</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>1</TableCell>
-                      <TableCell>2</TableCell>
+                      <TableCell className="text-center">Quantity</TableCell>
+                      <TableCell className="text-center">1</TableCell>
+                      <TableCell className="text-center">1</TableCell>
+                      <TableCell className="text-center">1</TableCell>
+                      <TableCell className="text-center">1</TableCell>
+                      <TableCell className="text-center">1</TableCell>
+                      <TableCell className="text-center">1</TableCell>
+                      <TableCell className="text-center">1</TableCell>
+                      <TableCell className="text-center">1</TableCell>
+                      <TableCell className="text-center">1</TableCell>
+                      <TableCell className="text-center">2</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Condenser/Evaporator</TableCell>
-                      <TableCell></TableCell>
-                      <TableCell colSpan={10}>Hydrophilic Blue Fin; Innergroover tube type</TableCell>
+                      <TableCell className="text-center"></TableCell>
+                      <TableCell className="text-center" colSpan={10}>Hydrophilic Blue Fin; Innergroover tube type</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Power Supply</TableCell>
-                      <TableCell></TableCell>
-                      <TableCell colSpan={2}>220V/1P/50Hz</TableCell>
-                      <TableCell colSpan={8}>380V/3P/50Hz</TableCell>
+                      <TableCell className="text-center"></TableCell>
+                      <TableCell className="text-center" colSpan={2}>220V/1P/50Hz</TableCell>
+                      <TableCell className="text-center" colSpan={8}>380V/3P/50Hz</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Refrigerant</TableCell>
-                      <TableCell></TableCell>
-                      <TableCell colSpan={10}>R417A / R410A</TableCell>
+                      <TableCell className="text-center"></TableCell>
+                      <TableCell className="text-center" colSpan={10}>R417A / R410A</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Noise</TableCell>
-                      <TableCell>dB(A)</TableCell>
-                      <TableCell>46</TableCell>
-                      <TableCell>48</TableCell>
-                      <TableCell>50</TableCell>
-                      <TableCell>54</TableCell>
-                      <TableCell>56</TableCell>
-                      <TableCell>58</TableCell>
-                      <TableCell>60</TableCell>
-                      <TableCell>62</TableCell>
-                      <TableCell>62</TableCell>
-                      <TableCell>70</TableCell>
+                      <TableCell className="text-center">dB(A)</TableCell>
+                      <TableCell className="text-center">46</TableCell>
+                      <TableCell className="text-center">48</TableCell>
+                      <TableCell className="text-center">50</TableCell>
+                      <TableCell className="text-center">54</TableCell>
+                      <TableCell className="text-center">56</TableCell>
+                      <TableCell className="text-center">58</TableCell>
+                      <TableCell className="text-center">60</TableCell>
+                      <TableCell className="text-center">62</TableCell>
+                      <TableCell className="text-center">62</TableCell>
+                      <TableCell className="text-center">70</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Net Dimension (L×W×H)</TableCell>
-                      <TableCell>mm</TableCell>
-                      <TableCell>650×540×1840</TableCell>
-                      <TableCell>650×560×1840</TableCell>
-                      <TableCell>700×575×1840</TableCell>
-                      <TableCell>840×620×1840</TableCell>
-                      <TableCell>920×645×1840</TableCell>
-                      <TableCell>1220×690×1840</TableCell>
-                      <TableCell>1400×760×1840</TableCell>
-                      <TableCell>1650×1270×1365</TableCell>
-                      <TableCell>1650×1270×1365</TableCell>
-                      <TableCell>2530×1993×1130</TableCell>
+                      <TableCell className="text-center">mm</TableCell>
+                      <TableCell className="text-center">650×540×1840</TableCell>
+                      <TableCell className="text-center">650×560×1840</TableCell>
+                      <TableCell className="text-center">700×575×1840</TableCell>
+                      <TableCell className="text-center">840×620×1840</TableCell>
+                      <TableCell className="text-center">920×645×1840</TableCell>
+                      <TableCell className="text-center">1220×690×1840</TableCell>
+                      <TableCell className="text-center">1400×760×1840</TableCell>
+                      <TableCell className="text-center">1650×1270×1365</TableCell>
+                      <TableCell className="text-center">1650×1270×1365</TableCell>
+                      <TableCell className="text-center">2530×1993×1130</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Net Weight</TableCell>
-                      <TableCell>kg</TableCell>
-                      <TableCell>135</TableCell>
-                      <TableCell>162</TableCell>
-                      <TableCell>180</TableCell>
-                      <TableCell>225</TableCell>
-                      <TableCell>250</TableCell>
-                      <TableCell>285</TableCell>
-                      <TableCell>340</TableCell>
-                      <TableCell>380</TableCell>
-                      <TableCell>400</TableCell>
-                      <TableCell>760</TableCell>
+                      <TableCell className="text-center">kg</TableCell>
+                      <TableCell className="text-center">135</TableCell>
+                      <TableCell className="text-center">162</TableCell>
+                      <TableCell className="text-center">180</TableCell>
+                      <TableCell className="text-center">225</TableCell>
+                      <TableCell className="text-center">250</TableCell>
+                      <TableCell className="text-center">285</TableCell>
+                      <TableCell className="text-center">340</TableCell>
+                      <TableCell className="text-center">380</TableCell>
+                      <TableCell className="text-center">400</TableCell>
+                      <TableCell className="text-center">760</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Packing Dimension (L×W×H)</TableCell>
-                      <TableCell>mm</TableCell>
-                      <TableCell>730×620×1990</TableCell>
-                      <TableCell>780×655×1990</TableCell>
-                      <TableCell>920×700×1990</TableCell>
-                      <TableCell>1680×820×1990</TableCell>
-                      <TableCell>2030×890×1840</TableCell>
-                      <TableCell>1000×725×1990</TableCell>
-                      <TableCell>1950×880×1990</TableCell>
-                      <TableCell>2030×880×1990</TableCell>
-                      <TableCell>1730×1350×1515</TableCell>
-                      <TableCell>2610×2073×1280</TableCell>
+                      <TableCell className="text-center">mm</TableCell>
+                      <TableCell className="text-center">730×620×1990</TableCell>
+                      <TableCell className="text-center">780×655×1990</TableCell>
+                      <TableCell className="text-center">920×700×1990</TableCell>
+                      <TableCell className="text-center">1680×820×1990</TableCell>
+                      <TableCell className="text-center">2030×890×1840</TableCell>
+                      <TableCell className="text-center">1000×725×1990</TableCell>
+                      <TableCell className="text-center">1950×880×1990</TableCell>
+                      <TableCell className="text-center">2030×880×1990</TableCell>
+                      <TableCell className="text-center">1730×1350×1515</TableCell>
+                      <TableCell className="text-center">2610×2073×1280</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Gross Weight</TableCell>
-                      <TableCell>kg</TableCell>
-                      <TableCell>155</TableCell>
-                      <TableCell>182</TableCell>
-                      <TableCell>200</TableCell>
-                      <TableCell>250</TableCell>
-                      <TableCell>275</TableCell>
-                      <TableCell>320</TableCell>
-                      <TableCell>370</TableCell>
-                      <TableCell>420</TableCell>
-                      <TableCell>450</TableCell>
-                      <TableCell>825</TableCell>
+                      <TableCell className="text-center">kg</TableCell>
+                      <TableCell className="text-center">155</TableCell>
+                      <TableCell className="text-center">182</TableCell>
+                      <TableCell className="text-center">200</TableCell>
+                      <TableCell className="text-center">250</TableCell>
+                      <TableCell className="text-center">275</TableCell>
+                      <TableCell className="text-center">320</TableCell>
+                      <TableCell className="text-center">370</TableCell>
+                      <TableCell className="text-center">420</TableCell>
+                      <TableCell className="text-center">450</TableCell>
+                      <TableCell className="text-center">825</TableCell>
                     </TableRow>
                   </TableBody>
                 </Table>
