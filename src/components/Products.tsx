@@ -73,31 +73,34 @@ const Products = () => {
             {/* Technical Specifications */}
             <div className="bg-gray-50 rounded-lg p-6">
               <h4 className="text-xl font-semibold text-foreground mb-4">Technical Specifications</h4>
-              <div className="max-h-96 overflow-auto border border-gray-200 rounded">
+              <div className="border border-gray-200 rounded bg-white" style={{height: '400px', overflow: 'auto'}}>
                 <style dangerouslySetInnerHTML={{__html: `
-                  .spec-table {
+                  .sticky-table {
                     border-collapse: separate;
                     border-spacing: 0;
-                    position: relative;
+                    width: 100%;
+                    min-width: 1200px;
                   }
-                  .spec-table td,
-                  .spec-table th {
-                    border-right: 1px solid #e5e7eb;
-                    border-bottom: 1px solid #e5e7eb;
-                  }
-                  .spec-table th:first-child,
-                  .spec-table td:first-child {
-                    border-left: 1px solid #e5e7eb;
-                  }
-                  .spec-table thead tr:first-child th {
-                    border-top: 1px solid #e5e7eb;
-                  }
-                  .spec-table thead th {
+                  .sticky-table th {
                     position: sticky;
                     top: 0;
-                    z-index: 10;
                     background: white;
+                    z-index: 20;
+                    border-bottom: 2px solid #e5e7eb;
+                    border-right: 1px solid #e5e7eb;
                     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                  }
+                  .sticky-table td {
+                    border-bottom: 1px solid #e5e7eb;
+                    border-right: 1px solid #e5e7eb;
+                  }
+                  .sticky-table th:first-child,
+                  .sticky-table td:first-child {
+                    border-left: 1px solid #e5e7eb;
+                  }
+                  .sticky-table th:last-child,
+                  .sticky-table td:last-child {
+                    border-right: 1px solid #e5e7eb;
                   }
                   .compact-header {
                     display: flex;
@@ -105,6 +108,7 @@ const Products = () => {
                     align-items: center;
                     justify-content: center;
                     line-height: 1.2;
+                    padding: 8px;
                   }
                   .model-number {
                     font-weight: 600;
@@ -115,315 +119,293 @@ const Products = () => {
                     font-size: 0.8em;
                     margin-top: 2px;
                   }
-                  /* Ensure scrollbars are always visible when needed */
-                  .table-container {
-                    scrollbar-width: thin;
-                    scrollbar-color: #cbd5e1 #f1f5f9;
-                  }
-                  .table-container::-webkit-scrollbar {
-                    width: 8px;
-                    height: 8px;
-                  }
-                  .table-container::-webkit-scrollbar-track {
-                    background: #f1f5f9;
-                  }
-                  .table-container::-webkit-scrollbar-thumb {
-                    background: #cbd5e1;
-                    border-radius: 4px;
-                  }
-                  .table-container::-webkit-scrollbar-thumb:hover {
-                    background: #94a3b8;
-                  }
                 `}} />
-                <Table className="spec-table table-container">
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead className="min-w-[200px] text-left">Item</TableHead>
-                      <TableHead className="min-w-[80px] text-center">Unit</TableHead>
-                      <TableHead className="min-w-[100px] text-center">
+                <table className="sticky-table">
+                  <thead>
+                    <tr>
+                      <th className="min-w-[200px] text-left p-4">Item</th>
+                      <th className="min-w-[80px] text-center p-4">Unit</th>
+                      <th className="min-w-[100px] text-center">
                         <div className="compact-header">
                           <div className="model-number">7000</div>
                           <div className="series-name">PRO5</div>
                         </div>
-                      </TableHead>
-                      <TableHead className="min-w-[100px] text-center">
+                      </th>
+                      <th className="min-w-[100px] text-center">
                         <div className="compact-header">
                           <div className="model-number">9000</div>
                           <div className="series-name">PRO5</div>
                         </div>
-                      </TableHead>
-                      <TableHead className="min-w-[100px] text-center">
+                      </th>
+                      <th className="min-w-[100px] text-center">
                         <div className="compact-header">
                           <div className="model-number">10500</div>
                           <div className="series-name">PRO5</div>
                         </div>
-                      </TableHead>
-                      <TableHead className="min-w-[100px] text-center">
+                      </th>
+                      <th className="min-w-[100px] text-center">
                         <div className="compact-header">
                           <div className="model-number">15000</div>
                           <div className="series-name">PRO5</div>
                         </div>
-                      </TableHead>
-                      <TableHead className="min-w-[100px] text-center">
+                      </th>
+                      <th className="min-w-[100px] text-center">
                         <div className="compact-header">
                           <div className="model-number">17500</div>
                           <div className="series-name">PRO5</div>
                         </div>
-                      </TableHead>
-                      <TableHead className="min-w-[100px] text-center">
+                      </th>
+                      <th className="min-w-[100px] text-center">
                         <div className="compact-header">
                           <div className="model-number">21000</div>
                           <div className="series-name">PRO5</div>
                         </div>
-                      </TableHead>
-                      <TableHead className="min-w-[100px] text-center">
+                      </th>
+                      <th className="min-w-[100px] text-center">
                         <div className="compact-header">
                           <div className="model-number">26000</div>
                           <div className="series-name">PRO5</div>
                         </div>
-                      </TableHead>
-                      <TableHead className="min-w-[100px] text-center">
+                      </th>
+                      <th className="min-w-[100px] text-center">
                         <div className="compact-header">
                           <div className="model-number">30000</div>
                           <div className="series-name">PRO5</div>
                         </div>
-                      </TableHead>
-                      <TableHead className="min-w-[100px] text-center">
+                      </th>
+                      <th className="min-w-[100px] text-center">
                         <div className="compact-header">
                           <div className="model-number">35000</div>
                           <div className="series-name">PRO5</div>
                         </div>
-                      </TableHead>
-                      <TableHead className="min-w-[100px] text-center">
+                      </th>
+                      <th className="min-w-[100px] text-center">
                         <div className="compact-header">
                           <div className="model-number">70000</div>
                           <div className="series-name">PRO5</div>
                         </div>
-                      </TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    <TableRow>
-                      <TableCell className="font-medium">Cooling Capacity</TableCell>
-                      <TableCell className="text-center">kW</TableCell>
-                      <TableCell className="text-center">7</TableCell>
-                      <TableCell className="text-center">9</TableCell>
-                      <TableCell className="text-center">10.5</TableCell>
-                      <TableCell className="text-center">15</TableCell>
-                      <TableCell className="text-center">17.5</TableCell>
-                      <TableCell className="text-center">21</TableCell>
-                      <TableCell className="text-center">26</TableCell>
-                      <TableCell className="text-center">30</TableCell>
-                      <TableCell className="text-center">35</TableCell>
-                      <TableCell className="text-center">70</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Dehumidification Capacity</TableCell>
-                      <TableCell className="text-center">L/D</TableCell>
-                      <TableCell className="text-center">178</TableCell>
-                      <TableCell className="text-center">224</TableCell>
-                      <TableCell className="text-center">261</TableCell>
-                      <TableCell className="text-center">396</TableCell>
-                      <TableCell className="text-center">462</TableCell>
-                      <TableCell className="text-center">549</TableCell>
-                      <TableCell className="text-center">679</TableCell>
-                      <TableCell className="text-center">792</TableCell>
-                      <TableCell className="text-center">927</TableCell>
-                      <TableCell className="text-center">1854</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Electrical Heater (Options)</TableCell>
-                      <TableCell className="text-center">kW</TableCell>
-                      <TableCell className="text-center">1×1.5</TableCell>
-                      <TableCell className="text-center">1×1.5</TableCell>
-                      <TableCell className="text-center">2×2.0</TableCell>
-                      <TableCell className="text-center">2×2.0</TableCell>
-                      <TableCell className="text-center">2×2.0</TableCell>
-                      <TableCell className="text-center">2×3.0</TableCell>
-                      <TableCell className="text-center">2×3.0</TableCell>
-                      <TableCell className="text-center">4×2.0</TableCell>
-                      <TableCell className="text-center">4×2.0</TableCell>
-                      <TableCell className="text-center">4×3.0</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Cooling Input Power</TableCell>
-                      <TableCell className="text-center">kW</TableCell>
-                      <TableCell className="text-center">1.95</TableCell>
-                      <TableCell className="text-center">2.5</TableCell>
-                      <TableCell className="text-center">2.91</TableCell>
-                      <TableCell className="text-center">4.15</TableCell>
-                      <TableCell className="text-center">4.84</TableCell>
-                      <TableCell className="text-center">5.8</TableCell>
-                      <TableCell className="text-center">7.18</TableCell>
-                      <TableCell className="text-center">8.25</TableCell>
-                      <TableCell className="text-center">9.63</TableCell>
-                      <TableCell className="text-center">19.3</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Heating Capacity (Heat pump type only)</TableCell>
-                      <TableCell className="text-center">kW</TableCell>
-                      <TableCell className="text-center">7.5</TableCell>
-                      <TableCell className="text-center">9.5</TableCell>
-                      <TableCell className="text-center">11</TableCell>
-                      <TableCell className="text-center">16.5</TableCell>
-                      <TableCell className="text-center">19.5</TableCell>
-                      <TableCell className="text-center">23</TableCell>
-                      <TableCell className="text-center">28</TableCell>
-                      <TableCell className="text-center">32.5</TableCell>
-                      <TableCell className="text-center">37.9</TableCell>
-                      <TableCell className="text-center">76</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Heating Input Power (Heat pump type only)</TableCell>
-                      <TableCell className="text-center">kW</TableCell>
-                      <TableCell className="text-center">2.08</TableCell>
-                      <TableCell className="text-center">2.6</TableCell>
-                      <TableCell className="text-center">3</TableCell>
-                      <TableCell className="text-center">4.5</TableCell>
-                      <TableCell className="text-center">5.18</TableCell>
-                      <TableCell className="text-center">6.27</TableCell>
-                      <TableCell className="text-center">7.6</TableCell>
-                      <TableCell className="text-center">8.8</TableCell>
-                      <TableCell className="text-center">10.3</TableCell>
-                      <TableCell className="text-center">20.66</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Rated Air Flow Volume</TableCell>
-                      <TableCell className="text-center">m³/h</TableCell>
-                      <TableCell className="text-center">1400</TableCell>
-                      <TableCell className="text-center">1800</TableCell>
-                      <TableCell className="text-center">2200</TableCell>
-                      <TableCell className="text-center">3300</TableCell>
-                      <TableCell className="text-center">3400</TableCell>
-                      <TableCell className="text-center">4200</TableCell>
-                      <TableCell className="text-center">5200</TableCell>
-                      <TableCell className="text-center">5600</TableCell>
-                      <TableCell className="text-center">6000</TableCell>
-                      <TableCell className="text-center">12300</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Max Static Pressure</TableCell>
-                      <TableCell className="text-center">Pa</TableCell>
-                      <TableCell className="text-center">30</TableCell>
-                      <TableCell className="text-center">30</TableCell>
-                      <TableCell className="text-center">40</TableCell>
-                      <TableCell className="text-center">40</TableCell>
-                      <TableCell className="text-center">50</TableCell>
-                      <TableCell className="text-center">50</TableCell>
-                      <TableCell className="text-center">60</TableCell>
-                      <TableCell className="text-center">60</TableCell>
-                      <TableCell className="text-center">60</TableCell>
-                      <TableCell className="text-center">100</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Compressor Type</TableCell>
-                      <TableCell className="text-center"></TableCell>
-                      <TableCell className="text-center">Rotary</TableCell>
-                      <TableCell className="text-center" colSpan={2}>Rotary/Scroll</TableCell>
-                      <TableCell className="text-center" colSpan={7}>Scroll</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Compressor Quantity</TableCell>
-                      <TableCell className="text-center">Quantity</TableCell>
-                      <TableCell className="text-center">1</TableCell>
-                      <TableCell className="text-center">1</TableCell>
-                      <TableCell className="text-center">1</TableCell>
-                      <TableCell className="text-center">1</TableCell>
-                      <TableCell className="text-center">1</TableCell>
-                      <TableCell className="text-center">1</TableCell>
-                      <TableCell className="text-center">1</TableCell>
-                      <TableCell className="text-center">1</TableCell>
-                      <TableCell className="text-center">1</TableCell>
-                      <TableCell className="text-center">2</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Condenser/Evaporator</TableCell>
-                      <TableCell className="text-center"></TableCell>
-                      <TableCell className="text-center" colSpan={10}>Hydrophilic Blue Fin; Innergroover tube type</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Power Supply</TableCell>
-                      <TableCell className="text-center"></TableCell>
-                      <TableCell className="text-center" colSpan={2}>220V/1P/50Hz</TableCell>
-                      <TableCell className="text-center" colSpan={8}>380V/3P/50Hz</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Refrigerant</TableCell>
-                      <TableCell className="text-center"></TableCell>
-                      <TableCell className="text-center" colSpan={10}>R417A / R410A</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Noise</TableCell>
-                      <TableCell className="text-center">dB(A)</TableCell>
-                      <TableCell className="text-center">46</TableCell>
-                      <TableCell className="text-center">48</TableCell>
-                      <TableCell className="text-center">50</TableCell>
-                      <TableCell className="text-center">54</TableCell>
-                      <TableCell className="text-center">56</TableCell>
-                      <TableCell className="text-center">58</TableCell>
-                      <TableCell className="text-center">60</TableCell>
-                      <TableCell className="text-center">62</TableCell>
-                      <TableCell className="text-center">62</TableCell>
-                      <TableCell className="text-center">70</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Net Dimension (L×W×H)</TableCell>
-                      <TableCell className="text-center">mm</TableCell>
-                      <TableCell className="text-center">650×540×1840</TableCell>
-                      <TableCell className="text-center">650×560×1840</TableCell>
-                      <TableCell className="text-center">700×575×1840</TableCell>
-                      <TableCell className="text-center">840×620×1840</TableCell>
-                      <TableCell className="text-center">920×645×1840</TableCell>
-                      <TableCell className="text-center">1220×690×1840</TableCell>
-                      <TableCell className="text-center">1400×760×1840</TableCell>
-                      <TableCell className="text-center">1650×1270×1365</TableCell>
-                      <TableCell className="text-center">1650×1270×1365</TableCell>
-                      <TableCell className="text-center">2530×1993×1130</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Net Weight</TableCell>
-                      <TableCell className="text-center">kg</TableCell>
-                      <TableCell className="text-center">135</TableCell>
-                      <TableCell className="text-center">162</TableCell>
-                      <TableCell className="text-center">180</TableCell>
-                      <TableCell className="text-center">225</TableCell>
-                      <TableCell className="text-center">250</TableCell>
-                      <TableCell className="text-center">285</TableCell>
-                      <TableCell className="text-center">340</TableCell>
-                      <TableCell className="text-center">380</TableCell>
-                      <TableCell className="text-center">400</TableCell>
-                      <TableCell className="text-center">760</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Packing Dimension (L×W×H)</TableCell>
-                      <TableCell className="text-center">mm</TableCell>
-                      <TableCell className="text-center">730×620×1990</TableCell>
-                      <TableCell className="text-center">780×655×1990</TableCell>
-                      <TableCell className="text-center">920×700×1990</TableCell>
-                      <TableCell className="text-center">1680×820×1990</TableCell>
-                      <TableCell className="text-center">2030×890×1840</TableCell>
-                      <TableCell className="text-center">1000×725×1990</TableCell>
-                      <TableCell className="text-center">1950×880×1990</TableCell>
-                      <TableCell className="text-center">2030×880×1990</TableCell>
-                      <TableCell className="text-center">1730×1350×1515</TableCell>
-                      <TableCell className="text-center">2610×2073×1280</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Gross Weight</TableCell>
-                      <TableCell className="text-center">kg</TableCell>
-                      <TableCell className="text-center">155</TableCell>
-                      <TableCell className="text-center">182</TableCell>
-                      <TableCell className="text-center">200</TableCell>
-                      <TableCell className="text-center">250</TableCell>
-                      <TableCell className="text-center">275</TableCell>
-                      <TableCell className="text-center">320</TableCell>
-                      <TableCell className="text-center">370</TableCell>
-                      <TableCell className="text-center">420</TableCell>
-                      <TableCell className="text-center">450</TableCell>
-                      <TableCell className="text-center">825</TableCell>
-                    </TableRow>
-                  </TableBody>
-                </Table>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="font-medium p-4">Cooling Capacity</td>
+                      <td className="text-center p-4">kW</td>
+                      <td className="text-center p-4">7</td>
+                      <td className="text-center p-4">9</td>
+                      <td className="text-center p-4">10.5</td>
+                      <td className="text-center p-4">15</td>
+                      <td className="text-center p-4">17.5</td>
+                      <td className="text-center p-4">21</td>
+                      <td className="text-center p-4">26</td>
+                      <td className="text-center p-4">30</td>
+                      <td className="text-center p-4">35</td>
+                      <td className="text-center p-4">70</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Dehumidification Capacity</td>
+                      <td className="text-center p-4">L/D</td>
+                      <td className="text-center p-4">178</td>
+                      <td className="text-center p-4">224</td>
+                      <td className="text-center p-4">261</td>
+                      <td className="text-center p-4">396</td>
+                      <td className="text-center p-4">462</td>
+                      <td className="text-center p-4">549</td>
+                      <td className="text-center p-4">679</td>
+                      <td className="text-center p-4">792</td>
+                      <td className="text-center p-4">927</td>
+                      <td className="text-center p-4">1854</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Electrical Heater (Options)</td>
+                      <td className="text-center p-4">kW</td>
+                      <td className="text-center p-4">1×1.5</td>
+                      <td className="text-center p-4">1×1.5</td>
+                      <td className="text-center p-4">2×2.0</td>
+                      <td className="text-center p-4">2×2.0</td>
+                      <td className="text-center p-4">2×2.0</td>
+                      <td className="text-center p-4">2×3.0</td>
+                      <td className="text-center p-4">2×3.0</td>
+                      <td className="text-center p-4">4×2.0</td>
+                      <td className="text-center p-4">4×2.0</td>
+                      <td className="text-center p-4">4×3.0</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Cooling Input Power</td>
+                      <td className="text-center p-4">kW</td>
+                      <td className="text-center p-4">1.95</td>
+                      <td className="text-center p-4">2.5</td>
+                      <td className="text-center p-4">2.91</td>
+                      <td className="text-center p-4">4.15</td>
+                      <td className="text-center p-4">4.84</td>
+                      <td className="text-center p-4">5.8</td>
+                      <td className="text-center p-4">7.18</td>
+                      <td className="text-center p-4">8.25</td>
+                      <td className="text-center p-4">9.63</td>
+                      <td className="text-center p-4">19.3</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Heating Capacity (Heat pump type only)</td>
+                      <td className="text-center p-4">kW</td>
+                      <td className="text-center p-4">7.5</td>
+                      <td className="text-center p-4">9.5</td>
+                      <td className="text-center p-4">11</td>
+                      <td className="text-center p-4">16.5</td>
+                      <td className="text-center p-4">19.5</td>
+                      <td className="text-center p-4">23</td>
+                      <td className="text-center p-4">28</td>
+                      <td className="text-center p-4">32.5</td>
+                      <td className="text-center p-4">37.9</td>
+                      <td className="text-center p-4">76</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Heating Input Power (Heat pump type only)</td>
+                      <td className="text-center p-4">kW</td>
+                      <td className="text-center p-4">2.08</td>
+                      <td className="text-center p-4">2.6</td>
+                      <td className="text-center p-4">3</td>
+                      <td className="text-center p-4">4.5</td>
+                      <td className="text-center p-4">5.18</td>
+                      <td className="text-center p-4">6.27</td>
+                      <td className="text-center p-4">7.6</td>
+                      <td className="text-center p-4">8.8</td>
+                      <td className="text-center p-4">10.3</td>
+                      <td className="text-center p-4">20.66</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Rated Air Flow Volume</td>
+                      <td className="text-center p-4">m³/h</td>
+                      <td className="text-center p-4">1400</td>
+                      <td className="text-center p-4">1800</td>
+                      <td className="text-center p-4">2200</td>
+                      <td className="text-center p-4">3300</td>
+                      <td className="text-center p-4">3400</td>
+                      <td className="text-center p-4">4200</td>
+                      <td className="text-center p-4">5200</td>
+                      <td className="text-center p-4">5600</td>
+                      <td className="text-center p-4">6000</td>
+                      <td className="text-center p-4">12300</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Max Static Pressure</td>
+                      <td className="text-center p-4">Pa</td>
+                      <td className="text-center p-4">30</td>
+                      <td className="text-center p-4">30</td>
+                      <td className="text-center p-4">40</td>
+                      <td className="text-center p-4">40</td>
+                      <td className="text-center p-4">50</td>
+                      <td className="text-center p-4">50</td>
+                      <td className="text-center p-4">60</td>
+                      <td className="text-center p-4">60</td>
+                      <td className="text-center p-4">60</td>
+                      <td className="text-center p-4">100</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Compressor Type</td>
+                      <td className="text-center p-4"></td>
+                      <td className="text-center p-4">Rotary</td>
+                      <td className="text-center p-4" colSpan={2}>Rotary/Scroll</td>
+                      <td className="text-center p-4" colSpan={7}>Scroll</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Compressor Quantity</td>
+                      <td className="text-center p-4">Quantity</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">1</td>
+                      <td className="text-center p-4">2</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Power Supply</td>
+                      <td className="text-center p-4"></td>
+                      <td className="text-center p-4" colSpan={7}>220V/1P/50Hz</td>
+                      <td className="text-center p-4" colSpan={3}>380V/3P/50Hz</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Refrigerant</td>
+                      <td className="text-center p-4"></td>
+                      <td className="text-center p-4" colSpan={10}>R417A / R410A</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Noise</td>
+                      <td className="text-center p-4">dB(A)</td>
+                      <td className="text-center p-4">46</td>
+                      <td className="text-center p-4">48</td>
+                      <td className="text-center p-4">50</td>
+                      <td className="text-center p-4">54</td>
+                      <td className="text-center p-4">56</td>
+                      <td className="text-center p-4">58</td>
+                      <td className="text-center p-4">60</td>
+                      <td className="text-center p-4">62</td>
+                      <td className="text-center p-4">64</td>
+                      <td className="text-center p-4">68</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Net Dimension (L×W×H)</td>
+                      <td className="text-center p-4">mm</td>
+                      <td className="text-center p-4">650×540×1840</td>
+                      <td className="text-center p-4">650×560×1840</td>
+                      <td className="text-center p-4">700×575×1840</td>
+                      <td className="text-center p-4">840×620×1840</td>
+                      <td className="text-center p-4">920×645×1840</td>
+                      <td className="text-center p-4">1220×690×1840</td>
+                      <td className="text-center p-4">1400×760×1840</td>
+                      <td className="text-center p-4">1520×820×1840</td>
+                      <td className="text-center p-4">1680×880×1840</td>
+                      <td className="text-center p-4">2100×1050×1840</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Net Weight</td>
+                      <td className="text-center p-4">kg</td>
+                      <td className="text-center p-4">135</td>
+                      <td className="text-center p-4">162</td>
+                      <td className="text-center p-4">180</td>
+                      <td className="text-center p-4">225</td>
+                      <td className="text-center p-4">250</td>
+                      <td className="text-center p-4">285</td>
+                      <td className="text-center p-4">340</td>
+                      <td className="text-center p-4">385</td>
+                      <td className="text-center p-4">425</td>
+                      <td className="text-center p-4">750</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Packing Dimension (L×W×H)</td>
+                      <td className="text-center p-4">mm</td>
+                      <td className="text-center p-4">730×620×1990</td>
+                      <td className="text-center p-4">780×655×1990</td>
+                      <td className="text-center p-4">920×700×1990</td>
+                      <td className="text-center p-4">1680×820×1990</td>
+                      <td className="text-center p-4">2030×890×1840</td>
+                      <td className="text-center p-4">1000×725×1990</td>
+                      <td className="text-center p-4">1950×880×1990</td>
+                      <td className="text-center p-4">1600×870×1990</td>
+                      <td className="text-center p-4">1760×930×1990</td>
+                      <td className="text-center p-4">2200×1100×1990</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Gross Weight</td>
+                      <td className="text-center p-4">kg</td>
+                      <td className="text-center p-4">155</td>
+                      <td className="text-center p-4">182</td>
+                      <td className="text-center p-4">200</td>
+                      <td className="text-center p-4">250</td>
+                      <td className="text-center p-4">275</td>
+                      <td className="text-center p-4">320</td>
+                      <td className="text-center p-4">370</td>
+                      <td className="text-center p-4">420</td>
+                      <td className="text-center p-4">450</td>
+                      <td className="text-center p-4">825</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
               </div>
             </div>
           </div>
