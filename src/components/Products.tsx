@@ -73,7 +73,7 @@ const Products = () => {
             {/* Technical Specifications */}
             <div className="bg-gray-50 rounded-lg p-6">
               <h4 className="text-xl font-semibold text-foreground mb-4">Technical Specifications</h4>
-              <div className="overflow-x-auto">
+              <div className="overflow-x-auto max-h-96 overflow-y-auto">
                 <style dangerouslySetInnerHTML={{__html: `
                   .spec-table {
                     border-collapse: separate;
