@@ -2,10 +2,10 @@ import { Award, Zap, Headphones, TrendingUp, Quote } from "lucide-react";
 
 const WhyChoose = () => {
   return (
-    <section className="pt-2 pb-20 bg-gray-50">
+    <section className="pt-16 pb-20 bg-gray-50">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Why Choose Cli-Max?
           </h2>
