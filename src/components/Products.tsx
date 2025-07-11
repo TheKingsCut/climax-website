@@ -942,9 +942,7 @@ const Products = () => {
                     <tr>
                       <td className="font-medium p-4">Water Pressure</td>
                       <td className="text-center p-4">Mpa</td>
-                      <td className="text-center p-4">0.2 ~ 0.6</td>
-                      <td className="text-center p-4">-</td>
-                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4" colSpan={3}>0.2 ~ 0.6</td>
                     </tr>
                     <tr>
                       <td className="font-medium p-4">Water Gap Spec</td>
@@ -963,16 +961,12 @@ const Products = () => {
                     <tr>
                       <td className="font-medium p-4">Protection Grade</td>
                       <td className="text-center p-4">-</td>
-                      <td className="text-center p-4">II</td>
-                      <td className="text-center p-4">II</td>
-                      <td className="text-center p-4">II</td>
+                      <td className="text-center p-4" colSpan={3}>II</td>
                     </tr>
                     <tr>
                       <td className="font-medium p-4">Waterproof Class</td>
                       <td className="text-center p-4">-</td>
-                      <td className="text-center p-4">IPx4</td>
-                      <td className="text-center p-4">IPx4</td>
-                      <td className="text-center p-4">IPx4</td>
+                      <td className="text-center p-4" colSpan={3}>IPx4</td>
                     </tr>
                     <tr>
                       <td className="font-medium p-4">Net Weight</td>
