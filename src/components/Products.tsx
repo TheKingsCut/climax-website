@@ -415,9 +415,36 @@ const Products = () => {
               <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">Most Popular</span>
             </div>
             
-            {/* Product Image Placeholder */}
-            <div className="w-full h-64 bg-gray-100 flex items-center justify-center mb-8">
-              <div className="text-muted-foreground text-lg">Product Image Placeholder</div>
+            {/* Product Images */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-8">
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_CNTRL_SYS_01_.png"
+                  alt="Inverter Water Cooled MAX 5.0 - Control System Component"
+                  className="w-full h-48 lg:h-64 object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_Driver_01.png"
+                  alt="Inverter Water Cooled MAX 5.0 - Driver Component"
+                  className="w-full h-48 lg:h-64 object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_COMPR_02.jpg"
+                  alt="Inverter Water Cooled MAX 5.0 - Compressor Component"
+                  className="w-full h-48 lg:h-64 object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_FAN_01_.png"
+                  alt="Inverter Water Cooled MAX 5.0 - Fan Component"
+                  className="w-full h-48 lg:h-64 object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
             </div>
 
             {/* Features & Benefits */}
