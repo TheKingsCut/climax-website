@@ -441,28 +441,28 @@ const Products = () => {
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_CNTRL_SYS_01.jpg"
                   alt="Inverter Water Cooled MAX 5.0 - Control System Component"
-                  className="w-full h-48 lg:h-64 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_Driver_01.png"
                   alt="Inverter Water Cooled MAX 5.0 - Driver Component"
-                  className="w-full h-48 lg:h-64 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_COMPR_01.jpg"
                   alt="Inverter Water Cooled MAX 5.0 - Compressor Component"
-                  className="w-full h-48 lg:h-64 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_FAN_01_.png"
                   alt="Inverter Water Cooled MAX 5.0 - Fan Component"
-                  className="w-full h-48 lg:h-64 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
             </div>
