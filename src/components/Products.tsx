@@ -28,21 +28,21 @@ const Products = () => {
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Image%2002.png"
                   alt="MAX 5.0 Combo Series - Air Cooled Chiller Unit"
-                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Image10.png"
                   alt="MAX 5.0 Combo Series - Industrial Cooling System"
-                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Image12.png"
                   alt="MAX 5.0 Combo Series - Professional HVAC Equipment"
-                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
             </div>
@@ -973,14 +973,14 @@ const Products = () => {
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/DEHUMIDIFIER/M_DHUMID_Floor_01.jpeg"
                   alt="Dehumidifier - Floor Mounted Unit"
-                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/DEHUMIDIFIER/M_DHUMID_Ceiling_01.jpg"
                   alt="Dehumidifier - Ceiling Mounted Unit"
-                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
             </div>
@@ -1343,14 +1343,14 @@ const Products = () => {
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/HUMIDIFIER/Humidifier_01_LRG.jpg"
                   alt="Ultrasonic Humidifier - Large Capacity Industrial System"
-                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/HUMIDIFIER/Ultrasonic_02.png"
                   alt="Ultrasonic Humidifier - Professional Ultrasonic Unit"
-                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
             </div>
