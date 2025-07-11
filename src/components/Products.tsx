@@ -887,8 +887,7 @@ const Products = () => {
                       <td className="font-medium p-4">Power Supply</td>
                       <td className="text-center p-4">-</td>
                       <td className="text-center p-4">220V ~ 50/60Hz</td>
-                      <td className="text-center p-4">3N ~ 380V 50/60Hz</td>
-                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4" colSpan={2}>3N ~ 380V 50/60Hz</td>
                     </tr>
                     <tr>
                       <td className="font-medium p-4">USRT</td>
