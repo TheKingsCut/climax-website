@@ -1056,41 +1056,185 @@ const Products = () => {
             {/* Technical Specifications */}
             <div className="bg-gray-50 rounded-lg p-6">
               <h4 className="text-xl font-semibold text-foreground mb-4">Technical Specifications</h4>
-              <div className="overflow-x-auto">
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead>Model</TableHead>
-                      <TableHead>Air Flow (m³/h)</TableHead>
-                      <TableHead>Cooling Capacity (kW)</TableHead>
-                      <TableHead>Power Input (kW)</TableHead>
-                      <TableHead>Water Consumption (L/h)</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    <TableRow>
-                      <TableCell className="font-medium">CM-FAO2-18</TableCell>
-                      <TableCell>18,000</TableCell>
-                      <TableCell>15.2</TableCell>
-                      <TableCell>2.2</TableCell>
-                      <TableCell>45</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">CM-FAO2-30</TableCell>
-                      <TableCell>30,000</TableCell>
-                      <TableCell>25.8</TableCell>
-                      <TableCell>3.8</TableCell>
-                      <TableCell>75</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">CM-FAO2-45</TableCell>
-                      <TableCell>45,000</TableCell>
-                      <TableCell>38.5</TableCell>
-                      <TableCell>5.5</TableCell>
-                      <TableCell>115</TableCell>
-                    </TableRow>
-                  </TableBody>
-                </Table>
+              <div className="border border-gray-200 rounded bg-white" style={{height: '400px', overflow: 'auto'}}>
+                <style dangerouslySetInnerHTML={{__html: `
+                  .sticky-table {
+                    border-collapse: separate;
+                    border-spacing: 0;
+                    width: 100%;
+                    min-width: 800px;
+                  }
+                  .sticky-table th {
+                    position: sticky;
+                    top: 0;
+                    background: white;
+                    z-index: 20;
+                    border-bottom: 2px solid #e5e7eb;
+                    border-right: 1px solid #e5e7eb;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                  }
+                  .sticky-table td {
+                    border-bottom: 1px solid #e5e7eb;
+                    border-right: 1px solid #e5e7eb;
+                  }
+                  .sticky-table th:first-child,
+                  .sticky-table td:first-child {
+                    border-left: 1px solid #e5e7eb;
+                  }
+                  .sticky-table th:last-child,
+                  .sticky-table td:last-child {
+                    border-right: 1px solid #e5e7eb;
+                  }
+                  .compact-header {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    line-height: 1.2;
+                    padding: 8px;
+                  }
+                  .model-number {
+                    font-weight: 600;
+                    font-size: 0.9em;
+                  }
+                `}} />
+                <table className="sticky-table">
+                  <thead>
+                    <tr>
+                      <th className="min-w-[200px] text-left p-4">Specification</th>
+                      <th className="min-w-[120px] text-center p-4">Unit</th>
+                      <th className="min-w-[120px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CMFAO2-50</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[120px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CMFAO2-125</div>
+                        </div>
+                      </th>
+                      <th className="min-w-[120px] text-center">
+                        <div className="compact-header">
+                          <div className="model-number">CMFAO2-250</div>
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="font-medium p-4">Power Supply</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4">220V ~ 50/60Hz</td>
+                      <td className="text-center p-4" colSpan={2}>3N ~ 380V 50/60Hz</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">USRT</td>
+                      <td className="text-center p-4">RT</td>
+                      <td className="text-center p-4">5</td>
+                      <td className="text-center p-4">12.5</td>
+                      <td className="text-center p-4">25</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Cooling Capacity</td>
+                      <td className="text-center p-4">KW</td>
+                      <td className="text-center p-4">17.5</td>
+                      <td className="text-center p-4">43.75</td>
+                      <td className="text-center p-4">87.5</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Air Flow</td>
+                      <td className="text-center p-4">CFM</td>
+                      <td className="text-center p-4">2500 (4250m³/h)</td>
+                      <td className="text-center p-4">5000 (8500m³/h)</td>
+                      <td className="text-center p-4">10000 (17000m³/h)</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Rated Input Power</td>
+                      <td className="text-center p-4">KW</td>
+                      <td className="text-center p-4">2.35</td>
+                      <td className="text-center p-4">3.4</td>
+                      <td className="text-center p-4">5.56</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Rated Input Current</td>
+                      <td className="text-center p-4">A</td>
+                      <td className="text-center p-4">10.7</td>
+                      <td className="text-center p-4">6.1</td>
+                      <td className="text-center p-4">10</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">External Static Pressure</td>
+                      <td className="text-center p-4">Pa</td>
+                      <td className="text-center p-4">120</td>
+                      <td className="text-center p-4">300</td>
+                      <td className="text-center p-4">350</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Water Consumption</td>
+                      <td className="text-center p-4">L/H</td>
+                      <td className="text-center p-4">40</td>
+                      <td className="text-center p-4">100</td>
+                      <td className="text-center p-4">185</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Water Pressure</td>
+                      <td className="text-center p-4">Mpa</td>
+                      <td className="text-center p-4" colSpan={3}>0.2 ~ 0.6</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Water Gap Spec</td>
+                      <td className="text-center p-4">inch</td>
+                      <td className="text-center p-4">3/4"</td>
+                      <td className="text-center p-4">1"</td>
+                      <td className="text-center p-4">1-1/4"</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Noise</td>
+                      <td className="text-center p-4">dB(A)</td>
+                      <td className="text-center p-4">≤70</td>
+                      <td className="text-center p-4">≤80</td>
+                      <td className="text-center p-4">≤85</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Protection Grade</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4" colSpan={3}>II</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Waterproof Class</td>
+                      <td className="text-center p-4">-</td>
+                      <td className="text-center p-4" colSpan={3}>IPx4</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Net Weight</td>
+                      <td className="text-center p-4">kg</td>
+                      <td className="text-center p-4">265</td>
+                      <td className="text-center p-4">500</td>
+                      <td className="text-center p-4">880</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Gross Weight</td>
+                      <td className="text-center p-4">kg</td>
+                      <td className="text-center p-4">280</td>
+                      <td className="text-center p-4">540</td>
+                      <td className="text-center p-4">920</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Net Dimension (L×W×H)</td>
+                      <td className="text-center p-4">mm</td>
+                      <td className="text-center p-4">1240×1120×1185</td>
+                      <td className="text-center p-4">1690×2283×1314</td>
+                      <td className="text-center p-4">1690×2283×2300</td>
+                    </tr>
+                    <tr>
+                      <td className="font-medium p-4">Packing Dimension (L×W×H)</td>
+                      <td className="text-center p-4">mm</td>
+                      <td className="text-center p-4">1260×1160×1210</td>
+                      <td className="text-center p-4">1750×2343×1474</td>
+                      <td className="text-center p-4">1750×2343×2460</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
