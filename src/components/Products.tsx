@@ -818,6 +818,7 @@ const Products = () => {
             {/* Technical Specifications */}
             <div className="bg-gray-50 rounded-lg p-6">
               <h4 className="text-xl font-semibold text-foreground mb-4">Technical Specifications</h4>
+              <h4 className="text-lg font-medium text-foreground mb-4">Parameter (Single Speed/Double Speed Optional)</h4>
               <div className="border border-gray-200 rounded bg-white" style={{height: '400px', overflow: 'auto'}}>
                 <style dangerouslySetInnerHTML={{__html: `
                   .sticky-table {
@@ -863,7 +864,6 @@ const Products = () => {
                 <table className="sticky-table">
                   <thead>
                     <tr>
-                      <th className="min-w-[200px] text-left p-4">Parameter (Single Speed/Double Speed Optional)</th>
                       <th className="min-w-[120px] text-center p-4">Model</th>
                       <th className="min-w-[120px] text-center p-4">Air Volume</th>
                       <th className="min-w-[120px] text-center p-4">Input Power</th>
@@ -874,7 +874,6 @@ const Products = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="font-medium p-4" rowSpan={5}></td>
                       <td className="text-center p-4 font-medium">H-RP220</td>
                       <td className="text-center p-4">220 m3/h</td>
                       <td className="text-center p-4">220V/50Hz</td>
@@ -915,7 +914,6 @@ const Products = () => {
                       <td className="text-center p-4">65 dB</td>
                     </tr>
                     <tr>
-                      <td className="font-medium p-4" rowSpan={6}>Parameter (Single Speed/Double Speed Optional)</td>
                       <td className="text-center p-4 font-medium">H-SQ450</td>
                       <td className="text-center p-4">450 m3/h</td>
                       <td className="text-center p-4">220V/50Hz</td>
