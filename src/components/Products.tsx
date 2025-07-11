@@ -460,8 +460,8 @@ const Products = () => {
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_FAN_01.jpg"
-                  alt="Inverter Water Cooled MAX 5.0 - Fan Component"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_CNTRL_SYS_01.jpg"
+                  alt="Inverter Water Cooled MAX 5.0 - Control System Component"
                   className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
