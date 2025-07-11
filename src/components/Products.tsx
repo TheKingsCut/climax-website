@@ -22,9 +22,29 @@ const Products = () => {
           <div className="product-category">
             <h3 className="text-3xl font-bold text-foreground mb-8">Inverter Air Cooled MAX 5.0 Combo Series</h3>
             
-            {/* Product Image Placeholder */}
-            <div className="w-full h-64 bg-gray-100 flex items-center justify-center mb-8">
-              <div className="text-muted-foreground text-lg">Product Image Placeholder</div>
+            {/* Product Images */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Image%2002.png"
+                  alt="MAX 5.0 Combo Series - Air Cooled Chiller Unit"
+                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Image10.png"
+                  alt="MAX 5.0 Combo Series - Industrial Cooling System"
+                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Image12.png"
+                  alt="MAX 5.0 Combo Series - Professional HVAC Equipment"
+                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
             </div>
 
             {/* Features & Benefits */}
