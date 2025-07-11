@@ -1337,6 +1337,23 @@ const Products = () => {
           <div className="product-category">
             <h3 className="text-3xl font-bold text-foreground mb-8">Ultrasonic Humidifier Series</h3>
             
+            {/* Product Images */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/HUMIDIFIER/Humidifier_01_LRG.jpg"
+                  alt="Ultrasonic Humidifier - Large Capacity Industrial System"
+                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/HUMIDIFIER/Ultrasonic_02.png"
+                  alt="Ultrasonic Humidifier - Professional Ultrasonic Unit"
+                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </div>
 
             {/* Features & Benefits */}
             <div className="mb-8">
