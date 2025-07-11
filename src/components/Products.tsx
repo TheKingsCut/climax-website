@@ -767,9 +767,15 @@ const Products = () => {
           <div className="product-category">
             <h3 className="text-3xl font-bold text-foreground mb-8">Air Cooled Chiller MAX 6.0 HFO Series</h3>
             
-            {/* Product Image Placeholder */}
-            <div className="w-full h-64 bg-gray-100 flex items-center justify-center mb-8">
-              <div className="text-muted-foreground text-lg">Product Image Placeholder</div>
+            {/* Product Images */}
+            <div className="grid grid-cols-1 gap-6 mb-8">
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/HFO/HFO_03.jpg"
+                  alt="Air Cooled Chiller MAX 6.0 HFO Series"
+                  className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
             </div>
 
             {/* Features & Benefits */}
@@ -971,9 +977,15 @@ const Products = () => {
           <div className="product-category">
             <h3 className="text-3xl font-bold text-foreground mb-8">CM-FAO2 Evaporative Cooler Series</h3>
             
-            {/* Product Image Placeholder */}
-            <div className="w-full h-64 bg-gray-100 flex items-center justify-center mb-8">
-              <div className="text-muted-foreground text-lg">Product Image Placeholder</div>
+            {/* Product Images */}
+            <div className="grid grid-cols-1 gap-6 mb-8">
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/FA02/CM-FA02.jpeg"
+                  alt="CM-FAO2 Evaporative Cooler Series"
+                  className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
             </div>
 
             {/* Features & Benefits */}
