@@ -1215,14 +1215,14 @@ const Products = () => {
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/DEHUMIDIFIER/M_DHUMID_Floor_01.jpg"
                   alt="Dehumidifier - Floor Mounted Unit"
-                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
+                  className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/DEHUMIDIFIER/Dehumidifier_Ceiling_01.jpg"
                   alt="Dehumidifier - Ceiling Mounted Unit"
-                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
+                  className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
             </div>
