@@ -971,15 +971,15 @@ const Products = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/ULTRASONIC/Ultrasonic_02.png"
-                  alt="Ultrasonic Humidifier - Professional Industrial Unit"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/DEHUMIDIFIER/M_DHUMID_Floor_01.jpeg"
+                  alt="Dehumidifier - Floor Mounted Unit"
                   className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/HUMIDIFIER/Humidifier_01_LRG.jpg"
-                  alt="Ultrasonic Humidifier - Large Capacity System"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/DEHUMIDIFIER/M_DHUMID_Ceiling_01.jpg"
+                  alt="Dehumidifier - Ceiling Mounted Unit"
                   className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
