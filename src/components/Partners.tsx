@@ -1,4 +1,4 @@
-import { Percent, Diamond, Headphones, Handshake, Quote } from "lucide-react";
+import { Percent, Diamond, Headphones, Handshake, Quote, Settings, Wrench, Zap, Smartphone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Partners = () => {
@@ -7,40 +7,87 @@ const Partners = () => {
       <div className="container mx-auto px-4">
         {/* Comparison Table */}
         <div className="mb-20">
-          <h2 className="text-3xl font-bold text-center text-foreground mb-12">Comparison</h2>
-          <div className="bg-gray-50 rounded-lg p-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <h2 className="text-4xl font-bold text-center text-foreground mb-12">System Comparison</h2>
+          <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8 shadow-lg">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
               <div className="text-center font-semibold text-foreground">
-                <div className="h-12"></div>
+                <div className="h-16 flex items-center justify-center">
+                  <span className="text-lg font-bold">Comparison Factor</span>
+                </div>
               </div>
               <div className="text-center">
-                <h3 className="font-semibold text-red-600 mb-4">Traditional Separate Systems</h3>
+                <div className="bg-red-50 rounded-lg p-4 border-2 border-red-200">
+                  <h3 className="font-bold text-red-700 text-lg">Traditional Separate Systems</h3>
+                  <p className="text-red-600 text-sm mt-1">Complex & Costly</p>
+                </div>
               </div>
               <div className="text-center">
-                <h3 className="font-semibold text-orange-500 mb-4">Cli-Max Integrated Solution</h3>
+                <div className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-lg p-4 border-2 border-orange-200">
+                  <h3 className="font-bold text-orange-700 text-lg">Cli-Max Integrated Solution</h3>
+                  <p className="text-orange-600 text-sm mt-1">Smart & Efficient</p>
+                </div>
               </div>
             </div>
             
-            <div className="space-y-4 mt-6">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-4 border-b border-gray-200">
-                <div className="font-medium text-foreground">Installation Complexity</div>
-                <div className="text-red-600">Multiple systems, complex integration</div>
-                <div className="text-orange-500">Single system, simple installation</div>
+            <div className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-center gap-3 font-semibold text-foreground">
+                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                    <Settings className="w-5 h-5 text-blue-600" />
+                  </div>
+                  <span>Installation Complexity</span>
+                </div>
+                <div className="bg-red-50 p-4 rounded-lg text-red-700 font-medium">
+                  Multiple systems, complex integration
+                </div>
+                <div className="bg-orange-50 p-4 rounded-lg text-orange-700 font-medium">
+                  Single system, simple installation
+                </div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-4 border-b border-gray-200">
-                <div className="font-medium text-foreground">Maintenance</div>
-                <div className="text-red-600">Multiple service contracts</div>
-                <div className="text-orange-500">One comprehensive service</div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-center gap-3 font-semibold text-foreground">
+                  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                    <Wrench className="w-5 h-5 text-green-600" />
+                  </div>
+                  <span>Maintenance</span>
+                </div>
+                <div className="bg-red-50 p-4 rounded-lg text-red-700 font-medium">
+                  Multiple service contracts
+                </div>
+                <div className="bg-orange-50 p-4 rounded-lg text-orange-700 font-medium">
+                  One comprehensive service
+                </div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-4 border-b border-gray-200">
-                <div className="font-medium text-foreground">Energy Efficiency</div>
-                <div className="text-red-600">Higher operating costs</div>
-                <div className="text-orange-500">Up to 40% savings</div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-center gap-3 font-semibold text-foreground">
+                  <div className="w-10 h-10 bg-yellow-100 rounded-full flex items-center justify-center">
+                    <Zap className="w-5 h-5 text-yellow-600" />
+                  </div>
+                  <span>Energy Efficiency</span>
+                </div>
+                <div className="bg-red-50 p-4 rounded-lg text-red-700 font-medium">
+                  Higher operating costs
+                </div>
+                <div className="bg-orange-50 p-4 rounded-lg text-orange-700 font-medium">
+                  Up to 40% energy savings
+                </div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-4">
-                <div className="font-medium text-foreground">Control Integration</div>
-                <div className="text-red-600">Separate control systems</div>
-                <div className="text-orange-500">Unified intelligent control</div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-center gap-3 font-semibold text-foreground">
+                  <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                    <Smartphone className="w-5 h-5 text-purple-600" />
+                  </div>
+                  <span>Control Integration</span>
+                </div>
+                <div className="bg-red-50 p-4 rounded-lg text-red-700 font-medium">
+                  Separate control systems
+                </div>
+                <div className="bg-orange-50 p-4 rounded-lg text-orange-700 font-medium">
+                  Unified intelligent control
+                </div>
               </div>
             </div>
           </div>
