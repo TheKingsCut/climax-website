@@ -1731,6 +1731,160 @@ const Products = () => {
             </div>
           </div>
 
+          {/* 6. Integrated PLC Control System */}
+          <div className="product-category">
+            <h3 className="text-3xl font-bold text-foreground mb-8">Integrated PLC Control System</h3>
+            
+            {/* Product Images */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop"
+                  alt="Integrated PLC Control System - Circuit Board"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop"
+                  alt="Integrated PLC Control System - Programming Interface"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=300&fit=crop"
+                  alt="Integrated PLC Control System - Control Interface"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://images.unsplash.com/photo-1473091534298-04dcbce3278c?w=400&h=300&fit=crop"
+                  alt="Integrated PLC Control System - Touch Screen Interface"
+                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </div>
+
+            {/* Features & Benefits */}
+            <div className="mb-8">
+              <h4 className="text-xl font-semibold text-foreground mb-4">Features & Benefits</h4>
+              <div className="grid md:grid-cols-2 gap-6">
+                <ul className="space-y-2">
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Premium Siemens PLC and touch screen technology for centralized control</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Schneider contactors ensuring reliable power distribution</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Modbus RTU communication for seamless device integration</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Ethernet connectivity for PLC, touch screen, and computer integration</span>
+                  </li>
+                </ul>
+                <ul className="space-y-2">
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Multi-level control operation: panel, touch screen, and computer software</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Transparent working principles for simplified integration and support</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Enhanced precision in planting management for consistent product quality</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Cost-effective solution promoting smart vertical agriculture advancement</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* System Components */}
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h4 className="text-xl font-semibold text-foreground mb-4">System Components & Connectivity</h4>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h5 className="font-semibold text-foreground mb-3">Connected Devices</h5>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-secondary rounded-full mr-3 mt-2"></span>
+                      <span className="text-muted-foreground">Planting air conditioner units</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-secondary rounded-full mr-3 mt-2"></span>
+                      <span className="text-muted-foreground">Water fertilizer machine systems</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-secondary rounded-full mr-3 mt-2"></span>
+                      <span className="text-muted-foreground">CO2 monitoring and control equipment</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-secondary rounded-full mr-3 mt-2"></span>
+                      <span className="text-muted-foreground">Planting rack LED lighting systems</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-secondary rounded-full mr-3 mt-2"></span>
+                      <span className="text-muted-foreground">Ventilation fan control</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-secondary rounded-full mr-3 mt-2"></span>
+                      <span className="text-muted-foreground">UV sterilization lamp management</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-secondary rounded-full mr-3 mt-2"></span>
+                      <span className="text-muted-foreground">Oxygen supply pump systems</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-semibold text-foreground mb-3">Control Options</h5>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-accent rounded-full mr-3 mt-2"></span>
+                      <span className="text-muted-foreground">Control cabinet panel operation</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-accent rounded-full mr-3 mt-2"></span>
+                      <span className="text-muted-foreground">Touch screen interface control</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-accent rounded-full mr-3 mt-2"></span>
+                      <span className="text-muted-foreground">Computer configuration software</span>
+                    </li>
+                  </ul>
+                  <div className="mt-6">
+                    <h5 className="font-semibold text-foreground mb-3">Key Advantages</h5>
+                    <ul className="space-y-2">
+                      <li className="flex items-start">
+                        <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                        <span className="text-muted-foreground">Simplified procurement and technical support</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                        <span className="text-muted-foreground">Transparent system architecture and connectivity</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                        <span className="text-muted-foreground">Streamlined integration for vertical farming operations</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
