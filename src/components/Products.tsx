@@ -26,23 +26,23 @@ const Products = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Cannabis_Farm_01.jpg"
+                  alt="MAX 5.0 Combo Series - Cannabis Farm Application"
+                  className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Max5_Installed_01.jpg"
+                  alt="MAX 5.0 Combo Series - Installation View"
+                  className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
                   src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Max5_Front_01.jpg"
                   alt="MAX 5.0 Combo Series - Front View"
-                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Max5_L_Side_01.jpg"
-                  alt="MAX 5.0 Combo Series - Left Side View"
-                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Max5_R_Side_01.jpg"
-                  alt="MAX 5.0 Combo Series - Right Side View"
-                  className="w-full object-contain hover:scale-105 transition-transform duration-300"
+                  className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
             </div>
