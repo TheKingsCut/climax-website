@@ -863,137 +863,105 @@ const Products = () => {
                 <table className="sticky-table">
                   <thead>
                     <tr>
-                      <th className="min-w-[200px] text-left p-4">Specification</th>
-                      <th className="min-w-[120px] text-center p-4">Unit</th>
-                      <th className="min-w-[120px] text-center">
-                        <div className="compact-header">
-                          <div className="model-number">CMFAO2-50</div>
-                        </div>
-                      </th>
-                      <th className="min-w-[120px] text-center">
-                        <div className="compact-header">
-                          <div className="model-number">CMFAO2-125</div>
-                        </div>
-                      </th>
-                      <th className="min-w-[120px] text-center">
-                        <div className="compact-header">
-                          <div className="model-number">CMFAO2-250</div>
-                        </div>
-                      </th>
+                      <th className="min-w-[200px] text-left p-4">Parameter (Single Speed/Double Speed Optional)</th>
+                      <th className="min-w-[120px] text-center p-4">Model</th>
+                      <th className="min-w-[120px] text-center p-4">Air Volume</th>
+                      <th className="min-w-[120px] text-center p-4">Input Power</th>
+                      <th className="min-w-[120px] text-center p-4">Power</th>
+                      <th className="min-w-[120px] text-center p-4">ESP</th>
+                      <th className="min-w-[120px] text-center p-4">Noise</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="font-medium p-4">Power Supply</td>
-                      <td className="text-center p-4">-</td>
-                      <td className="text-center p-4">220V ~ 50/60Hz</td>
-                      <td className="text-center p-4" colSpan={2}>3N ~ 380V 50/60Hz</td>
+                      <td className="font-medium p-4" rowSpan={5}></td>
+                      <td className="text-center p-4 font-medium">H-RP220</td>
+                      <td className="text-center p-4">220 m3/h</td>
+                      <td className="text-center p-4">220V/50Hz</td>
+                      <td className="text-center p-4">35W</td>
+                      <td className="text-center p-4">150 Pa</td>
+                      <td className="text-center p-4">31 dB</td>
                     </tr>
                     <tr>
-                      <td className="font-medium p-4">USRT</td>
-                      <td className="text-center p-4">RT</td>
-                      <td className="text-center p-4">5</td>
-                      <td className="text-center p-4">12.5</td>
-                      <td className="text-center p-4">25</td>
+                      <td className="text-center p-4 font-medium">H-RP540</td>
+                      <td className="text-center p-4">540 m3/h</td>
+                      <td className="text-center p-4">220V/50Hz</td>
+                      <td className="text-center p-4">75W</td>
+                      <td className="text-center p-4">300 Pa</td>
+                      <td className="text-center p-4">38 dB</td>
                     </tr>
                     <tr>
-                      <td className="font-medium p-4">Cooling Capacity</td>
-                      <td className="text-center p-4">KW</td>
-                      <td className="text-center p-4">17.5</td>
-                      <td className="text-center p-4">43.75</td>
-                      <td className="text-center p-4">87.5</td>
+                      <td className="text-center p-4 font-medium">H-RP900</td>
+                      <td className="text-center p-4">900 m3/h</td>
+                      <td className="text-center p-4">220V/50Hz</td>
+                      <td className="text-center p-4">130W</td>
+                      <td className="text-center p-4">380 Pa</td>
+                      <td className="text-center p-4">43 dB</td>
                     </tr>
                     <tr>
-                      <td className="font-medium p-4">Air Flow</td>
-                      <td className="text-center p-4">CFM</td>
-                      <td className="text-center p-4">2500 (4250m³/h)</td>
-                      <td className="text-center p-4">5000 (8500m³/h)</td>
-                      <td className="text-center p-4">10000 (17000m³/h)</td>
+                      <td className="text-center p-4 font-medium">H-RP1450</td>
+                      <td className="text-center p-4">1450 m3/h</td>
+                      <td className="text-center p-4">220V/50Hz</td>
+                      <td className="text-center p-4">225W</td>
+                      <td className="text-center p-4">480 Pa</td>
+                      <td className="text-center p-4">50 dB</td>
                     </tr>
                     <tr>
-                      <td className="font-medium p-4">Rated Input Power</td>
-                      <td className="text-center p-4">KW</td>
-                      <td className="text-center p-4">2.35</td>
-                      <td className="text-center p-4">3.4</td>
-                      <td className="text-center p-4">5.56</td>
+                      <td className="text-center p-4 font-medium">H-RP2900</td>
+                      <td className="text-center p-4">2900 m3/h</td>
+                      <td className="text-center p-4">220V/50Hz</td>
+                      <td className="text-center p-4">320W</td>
+                      <td className="text-center p-4">630 Pa</td>
+                      <td className="text-center p-4">65 dB</td>
                     </tr>
                     <tr>
-                      <td className="font-medium p-4">Rated Input Current</td>
-                      <td className="text-center p-4">A</td>
-                      <td className="text-center p-4">10.7</td>
-                      <td className="text-center p-4">6.1</td>
-                      <td className="text-center p-4">10</td>
+                      <td className="font-medium p-4" rowSpan={6}>Parameter (Single Speed/Double Speed Optional)</td>
+                      <td className="text-center p-4 font-medium">H-SQ450</td>
+                      <td className="text-center p-4">450 m3/h</td>
+                      <td className="text-center p-4">220V/50Hz</td>
+                      <td className="text-center p-4">60W</td>
+                      <td className="text-center p-4">150 Pa</td>
+                      <td className="text-center p-4">32 dB</td>
                     </tr>
                     <tr>
-                      <td className="font-medium p-4">External Static Pressure</td>
-                      <td className="text-center p-4">Pa</td>
-                      <td className="text-center p-4">120</td>
-                      <td className="text-center p-4">300</td>
-                      <td className="text-center p-4">350</td>
+                      <td className="text-center p-4 font-medium">H-SQ800</td>
+                      <td className="text-center p-4">800 m3/h</td>
+                      <td className="text-center p-4">220V/50Hz</td>
+                      <td className="text-center p-4">150W</td>
+                      <td className="text-center p-4">200 Pa</td>
+                      <td className="text-center p-4">32 dB</td>
                     </tr>
                     <tr>
-                      <td className="font-medium p-4">Water Consumption</td>
-                      <td className="text-center p-4">L/H</td>
-                      <td className="text-center p-4">40</td>
-                      <td className="text-center p-4">100</td>
-                      <td className="text-center p-4">185</td>
+                      <td className="text-center p-4 font-medium">H-SQ1350</td>
+                      <td className="text-center p-4">1350 m3/h</td>
+                      <td className="text-center p-4">220V/50Hz</td>
+                      <td className="text-center p-4">200W</td>
+                      <td className="text-center p-4">250 Pa</td>
+                      <td className="text-center p-4">39 dB</td>
                     </tr>
                     <tr>
-                      <td className="font-medium p-4">Water Pressure</td>
-                      <td className="text-center p-4">Mpa</td>
-                      <td className="text-center p-4" colSpan={3}>0.2 ~ 0.6</td>
+                      <td className="text-center p-4 font-medium">H-SQ2500</td>
+                      <td className="text-center p-4">2500 m3/h</td>
+                      <td className="text-center p-4">220V/380V 50Hz</td>
+                      <td className="text-center p-4">350W</td>
+                      <td className="text-center p-4">300 Pa</td>
+                      <td className="text-center p-4">48 dB</td>
                     </tr>
                     <tr>
-                      <td className="font-medium p-4">Water Gap Spec</td>
-                      <td className="text-center p-4">inch</td>
-                      <td className="text-center p-4">3/4"</td>
-                      <td className="text-center p-4">1"</td>
-                      <td className="text-center p-4">1-1/4"</td>
+                      <td className="text-center p-4 font-medium">H-SQ3000</td>
+                      <td className="text-center p-4">3000 m3/h</td>
+                      <td className="text-center p-4">220V/380V 50Hz</td>
+                      <td className="text-center p-4">400W</td>
+                      <td className="text-center p-4">400 Pa</td>
+                      <td className="text-center p-4">48 dB</td>
                     </tr>
                     <tr>
-                      <td className="font-medium p-4">Noise</td>
-                      <td className="text-center p-4">dB(A)</td>
-                      <td className="text-center p-4">≤70</td>
-                      <td className="text-center p-4">≤80</td>
-                      <td className="text-center p-4">≤85</td>
-                    </tr>
-                    <tr>
-                      <td className="font-medium p-4">Protection Grade</td>
-                      <td className="text-center p-4">-</td>
-                      <td className="text-center p-4" colSpan={3}>II</td>
-                    </tr>
-                    <tr>
-                      <td className="font-medium p-4">Waterproof Class</td>
-                      <td className="text-center p-4">-</td>
-                      <td className="text-center p-4" colSpan={3}>IPx4</td>
-                    </tr>
-                    <tr>
-                      <td className="font-medium p-4">Net Weight</td>
-                      <td className="text-center p-4">kg</td>
-                      <td className="text-center p-4">265</td>
-                      <td className="text-center p-4">500</td>
-                      <td className="text-center p-4">880</td>
-                    </tr>
-                    <tr>
-                      <td className="font-medium p-4">Gross Weight</td>
-                      <td className="text-center p-4">kg</td>
-                      <td className="text-center p-4">280</td>
-                      <td className="text-center p-4">540</td>
-                      <td className="text-center p-4">920</td>
-                    </tr>
-                    <tr>
-                      <td className="font-medium p-4">Net Dimension (L×W×H)</td>
-                      <td className="text-center p-4">mm</td>
-                      <td className="text-center p-4">1240×1120×1185</td>
-                      <td className="text-center p-4">1690×2283×1314</td>
-                      <td className="text-center p-4">1690×2283×2300</td>
-                    </tr>
-                    <tr>
-                      <td className="font-medium p-4">Packing Dimension (L×W×H)</td>
-                      <td className="text-center p-4">mm</td>
-                      <td className="text-center p-4">1260×1160×1210</td>
-                      <td className="text-center p-4">1750×2343×1474</td>
-                      <td className="text-center p-4">1750×2343×2460</td>
+                      <td className="text-center p-4 font-medium">H-SQ4000</td>
+                      <td className="text-center p-4">4000 m3/h</td>
+                      <td className="text-center p-4">220V/380V 50Hz</td>
+                      <td className="text-center p-4">450W</td>
+                      <td className="text-center p-4">450 Pa</td>
+                      <td className="text-center p-4">50 dB</td>
                     </tr>
                   </tbody>
                 </table>
