@@ -18,8 +18,12 @@ const WhyChoose = () => {
         {/* Benefits Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           <div className="bg-white rounded-lg p-8 text-center shadow-sm">
-            <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Award className="w-8 h-8 text-orange-500" />
+            <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6">
+              <img 
+                src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Quality_Badge_01.gif" 
+                alt="European Quality Badge" 
+                className="w-16 h-16 object-contain"
+              />
             </div>
             <h3 className="text-xl font-bold text-foreground mb-4">European Quality</h3>
             <p className="text-muted-foreground text-sm">
