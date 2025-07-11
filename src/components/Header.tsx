@@ -26,9 +26,6 @@ const Header = () => {
 
   return (
     <header className="bg-white border-b border-border sticky top-0 z-50">
-      <div className="bg-primary text-white text-center py-2 text-sm">
-        📞 24/7 Emergency Support: +27 11 123 4567
-      </div>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
