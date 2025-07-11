@@ -26,22 +26,22 @@ const Products = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Image%2002.png"
-                  alt="MAX 5.0 Combo Series - Air Cooled Chiller Unit"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Max5_Front_01.jpg"
+                  alt="MAX 5.0 Combo Series - Front View"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Image10.png"
-                  alt="MAX 5.0 Combo Series - Industrial Cooling System"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Max5_L_Side_01.jpg"
+                  alt="MAX 5.0 Combo Series - Left Side View"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Image12.png"
-                  alt="MAX 5.0 Combo Series - Professional HVAC Equipment"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Max5_R_Side_01.jpg"
+                  alt="MAX 5.0 Combo Series - Right Side View"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -439,7 +439,7 @@ const Products = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_CNTRL_SYS_01_.png"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_CNTRL_SYS_01.jpg"
                   alt="Inverter Water Cooled MAX 5.0 - Control System Component"
                   className="w-full h-48 lg:h-64 object-cover hover:scale-105 transition-transform duration-300"
                 />
@@ -453,7 +453,7 @@ const Products = () => {
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_COMPR_02.jpg"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_COMPR_01.jpg"
                   alt="Inverter Water Cooled MAX 5.0 - Compressor Component"
                   className="w-full h-48 lg:h-64 object-cover hover:scale-105 transition-transform duration-300"
                 />
@@ -1213,14 +1213,14 @@ const Products = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/DEHUMIDIFIER/M_DHUMID_Floor_01.jpeg"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/DEHUMIDIFIER/Dehumidifier_Floor_01.jpg"
                   alt="Dehumidifier - Floor Mounted Unit"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/DEHUMIDIFIER/M_DHUMID_Ceiling_01.jpg"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/DEHUMIDIFIER/Dehumidifier_Ceiling_01.jpg"
                   alt="Dehumidifier - Ceiling Mounted Unit"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
@@ -1583,14 +1583,14 @@ const Products = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/HUMIDIFIER/Humidifier_01_LRG.jpg"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/HUMIDIFIER/Humidifier_01.jpg"
                   alt="Ultrasonic Humidifier - Large Capacity Industrial System"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/HUMIDIFIER/Ultrasonic_02.png"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/HUMIDIFIER/Ultrasonic_02.jpg"
                   alt="Ultrasonic Humidifier - Professional Ultrasonic Unit"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
