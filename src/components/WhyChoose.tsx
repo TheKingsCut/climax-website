@@ -18,11 +18,11 @@ const WhyChoose = () => {
         {/* Benefits Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           <div className="bg-white rounded-lg p-8 text-center shadow-sm">
-            <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6">
+            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
               <img 
                 src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Quality_Badge_01.gif" 
                 alt="European Quality Badge" 
-                className="w-16 h-16 object-contain"
+                className="w-12 h-12 object-contain"
               />
             </div>
             <h3 className="text-xl font-bold text-foreground mb-4">European Quality</h3>
@@ -34,7 +34,11 @@ const WhyChoose = () => {
 
           <div className="bg-white rounded-lg p-8 text-center shadow-sm">
             <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Zap className="w-8 h-8 text-gray-600" />
+              <img 
+                src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Energy_Effeciency_01.gif" 
+                alt="Energy Efficiency" 
+                className="w-12 h-12 object-contain"
+              />
             </div>
             <h3 className="text-xl font-bold text-foreground mb-4">Energy Efficiency</h3>
             <p className="text-muted-foreground text-sm">
@@ -43,8 +47,12 @@ const WhyChoose = () => {
           </div>
 
           <div className="bg-white rounded-lg p-8 text-center shadow-sm">
-            <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Headphones className="w-8 h-8 text-orange-500" />
+            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <img 
+                src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Local_Support_01.gif" 
+                alt="Local Support" 
+                className="w-12 h-12 object-contain"
+              />
             </div>
             <h3 className="text-xl font-bold text-foreground mb-4">Local Support</h3>
             <p className="text-muted-foreground text-sm">
@@ -54,7 +62,11 @@ const WhyChoose = () => {
 
           <div className="bg-white rounded-lg p-8 text-center shadow-sm">
             <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <TrendingUp className="w-8 h-8 text-gray-600" />
+              <img 
+                src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Proven_Results_01.gif" 
+                alt="Proven Results" 
+                className="w-12 h-12 object-contain"
+              />
             </div>
             <h3 className="text-xl font-bold text-foreground mb-4">Proven Results</h3>
             <p className="text-muted-foreground text-sm">
