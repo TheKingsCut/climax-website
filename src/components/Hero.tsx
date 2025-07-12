@@ -77,7 +77,7 @@ const Hero = () => {
             <p className="text-sm text-muted-foreground mb-3">
               Advanced heating technology maintains exact temperature control for optimal environmental conditions.
             </p>
-            <div className="bg-primary/10 rounded-lg p-2 border border-primary/20 transition-all duration-300 group-hover:bg-primary/20 group-hover:border-primary/40">
+            <div className="bg-gray-100 rounded-lg p-2">
               <div className="text-primary font-semibold text-sm">5°C to 40°C Range</div>
             </div>
           </div>
@@ -95,7 +95,7 @@ const Hero = () => {
             <p className="text-sm text-muted-foreground mb-3">
               High-performance cooling system with intelligent load management for stable temperatures.
             </p>
-            <div className="bg-primary/10 rounded-lg p-2 border border-primary/20 transition-all duration-300 group-hover:bg-primary/20 group-hover:border-primary/40">
+            <div className="bg-gray-100 rounded-lg p-2">
               <div className="text-primary font-semibold text-sm">7-60 kW Range</div>
             </div>
           </div>
@@ -113,7 +113,7 @@ const Hero = () => {
             <p className="text-sm text-muted-foreground mb-3">
               Integrated moisture control prevents humidity fluctuations that damage sensitive products.
             </p>
-            <div className="bg-primary/10 rounded-lg p-2 border border-primary/20 transition-all duration-300 group-hover:bg-primary/20 group-hover:border-primary/40">
+            <div className="bg-gray-100 rounded-lg p-2">
               <div className="text-primary font-semibold text-sm">32% RH Accuracy</div>
             </div>
           </div>
