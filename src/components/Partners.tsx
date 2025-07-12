@@ -16,13 +16,13 @@ const Partners = () => {
                 </div>
               </div>
               <div className="text-center">
-                <div className="bg-gray-100 rounded-lg p-4 border-2 border-gray-300">
+                <div className="bg-gray-100 rounded-lg p-4 border-2 border-gray-300 h-16 flex flex-col justify-center">
                   <h3 className="font-bold text-gray-700 text-lg">Traditional Separate Systems</h3>
                   <p className="text-gray-600 text-sm mt-1">Complex & Costly</p>
                 </div>
               </div>
               <div className="text-center">
-                <div className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-lg p-4 border-2 border-orange-200">
+                <div className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-lg p-4 border-2 border-orange-200 h-16 flex flex-col justify-center">
                   <h3 className="font-bold text-orange-700 text-lg">Cli-Max Integrated Solution</h3>
                   <p className="text-orange-600 text-sm mt-1">Smart & Efficient</p>
                 </div>
@@ -31,12 +31,12 @@ const Partners = () => {
             
             <div className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <div className="flex items-center gap-3 font-semibold text-foreground">
-                  <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
-                    <img src="/lovable-uploads/ICONS/Instilation_Complexity_01.gif" alt="Installation Complexity" className="w-5 h-5" />
+                  <div className="flex items-center gap-3 font-semibold text-foreground">
+                    <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
+                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Instilation_Complexity_01.gif" alt="Installation Complexity" className="w-5 h-5" />
+                    </div>
+                    <span>Installation Complexity</span>
                   </div>
-                  <span>Installation Complexity</span>
-                </div>
                 <div className="bg-gray-100 p-4 rounded-lg text-gray-700 font-medium">
                   Multiple systems, complex integration
                 </div>
@@ -46,12 +46,12 @@ const Partners = () => {
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <div className="flex items-center gap-3 font-semibold text-foreground">
-                  <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
-                    <img src="/lovable-uploads/ICONS/Maintenance_01.gif" alt="Maintenance" className="w-5 h-5" />
+                  <div className="flex items-center gap-3 font-semibold text-foreground">
+                    <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
+                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Maintenance_01.gif" alt="Maintenance" className="w-5 h-5" />
+                    </div>
+                    <span>Maintenance</span>
                   </div>
-                  <span>Maintenance</span>
-                </div>
                 <div className="bg-gray-100 p-4 rounded-lg text-gray-700 font-medium">
                   Multiple service contracts
                 </div>
@@ -61,12 +61,12 @@ const Partners = () => {
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <div className="flex items-center gap-3 font-semibold text-foreground">
-                  <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
-                    <img src="/lovable-uploads/ICONS/Energy_Efficency_01.gif" alt="Energy Efficiency" className="w-5 h-5" />
+                  <div className="flex items-center gap-3 font-semibold text-foreground">
+                    <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
+                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Energy_Efficency_02.gif" alt="Energy Efficiency" className="w-5 h-5" />
+                    </div>
+                    <span>Energy Efficiency</span>
                   </div>
-                  <span>Energy Efficiency</span>
-                </div>
                 <div className="bg-gray-100 p-4 rounded-lg text-gray-700 font-medium">
                   Higher operating costs
                 </div>
@@ -76,12 +76,12 @@ const Partners = () => {
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <div className="flex items-center gap-3 font-semibold text-foreground">
-                  <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
-                    <img src="/lovable-uploads/ICONS/Control_Integration_01.gif" alt="Control Integration" className="w-5 h-5" />
+                  <div className="flex items-center gap-3 font-semibold text-foreground">
+                    <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
+                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Control_Integration_01.gif" alt="Control Integration" className="w-5 h-5" />
+                    </div>
+                    <span>Control Integration</span>
                   </div>
-                  <span>Control Integration</span>
-                </div>
                 <div className="bg-gray-100 p-4 rounded-lg text-gray-700 font-medium">
                   Separate control systems
                 </div>
