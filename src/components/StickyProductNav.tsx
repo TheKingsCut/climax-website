@@ -19,9 +19,6 @@ const StickyProductNav = () => {
       <div className="container mx-auto px-4 py-6">
         <div className="text-center mb-4">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground">Our Products</h2>
-          <p className="text-sm text-muted-foreground mt-1">
-            Professional-grade environmental control systems
-          </p>
         </div>
         
         <div className="flex flex-wrap justify-center gap-2 md:gap-3">
