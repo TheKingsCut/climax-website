@@ -16,21 +16,21 @@ const Partners = () => {
           <h2 className="text-4xl font-bold text-center text-foreground mb-12">System Comparison</h2>
           <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8 shadow-lg">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-              <div className="text-left font-semibold text-foreground">
+              <div className="font-semibold text-foreground">
                 <div className="h-16 flex items-center">
                   <span className="text-lg font-bold">Comparison Factor</span>
                 </div>
               </div>
-              <div className="text-center">
-                <div className="bg-white rounded-lg p-4 border-2 border-black h-16 flex flex-col justify-center">
+              <div>
+                <div className="bg-white rounded-lg p-4 border-2 border-black h-16 flex flex-col justify-center items-start">
                   <h3 className="font-bold text-black text-lg">Traditional Separate Systems</h3>
-                  <p className="text-black text-sm mt-1">Complex & Costly</p>
+                  <p className="text-black text-sm">Complex & Costly</p>
                 </div>
               </div>
-              <div className="text-center">
-                <div className="bg-primary rounded-lg p-4 h-16 flex flex-col justify-center">
+              <div>
+                <div className="bg-primary rounded-lg p-4 h-16 flex flex-col justify-center items-start">
                   <h3 className="font-bold text-white text-lg">Cli-Max Integrated Solution</h3>
-                  <p className="text-white text-sm mt-1">Smart & Efficient</p>
+                  <p className="text-white text-sm">Smart & Efficient</p>
                 </div>
               </div>
             </div>
