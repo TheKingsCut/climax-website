@@ -12,7 +12,7 @@ const Partners = () => {
     <section id="partners" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         {/* Comparison Table */}
-        <div className="mb-20">
+        <div className="mb-12">
           <h2 className="text-4xl font-bold text-center text-foreground mb-12">System Comparison</h2>
           <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8 shadow-lg">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
@@ -97,16 +97,17 @@ const Partners = () => {
               </div>
             </div>
           </div>
-          
-          <div className="text-center mt-8">
-            <h3 className="text-2xl font-bold text-foreground mb-4">Ready to Experience the Cli-Max Difference?</h3>
-            <Button 
-              onClick={scrollToContact}
-              className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 transition-all duration-300 transform hover:scale-105"
-            >
-              Schedule a Consultation
-            </Button>
-          </div>
+        </div>
+
+        {/* Consultation CTA - Centered Section */}
+        <div className="text-center py-16">
+          <h3 className="text-2xl font-bold text-foreground mb-4">Ready to Experience the Cli-Max Difference?</h3>
+          <Button 
+            onClick={scrollToContact}
+            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 transition-all duration-300 transform hover:scale-105"
+          >
+            Schedule a Consultation
+          </Button>
         </div>
 
         {/* Partner with Cli-Max */}
