@@ -7,6 +7,7 @@ import Services from "@/components/Services";
 import Partners from "@/components/Partners";
 import Contact from "@/components/Contact";
 import StickyProductNav from "@/components/StickyProductNav";
+import BackToTopButton from "@/components/BackToTopButton";
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
         <Partners />
         <Contact />
       </main>
+      <BackToTopButton />
     </div>
   );
 };

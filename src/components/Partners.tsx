@@ -10,21 +10,21 @@ const Partners = () => {
           <h2 className="text-4xl font-bold text-center text-foreground mb-12">System Comparison</h2>
           <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8 shadow-lg">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-              <div className="text-center font-semibold text-foreground">
-                <div className="h-16 flex items-center justify-center">
+              <div className="text-left font-semibold text-foreground">
+                <div className="h-16 flex items-center">
                   <span className="text-lg font-bold">Comparison Factor</span>
                 </div>
               </div>
               <div className="text-center">
-                <div className="bg-gray-100 rounded-lg p-4 border-2 border-gray-300 h-16 flex flex-col justify-center">
-                  <h3 className="font-bold text-gray-700 text-lg">Traditional Separate Systems</h3>
-                  <p className="text-gray-600 text-sm mt-1">Complex & Costly</p>
+                <div className="bg-white rounded-lg p-4 border-2 border-black h-16 flex flex-col justify-center">
+                  <h3 className="font-bold text-black text-lg">Traditional Separate Systems</h3>
+                  <p className="text-black text-sm mt-1">Complex & Costly</p>
                 </div>
               </div>
               <div className="text-center">
-                <div className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-lg p-4 border-2 border-orange-200 h-16 flex flex-col justify-center">
-                  <h3 className="font-bold text-orange-700 text-lg">Cli-Max Integrated Solution</h3>
-                  <p className="text-orange-600 text-sm mt-1">Smart & Efficient</p>
+                <div className="bg-primary rounded-lg p-4 h-16 flex flex-col justify-center">
+                  <h3 className="font-bold text-white text-lg">Cli-Max Integrated Solution</h3>
+                  <p className="text-white text-sm mt-1">Smart & Efficient</p>
                 </div>
               </div>
             </div>
@@ -32,8 +32,8 @@ const Partners = () => {
             <div className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-3 font-semibold text-foreground">
-                    <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
-                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Instilation_Complexity_01.gif" alt="Installation Complexity" className="w-8 h-8" />
+                    <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center">
+                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Instilation_Complexity_01.gif" alt="Installation Complexity" className="w-12 h-12" />
                     </div>
                     <span>Installation Complexity</span>
                   </div>
@@ -47,8 +47,8 @@ const Partners = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-3 font-semibold text-foreground">
-                    <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
-                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Maintenance_01.gif" alt="Maintenance" className="w-8 h-8" />
+                    <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center">
+                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Maintenance_01.gif" alt="Maintenance" className="w-12 h-12" />
                     </div>
                     <span>Maintenance</span>
                   </div>
@@ -62,8 +62,8 @@ const Partners = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-3 font-semibold text-foreground">
-                    <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
-                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Energy_Efficency_02.gif" alt="Energy Efficiency" className="w-8 h-8" />
+                    <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center">
+                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Energy_Efficency_02.gif" alt="Energy Efficiency" className="w-12 h-12" />
                     </div>
                     <span>Energy Efficiency</span>
                   </div>
@@ -77,8 +77,8 @@ const Partners = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-3 font-semibold text-foreground">
-                    <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
-                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Control_Integration_01.gif" alt="Control Integration" className="w-8 h-8" />
+                    <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center">
+                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Control_Integration_01.gif" alt="Control Integration" className="w-12 h-12" />
                     </div>
                     <span>Control Integration</span>
                   </div>
