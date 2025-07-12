@@ -82,11 +82,11 @@ const WhyChoose = () => {
             <div className="flex-1">
               <Quote className="w-8 h-8 text-orange-500 mb-4" />
               <blockquote className="text-lg italic text-foreground mb-6">
-                "The Cli-Max system transformed our meat curing operation. Precise humidity control has reduced our waste by 50% and improved product quality significantly. The ROI was achieved in just 18 months."
+                "As a Director of Hydro Crop (PTY) Ltd I am pleased to provide Grow Pro a product testimonial based on our review and recent order of Cli-MAX climate control units. Hydro Crop is a SAHPRA licensed cannabis cultivation facility located in the Vaal Dam area, currently undergoing an extensive refit and upgrade. We have reviewed the Cli-MAX technology and performance, including inspecting the units in operation in a commercial indoor cannabis grow. I personally have been active in the South African cannabis industry since inception and confirm we as a business are convinced with Cli-MAX both on performance and value for money. Finally, in addition to the technical performance and value for money a key factor has been the deep understanding of cannabis cultivation by the Grow Pro team. Their ability to support Hydro Crop and correctly specify Cli-MAX units for stable and optimal cultivation has given us a high degree of confidence for our facility upgrade. We look forward to our Cli-MAX units arriving in South Africa and updating this testimonial once we are in production."
               </blockquote>
               <div className="text-right">
-                <div className="font-semibold text-foreground">Johan Steyn</div>
-                <div className="text-muted-foreground">Premium Biltong Co.</div>
+                <div className="font-semibold text-foreground">Greg da Costa</div>
+                <div className="text-muted-foreground">Director, Hydro Crop (PTY) Ltd.</div>
               </div>
             </div>
           </div>
