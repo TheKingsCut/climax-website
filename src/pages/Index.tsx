@@ -6,11 +6,13 @@ import Industries from "@/components/Industries";
 import Services from "@/components/Services";
 import Partners from "@/components/Partners";
 import Contact from "@/components/Contact";
+import StickyProductNav from "@/components/StickyProductNav";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Header />
+      <StickyProductNav />
       <main>
         <Hero />
         <WhyChoose />

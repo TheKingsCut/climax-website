@@ -19,7 +19,7 @@ const Products = () => {
         <div className="space-y-20">
           
           {/* 1. Inverter Air Cooled MAX 5.0 Combo Series */}
-          <div className="product-category">
+          <div id="inverter-air-cooled" className="product-category">
             <h3 className="text-3xl font-bold text-foreground mb-8">Inverter Air Cooled MAX 5.0 Combo Series</h3>
             
             {/* Product Images */}
@@ -429,7 +429,7 @@ const Products = () => {
           </div>
 
           {/* 2. Water Cooled Inverter MAX 5.0 Series */}
-          <div className="product-category">
+          <div id="water-cooled-inverter" className="product-category">
             <div className="flex items-center gap-4 mb-8">
               <h3 className="text-3xl font-bold text-foreground">Inverter Water Cooled MAX 5.0 Combo Series</h3>
               <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">Most Popular</span>
@@ -764,7 +764,7 @@ const Products = () => {
           </div>
 
           {/* 3. Air Cooled Chiller MAX 6.0 HFO Series */}
-          <div className="product-category">
+          <div id="air-cooled-chiller" className="product-category">
             <h3 className="text-3xl font-bold text-foreground mb-8">Air Cooled Chiller MAX 6.0 HFO Series</h3>
             
             {/* Product Images */}
@@ -974,7 +974,7 @@ const Products = () => {
           </div>
 
           {/* 4. CM-FAO2 Evaporative Cooler Series */}
-          <div className="product-category">
+          <div id="evaporative-coolers" className="product-category">
             <h3 className="text-3xl font-bold text-foreground mb-8">CM-FAO2 Evaporative Cooler Series</h3>
             
             {/* Product Images */}
@@ -1218,7 +1218,7 @@ const Products = () => {
           </div>
 
           {/* 5. Dehumidifier Series */}
-          <div className="product-category">
+          <div id="dehumidifiers" className="product-category">
             <h3 className="text-3xl font-bold text-foreground mb-8">Dehumidifier Series</h3>
             
             {/* Product Images */}
@@ -1587,8 +1587,8 @@ const Products = () => {
             </div>
           </div>
 
-          {/* 5. Ultrasonic Humidifier Series */}
-          <div className="product-category">
+          {/* 6. Ultrasonic Humidifier Series */}
+          <div id="humidifiers" className="product-category">
             <h3 className="text-3xl font-bold text-foreground mb-8">Ultrasonic Humidifier Series</h3>
             
             {/* Product Images */}
@@ -1731,8 +1731,8 @@ const Products = () => {
             </div>
           </div>
 
-          {/* 6. Integrated PLC Control System */}
-          <div className="product-category">
+          {/* 7. Integrated PLC Control System */}
+          <div id="plc-control-system" className="product-category">
             <h3 className="text-3xl font-bold text-foreground mb-8">Integrated PLC Control System</h3>
             
             {/* Product Images */}
