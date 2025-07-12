@@ -52,7 +52,7 @@ export const useProductNavigation = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      const offsetTop = element.offsetTop - 120; // Account for sticky header
+      const offsetTop = element.offsetTop - 200; // Account for sticky header and product nav
       window.scrollTo({
         top: offsetTop,
         behavior: 'smooth'

@@ -32,8 +32,8 @@ const Partners = () => {
             <div className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-3 font-semibold text-foreground">
-                    <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
-                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Instilation_Complexity_01.gif" alt="Installation Complexity" className="w-5 h-5" />
+                    <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
+                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Instilation_Complexity_01.gif" alt="Installation Complexity" className="w-8 h-8" />
                     </div>
                     <span>Installation Complexity</span>
                   </div>
@@ -47,8 +47,8 @@ const Partners = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-3 font-semibold text-foreground">
-                    <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
-                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Maintenance_01.gif" alt="Maintenance" className="w-5 h-5" />
+                    <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
+                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Maintenance_01.gif" alt="Maintenance" className="w-8 h-8" />
                     </div>
                     <span>Maintenance</span>
                   </div>
@@ -62,8 +62,8 @@ const Partners = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-3 font-semibold text-foreground">
-                    <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
-                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Energy_Efficency_02.gif" alt="Energy Efficiency" className="w-5 h-5" />
+                    <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
+                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Energy_Efficency_02.gif" alt="Energy Efficiency" className="w-8 h-8" />
                     </div>
                     <span>Energy Efficiency</span>
                   </div>
@@ -77,8 +77,8 @@ const Partners = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-3 font-semibold text-foreground">
-                    <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
-                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Control_Integration_01.gif" alt="Control Integration" className="w-5 h-5" />
+                    <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
+                      <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Control_Integration_01.gif" alt="Control Integration" className="w-8 h-8" />
                     </div>
                     <span>Control Integration</span>
                   </div>

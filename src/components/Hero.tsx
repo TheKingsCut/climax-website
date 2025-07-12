@@ -2,10 +2,14 @@ import { Button } from "@/components/ui/button";
 import unitImage from "@/assets/unit-image-10.png";
 
 const Hero = () => {
-  const scrollToAbout = () => {
-    const element = document.querySelector("#about");
+  const scrollToProducts = () => {
+    const element = document.getElementById('products');
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const offsetTop = element.offsetTop - 200; // Account for sticky header and product nav
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth'
+      });
     }
   };
 
@@ -128,7 +132,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button 
-              onClick={scrollToAbout}
+              onClick={scrollToProducts}
               className="bg-primary hover:bg-primary-dark text-white px-8 py-3 text-lg font-semibold"
             >
               LEARN MORE
