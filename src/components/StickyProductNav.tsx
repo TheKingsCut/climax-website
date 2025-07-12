@@ -15,8 +15,8 @@ const StickyProductNav = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-sm shadow-lg border-b transition-all duration-300">
-      <div className="container mx-auto px-4 py-4">
+    <div className="fixed top-0 left-0 right-0 z-40 bg-white shadow-lg border-b transition-all duration-300">
+      <div className="container mx-auto px-4 py-6">
         <div className="text-center mb-4">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground">Our Products</h2>
           <p className="text-sm text-muted-foreground mt-1">
