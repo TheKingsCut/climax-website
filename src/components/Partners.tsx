@@ -228,11 +228,11 @@ const Partners = () => {
           <div className="bg-white rounded-lg p-8 mb-16 border-l-4 border-orange-500">
             <Quote className="w-8 h-8 text-orange-500 mb-4" />
             <blockquote className="text-lg italic text-foreground mb-6">
-              "Partnering with Cli-Max has been transformational for our business. The premium products and exceptional support have helped us double our revenue in specialized HVAC applications."
+              "As the lead grower of a major cannabis facility, maintaining optimal temperature, humidity, and air quality is critical to our productivity and the overall health of our plants. Since installing four Cli-Max units, we've seen a remarkable improvement in climate control, enabling perfect conditions for indoor cultivation while supporting our commitment to sustainability. Cli-Max's advanced technology keeps temperatures stable during high heat and throughout the day/night cycle, including lights-off periods, with peak fluctuations in humidity and temperature kept to a minimum. The system stabilizes quickly within 30 minutes of cycle changes, and flexible ducting ensures even airflow across the canopy, preventing microclimates. Not only do the units operate quietly, minimizing distractions for our team, but the installation was smooth, and the support from Grow Pro has been exceptional. I highly recommend Cli-Max for any business looking to enhance their work environment and realize cost savings."
             </blockquote>
             <div className="text-right">
-              <div className="font-semibold text-foreground">Mark Thompson</div>
-              <div className="text-muted-foreground">Technical Solutions Corp</div>
+              <div className="font-semibold text-foreground">W. A. van Rooyen</div>
+              <div className="text-muted-foreground">Lead Grower, CEN Cultures</div>
             </div>
           </div>
 
