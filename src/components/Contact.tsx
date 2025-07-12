@@ -95,7 +95,7 @@ const Contact = () => {
                 />
               </div>
 
-              <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3">
+              <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 transition-all duration-300 transform hover:scale-105">
                 Get Free Consultation
               </Button>
               <p className="text-sm text-muted-foreground text-center">

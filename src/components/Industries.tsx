@@ -1,6 +1,13 @@
 import { Heart, Music, Cpu, UtensilsCrossed, Leaf, Wine } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Industries = () => {
+  const scrollToContact = () => {
+    const element = document.querySelector("#contact");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   const industries = [
     {
       icon: Heart,
@@ -93,9 +100,12 @@ const Industries = () => {
           <h3 className="text-2xl font-bold text-foreground mb-4">
             Don't See Your Industry?
           </h3>
-          <button className="bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded font-semibold">
+          <Button 
+            onClick={scrollToContact}
+            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 font-semibold transition-all duration-300 transform hover:scale-105"
+          >
             Discuss Your Application
-          </button>
+          </Button>
         </div>
       </div>
     </section>

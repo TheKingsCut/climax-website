@@ -2,6 +2,12 @@ import { Percent, Diamond, Headphones, Handshake, Quote } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Partners = () => {
+  const scrollToContact = () => {
+    const element = document.querySelector("#contact");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section id="partners" className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -94,7 +100,10 @@ const Partners = () => {
           
           <div className="text-center mt-8">
             <h3 className="text-2xl font-bold text-foreground mb-4">Ready to Experience the Cli-Max Difference?</h3>
-            <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3">
+            <Button 
+              onClick={scrollToContact}
+              className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 transition-all duration-300 transform hover:scale-105"
+            >
               Schedule a Consultation
             </Button>
           </div>
@@ -259,10 +268,16 @@ const Partners = () => {
           {/* Partner CTA */}
           <div className="text-center">
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
-              <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3">
+              <Button 
+                onClick={scrollToContact}
+                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 transition-all duration-300 transform hover:scale-105"
+              >
                 Apply for Partnership
               </Button>
-              <Button variant="outline" className="border-2 border-foreground text-foreground hover:bg-foreground hover:text-white px-8 py-3">
+              <Button 
+                variant="outline" 
+                className="border-2 border-foreground text-foreground hover:bg-foreground hover:text-white px-8 py-3 transition-all duration-300 transform hover:scale-105"
+              >
                 Download Partner Information
               </Button>
             </div>
