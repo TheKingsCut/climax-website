@@ -9,11 +9,11 @@ const Header = () => {
 
   const navItems = [
     { label: "HOME", href: "#home" },
-    { label: "ABOUT", href: "#about" },
     { label: "PRODUCTS", href: "#products" },
     { label: "INDUSTRIES", href: "#industries" },
     { label: "CONTACT", href: "#contact" },
-    { label: "PARTNERS", href: "#partner-with-cli-max" },
+    { label: "PARTNERSHIPS", href: "#partner-with-cli-max" },
+    { label: "WARRANTIES", href: "#services" },
   ];
 
   const scrollToSection = (href: string) => {
