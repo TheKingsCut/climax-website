@@ -1,18 +1,17 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Settings, Wrench, Shield, Clock } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
-      icon: Settings,
+      icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/System_Design_01.gif",
       title: "System Design & Installation",
       description: "Custom environmental control solutions tailored to your specific requirements and industry standards.",
       features: ["Site assessment", "Custom design", "Professional installation", "System commissioning"]
     },
     {
-      icon: Wrench,
+      icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Maintenance_Service_01.gif",
       title: "Maintenance & Service",
       description: "Comprehensive maintenance programs to ensure optimal performance and extend system lifespan.",
       features: ["Preventive maintenance", "Emergency repairs", "Parts replacement", "Performance optimization"]
@@ -21,13 +20,13 @@ const Services = () => {
 
   const warranties = [
     {
-      icon: Shield,
+      icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Warranty_1year_01.gif",
       title: "Standard Warranty",
       description: "All our environmental control systems come with a comprehensive 1-year warranty included at no additional cost.",
       features: ["Full parts coverage", "Labor included", "Emergency support", "Performance guarantee"]
     },
     {
-      icon: Clock,
+      icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Warranty_5year_01.gif",
       title: "Extended Warranty",
       description: "Extend your peace of mind with warranty coverage up to 5 years for maximum protection and value.",
       features: ["Up to 5 years coverage", "Priority service", "Preventive maintenance", "Cost predictability"]
@@ -63,12 +62,11 @@ const Services = () => {
           <TabsContent value="services">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {services.map((service, index) => {
-                const IconComponent = service.icon;
                 return (
                   <Card key={index} className="h-full border hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <CardHeader className="text-center">
-                      <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <IconComponent className="h-8 w-8 text-primary" />
+                      <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <img src={service.icon} alt={service.title} className="h-8 w-8" />
                       </div>
                       <CardTitle className="text-xl">{service.title}</CardTitle>
                     </CardHeader>
@@ -94,12 +92,11 @@ const Services = () => {
           <TabsContent value="warranties">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {warranties.map((warranty, index) => {
-                const IconComponent = warranty.icon;
                 return (
                   <Card key={index} className="h-full border hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <CardHeader className="text-center">
-                      <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <IconComponent className="h-8 w-8 text-primary" />
+                      <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <img src={warranty.icon} alt={warranty.title} className="h-8 w-8" />
                       </div>
                       <CardTitle className="text-xl">{warranty.title}</CardTitle>
                     </CardHeader>
