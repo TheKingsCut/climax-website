@@ -126,7 +126,7 @@ const Partners = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             <div className="text-center">
               <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/High_Margins.gif" alt="High Margins" className="w-12 h-12" />
+                <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/High_Margins_01.gif" alt="High Margins" className="w-12 h-12" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">High Margins</h3>
               <p className="text-muted-foreground text-sm">
@@ -136,7 +136,7 @@ const Partners = () => {
 
             <div className="text-center">
               <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Premium_Products.gif" alt="Premium Products" className="w-12 h-12" />
+                <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Premium_Products_01.gif" alt="Premium Products" className="w-12 h-12" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">Premium Products</h3>
               <p className="text-muted-foreground text-sm">
@@ -146,7 +146,7 @@ const Partners = () => {
 
             <div className="text-center">
               <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Full_Support.gif" alt="Full Support" className="w-12 h-12" />
+                <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Full_Support_01.gif" alt="Full Support" className="w-12 h-12" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">Full Support</h3>
               <p className="text-muted-foreground text-sm">
@@ -156,7 +156,7 @@ const Partners = () => {
 
             <div className="text-center">
               <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Partnership_Approach.gif" alt="Partnership Approach" className="w-12 h-12" />
+                <img src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Partnership_Approach_01.gif" alt="Partnership Approach" className="w-12 h-12" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">Partnership Approach</h3>
               <p className="text-muted-foreground text-sm">
