@@ -71,9 +71,9 @@ const Industries = () => {
                 <div className="flex justify-center mb-4">
                   <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center">
                     {industry.isCustomIcon ? (
-                      <img src={industry.icon as string} alt={industry.title} className="w-8 h-8" />
+                      <img src={industry.icon as string} alt={industry.title} className="w-12 h-12" />
                     ) : (
-                      React.createElement(industry.icon as React.ComponentType<any>, { className: "w-8 h-8 text-gray-600" })
+                      React.createElement(industry.icon as React.ComponentType<any>, { className: "w-12 h-12 text-gray-600" })
                     )}
                   </div>
                 </div>
