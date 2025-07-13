@@ -1,5 +1,7 @@
+import React from "react";
 import { Heart, Music, Cpu, UtensilsCrossed, Leaf, Wine } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import meatCuringIcon from "@/assets/meat-curing-icon.gif";
 
 const Industries = () => {
   const scrollToContact = () => {
@@ -10,9 +12,10 @@ const Industries = () => {
   };
   const industries = [
     {
-      icon: Heart,
+      icon: meatCuringIcon,
       title: "Meat Curing & Charcuterie",
-      details: ["Stable 75% RH control", "Temperature stable", "Quality consistency"]
+      details: ["Stable 75% RH control", "Temperature stable", "Quality consistency"],
+      isCustomIcon: true
     },
     {
       icon: Music,
@@ -63,12 +66,15 @@ const Industries = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {industries.map((industry, index) => {
-            const IconComponent = industry.icon;
             return (
               <div key={index} className="p-6 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow duration-300">
                 <div className="flex justify-center mb-4">
                   <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center">
-                    <IconComponent className="w-8 h-8 text-gray-600" />
+                    {industry.isCustomIcon ? (
+                      <img src={industry.icon as string} alt={industry.title} className="w-8 h-8" />
+                    ) : (
+                      React.createElement(industry.icon as React.ComponentType<any>, { className: "w-8 h-8 text-gray-600" })
+                    )}
                   </div>
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-4 text-center">{industry.title}</h3>
