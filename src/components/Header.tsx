@@ -49,7 +49,9 @@ const Header = () => {
           {/* Desktop Contact */}
           <div className="hidden lg:flex items-center space-x-6">
             <a
-              href="tel:+27647576648"
+              href="https://wa.me/27647576648"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               <Phone className="h-4 w-4" />
@@ -92,7 +94,9 @@ const Header = () => {
 
                 <div className="flex flex-col space-y-4 pt-6 border-t border-border">
                   <a
-                    href="tel:+27647576648"
+                    href="https://wa.me/27647576648"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors px-4 py-2 rounded-lg hover:bg-muted"
                   >
                     <Phone className="h-5 w-5" />
