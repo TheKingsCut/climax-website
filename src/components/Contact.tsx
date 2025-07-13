@@ -131,7 +131,7 @@ const Contact = () => {
                     <MapPin className="w-5 h-5" />
                     <div>
                       <h4 className="font-semibold text-foreground">Location</h4>
-                      <p className="text-muted-foreground">Johannesburg, South Africa</p>
+                      <p className="text-muted-foreground">8 Hillside Road, Parktown, Gauteng 2193</p>
                     </div>
                   </div>
 
@@ -171,6 +171,15 @@ const Contact = () => {
                   <li>• Technical consultation within 48 hours of first contact</li>
                   <li>• Detailed proposal within 72 hours of Technical Consultation</li>
                 </ul>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-bold text-foreground mb-6">Company Information</h3>
+                <div className="space-y-3 text-muted-foreground">
+                  <p><strong className="text-foreground">Cli-Max</strong> is a division of <strong className="text-foreground">GrowPro (Pty) Ltd</strong></p>
+                  <p>Company Registration: 2022/781791/07</p>
+                  <p>8 Hillside Road, Parktown, Gauteng 2193</p>
+                </div>
               </div>
             </div>
           </div>
