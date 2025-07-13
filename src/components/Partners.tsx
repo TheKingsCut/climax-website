@@ -111,7 +111,7 @@ const Partners = () => {
         </div>
 
         {/* Partner with Cli-Max */}
-        <div id="partner-with-cli-max">
+        <div id="partner-with-cli-max" className="scroll-mt-20">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Partner with Cli-Max
