@@ -1707,28 +1707,28 @@ const Products = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/INTEGRATED%20PLC/01_IPLC_PLC_Modules_01.jpg"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INTEGRATED%20PLC/01_IPLC_PLC_Modules_02_03.jpg"
                   alt="Integrated PLC Control System - PLC Modules"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/INTEGRATED%20PLC/02_IPLC_PLC_Software_01.jpg"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INTEGRATED%20PLC/02_IPLC_PLC_Software_01.jpg"
                   alt="Integrated PLC Control System - PLC Software"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/INTEGRATED%20PLC/03_IPLC_Tablet_01.jpg"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INTEGRATED%20PLC/03_IPLC_Tablet_01.jpg"
                   alt="Integrated PLC Control System - Control Tablet"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/INTEGRATED%20PLC/04_IPLC_PLC_Modules_02.jpg"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INTEGRATED%20PLC/04_IPLC_PLC_Modules_01_03.jpg"
                   alt="Integrated PLC Control System - Additional PLC Modules"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
