@@ -20,27 +20,30 @@ const Products = () => {
           
           {/* 1. Inverter Air Cooled MAX 5.0 Combo Series */}
           <div id="inverter-air-cooled" className="product-category">
-            <h3 className="text-3xl font-bold text-foreground mb-8">Inverter Air Cooled MAX 5.0 Combo Series</h3>
+            <div className="flex items-center gap-4 mb-8">
+              <h3 className="text-3xl font-bold text-foreground">Inverter Air Cooled MAX 5.0 Combo Series</h3>
+              <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">Most Popular</span>
+            </div>
             
             {/* Product Images */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Cannabis_Farm_01.jpg"
-                  alt="MAX 5.0 Combo Series - Cannabis Farm Application"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/01_CM_Inverter_Component.jpg"
+                  alt="MAX 5.0 Combo Series - CM Inverter Component"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Max5_Front_01.jpg"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/02_Max5_Front_01.jpg"
                   alt="MAX 5.0 Combo Series - Front View"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/Max5_Installed_01.jpg"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/03_Max5_Installed_01.jpg"
                   alt="MAX 5.0 Combo Series - Installation View"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
@@ -430,42 +433,7 @@ const Products = () => {
 
           {/* 2. Water Cooled Inverter MAX 5.0 Series */}
           <div id="water-cooled-inverter" className="product-category">
-            <div className="flex items-center gap-4 mb-8">
-              <h3 className="text-3xl font-bold text-foreground">Inverter Water Cooled MAX 5.0 Combo Series</h3>
-              <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">Most Popular</span>
-            </div>
-            
-            {/* Product Images */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-8">
-              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_FAN_01.jpg"
-                  alt="Inverter Water Cooled MAX 5.0 - Fan Component"
-                  className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_COMPR_01.jpg"
-                  alt="Inverter Water Cooled MAX 5.0 - Compressor Component"
-                  className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_Driver_01.jpg"
-                  alt="Inverter Water Cooled MAX 5.0 - Driver Component"
-                  className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/INV%20COMPONENTS/INVCOMP_CNTRL_SYS_01.jpg"
-                  alt="Inverter Water Cooled MAX 5.0 - Control System Component"
-                  className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-            </div>
+            <h3 className="text-3xl font-bold text-foreground mb-8">Inverter Water Cooled MAX 5.0 Combo Series</h3>
 
             {/* Features & Benefits */}
             <div className="mb-8">
