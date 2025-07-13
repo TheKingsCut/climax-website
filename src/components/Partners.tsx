@@ -125,8 +125,8 @@ const Partners = () => {
           {/* Partner Benefits */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Percent className="w-8 h-8 text-orange-500" />
+              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Percent className="w-8 h-8 text-gray-600" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">High Margins</h3>
               <p className="text-muted-foreground text-sm">
@@ -145,8 +145,8 @@ const Partners = () => {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Headphones className="w-8 h-8 text-orange-500" />
+              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Headphones className="w-8 h-8 text-gray-600" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">Full Support</h3>
               <p className="text-muted-foreground text-sm">
