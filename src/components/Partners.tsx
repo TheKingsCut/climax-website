@@ -111,7 +111,7 @@ const Partners = () => {
         </div>
 
         {/* Partner with Cli-Max */}
-        <div>
+        <div id="partner-with-cli-max">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Partner with Cli-Max
@@ -283,7 +283,7 @@ const Partners = () => {
               </Button>
             </div>
             <p className="text-muted-foreground">
-              Questions? Call us at <span className="text-orange-500 font-semibold">+27 11 123 4567</span>
+              Questions? WhatsApp us on <a href="https://wa.me/27647576648" target="_blank" rel="noopener noreferrer" className="text-orange-500 font-semibold hover:text-orange-600 transition-colors">+27 (64) 757 6648</a>
             </p>
           </div>
         </div>

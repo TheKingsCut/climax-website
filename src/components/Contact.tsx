@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock, User } from "lucide-react";
+import { MapPin, Phone, Mail, User, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -134,6 +134,14 @@ const Contact = () => {
                       <p className="text-muted-foreground">Johannesburg, South Africa</p>
                     </div>
                   </div>
+
+                  <a href="https://wa.me/27647576648" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-orange-500 hover:text-orange-600 transition-colors">
+                    <MessageCircle className="w-5 h-5" />
+                    <div>
+                      <h4 className="font-semibold text-foreground">WhatsApp</h4>
+                      <p className="text-muted-foreground">+27 (64) 757 6648</p>
+                    </div>
+                  </a>
                 </div>
               </div>
 

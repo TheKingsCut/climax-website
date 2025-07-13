@@ -13,7 +13,7 @@ const Header = () => {
     { label: "PRODUCTS", href: "#products" },
     { label: "INDUSTRIES", href: "#industries" },
     { label: "CONTACT", href: "#contact" },
-    { label: "PARTNERS", href: "#partners" },
+    { label: "PARTNERS", href: "#partner-with-cli-max" },
   ];
 
   const scrollToSection = (href: string) => {
@@ -49,18 +49,18 @@ const Header = () => {
           {/* Desktop Contact */}
           <div className="hidden lg:flex items-center space-x-6">
             <a
-              href="tel:+1234567890"
+              href="tel:+27647576648"
               className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               <Phone className="h-4 w-4" />
-              <span>(123) 456-7890</span>
+              <span>+27 (64) 757 6648</span>
             </a>
             <a
-              href="mailto:info@cli-max.com"
+              href="mailto:hello@cli-max.co.za"
               className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail className="h-4 w-4" />
-              <span>info@cli-max.com</span>
+              <span>hello@cli-max.co.za</span>
             </a>
           </div>
 
@@ -92,18 +92,18 @@ const Header = () => {
 
                 <div className="flex flex-col space-y-4 pt-6 border-t border-border">
                   <a
-                    href="tel:+1234567890"
+                    href="tel:+27647576648"
                     className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors px-4 py-2 rounded-lg hover:bg-muted"
                   >
                     <Phone className="h-5 w-5" />
-                    <span>(123) 456-7890</span>
+                    <span>+27 (64) 757 6648</span>
                   </a>
                   <a
-                    href="mailto:info@cli-max.com"
+                    href="mailto:hello@cli-max.co.za"
                     className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors px-4 py-2 rounded-lg hover:bg-muted"
                   >
                     <Mail className="h-5 w-5" />
-                    <span>info@cli-max.com</span>
+                    <span>hello@cli-max.co.za</span>
                   </a>
                 </div>
               </div>
