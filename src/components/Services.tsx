@@ -65,8 +65,8 @@ const Services = () => {
                 return (
                   <Card key={index} className="h-full border hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <CardHeader className="text-center">
-                      <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <img src={service.icon} alt={service.title} className="h-8 w-8" />
+                      <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <img src={service.icon} alt={service.title} className="h-12 w-12" />
                       </div>
                       <CardTitle className="text-xl">{service.title}</CardTitle>
                     </CardHeader>
@@ -95,8 +95,8 @@ const Services = () => {
                 return (
                   <Card key={index} className="h-full border hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <CardHeader className="text-center">
-                      <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <img src={warranty.icon} alt={warranty.title} className="h-8 w-8" />
+                      <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <img src={warranty.icon} alt={warranty.title} className="h-12 w-12" />
                       </div>
                       <CardTitle className="text-xl">{warranty.title}</CardTitle>
                     </CardHeader>
