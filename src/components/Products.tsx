@@ -29,8 +29,8 @@ const Products = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img 
-                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/01_CM_Inverter_Component.jpg"
-                  alt="MAX 5.0 Combo Series - CM Inverter Component"
+                  src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/PRODUCTS/MAX%205/01_CM_Inverter_Components_01.jpg"
+                  alt="MAX 5.0 Combo Series - CM Inverter Components"
                   className="w-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
