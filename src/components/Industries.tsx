@@ -1,7 +1,5 @@
 import React from "react";
-import { Heart, Music, Cpu, UtensilsCrossed, Leaf, Wine } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import meatCuringIcon from "@/assets/meat-curing-icon.gif";
 
 const Industries = () => {
   const scrollToContact = () => {
@@ -12,35 +10,40 @@ const Industries = () => {
   };
   const industries = [
     {
-      icon: meatCuringIcon,
+      icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Meat_Curing.gif",
       title: "Meat Curing & Charcuterie",
       details: ["Stable 75% RH control", "Temperature stable", "Quality consistency"],
       isCustomIcon: true
     },
     {
-      icon: Music,
+      icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Musical_Instrument_01.gif",
       title: "Musical Instruments",
-      details: ["40-55% RH control", "Temperature protection", "Insurance compliance"]
+      details: ["40-55% RH control", "Temperature protection", "Insurance compliance"],
+      isCustomIcon: true
     },
     {
-      icon: Cpu,
+      icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Electronics_Manufacturing_01.gif",
       title: "Electronics Manufacturing", 
-      details: ["ESD prevention", "Quality control", "Yield improvement"]
+      details: ["ESD prevention", "Quality control", "Yield improvement"],
+      isCustomIcon: true
     },
     {
-      icon: UtensilsCrossed,
+      icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Food_Processing_01.gif",
       title: "Food Processing",
-      details: ["Food safety", "Shelf life extension", "Quality assurance"]
+      details: ["Food safety", "Shelf life extension", "Quality assurance"],
+      isCustomIcon: true
     },
     {
-      icon: Leaf,
-      title: "Cannabis Cultivation",
-      details: ["Optimal growing conditions", "Yield maximization", "Quality control"]
+      icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Plant_Cultivation.gif",
+      title: "Plant Cultivation",
+      details: ["Optimal growing conditions", "Yield maximization", "Quality control"],
+      isCustomIcon: true
     },
     {
-      icon: Wine,
+      icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Wine_Beverage_01.gif",
       title: "Wine & Beverage", 
-      details: ["Fermentation control", "Storage optimization", "Quality consistency"]
+      details: ["Fermentation control", "Storage optimization", "Quality consistency"],
+      isCustomIcon: true
     }
   ];
 
@@ -70,11 +73,7 @@ const Industries = () => {
               <div key={index} className="p-6 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow duration-300">
                 <div className="flex justify-center mb-4">
                   <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center">
-                    {industry.isCustomIcon ? (
-                      <img src={industry.icon as string} alt={industry.title} className="w-16 h-16" />
-                    ) : (
-                      React.createElement(industry.icon as React.ComponentType<any>, { className: "w-16 h-16 text-gray-600" })
-                    )}
+                    <img src={industry.icon} alt={industry.title} className="w-16 h-16" />
                   </div>
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-4 text-center">{industry.title}</h3>
