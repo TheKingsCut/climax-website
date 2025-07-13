@@ -149,8 +149,12 @@ const Contact = () => {
                 <h3 className="text-xl font-bold text-foreground mb-6">Operations</h3>
                 
                 <div className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <User className="w-5 h-5 text-orange-500" />
+                  <div className="flex flex-col items-center text-center space-y-3">
+                    <img 
+                      src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/TEAM%20/Courtney_BW_01.jpg"
+                      alt="Courtney Mckay"
+                      className="w-20 h-20 rounded-full object-cover"
+                    />
                     <div>
                       <h4 className="font-semibold text-foreground">Courtney Mckay</h4>
                       <p className="text-sm text-muted-foreground">Operations Manager</p>
