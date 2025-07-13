@@ -317,14 +317,6 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-xl font-bold text-foreground mb-6">Quick Response Promise</h3>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li>• Reply to your message within 24 hours</li>
-                  <li>• Technical consultation within 48 hours of first contact</li>
-                  <li>• Detailed proposal within 72 hours of Technical Consultation</li>
-                </ul>
-              </div>
 
               <div className="bg-white rounded-lg p-6 shadow-sm">
                 <h3 className="text-xl font-bold text-foreground mb-6">Company Information</h3>
