@@ -99,7 +99,7 @@ const Contact = () => {
                 Get Free Consultation
               </Button>
               <p className="text-sm text-muted-foreground text-center">
-                We'll respond within 24 hours with a detailed proposal.
+                We'll reply to your message within 24 hours.
               </p>
             </form>
           </div>
@@ -115,7 +115,7 @@ const Contact = () => {
                     <Phone className="w-5 h-5" />
                     <div>
                       <h4 className="font-semibold text-foreground">Phone</h4>
-                      <p className="text-muted-foreground">+27 11 123 4567</p>
+                      <p className="text-muted-foreground">+27 (64) 757 6648</p>
                     </div>
                   </div>
 
@@ -123,7 +123,7 @@ const Contact = () => {
                     <Mail className="w-5 h-5" />
                     <div>
                       <h4 className="font-semibold text-foreground">Email</h4>
-                      <p className="text-muted-foreground">info@cli-max.co.za</p>
+                      <p className="text-muted-foreground">hello@cli-max.co.za</p>
                     </div>
                   </div>
 
@@ -134,35 +134,18 @@ const Contact = () => {
                       <p className="text-muted-foreground">Johannesburg, South Africa</p>
                     </div>
                   </div>
-
-                  <div className="flex items-center space-x-3 text-orange-500">
-                    <Clock className="w-5 h-5" />
-                    <div>
-                      <h4 className="font-semibold text-foreground">Support Hours</h4>
-                      <p className="text-muted-foreground">24/7 Emergency Support</p>
-                    </div>
-                  </div>
                 </div>
               </div>
 
               <div className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-xl font-bold text-foreground mb-6">Technical Team</h3>
+                <h3 className="text-xl font-bold text-foreground mb-6">Operations</h3>
                 
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <User className="w-5 h-5 text-orange-500" />
                     <div>
-                      <h4 className="font-semibold text-foreground">Jonathan Smith</h4>
-                      <p className="text-sm text-muted-foreground">Senior Technical Consultant</p>
-                      <p className="text-sm text-orange-500">jonathan@cli-max.co.za</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center space-x-3">
-                    <User className="w-5 h-5 text-orange-500" />
-                    <div>
-                      <h4 className="font-semibold text-foreground">Courtney Williams</h4>
-                      <p className="text-sm text-muted-foreground">Lead Design Engineer</p>
+                      <h4 className="font-semibold text-foreground">Courtney Mckay</h4>
+                      <p className="text-sm text-muted-foreground">Operations Manager</p>
                       <p className="text-sm text-orange-500">courtney@cli-max.co.za</p>
                     </div>
                   </div>
@@ -172,9 +155,9 @@ const Contact = () => {
               <div className="bg-white rounded-lg p-6 shadow-sm">
                 <h3 className="text-xl font-bold text-foreground mb-6">Quick Response Promise</h3>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• Quote within 24 hours</li>
-                  <li>• Technical consultation within 24 hours</li>
-                  <li>• Detailed proposal within 48 hours</li>
+                  <li>• Reply to your message within 24 hours</li>
+                  <li>• Technical consultation within 48 hours of first contact</li>
+                  <li>• Detailed proposal within 72 hours of Technical Consultation</li>
                 </ul>
               </div>
             </div>
