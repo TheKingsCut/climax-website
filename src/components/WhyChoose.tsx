@@ -10,8 +10,7 @@ const WhyChoose = () => {
             Why Choose Cli-Max?
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-            More than just environmental control – we deliver complete solutions backed by European 
-            engineering and local expertise.
+            More than just environmental control – we deliver complete solutions Built to CE-certified European standards and backed by local support.
           </p>
         </div>
 
