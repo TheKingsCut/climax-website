@@ -117,8 +117,7 @@ const Partners = () => {
               Partner with Cli-Max
             </h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              Join our growing network of successful partners and unlock new revenue opportunities in the 
-              environmental control market.
+              Become a Cli-Max partner and open the door to fresh, high-margin revenue in precision climate control.
             </p>
           </div>
 
