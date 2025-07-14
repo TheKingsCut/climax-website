@@ -1829,41 +1829,6 @@ const Products = () => {
             </div>
           </div>
 
-          {/* Air-Cooled Chiller MAX 6.0 HFO */}
-          <div id="air-cooled-chiller" className="product-category">
-            <h3 className="text-3xl font-bold text-foreground mb-8">Air-Cooled Chiller MAX 6.0 HFO (70 – 180 kW)</h3>
-            
-            {/* Features & Benefits */}
-            <div className="mb-8">
-              <h4 className="text-xl font-semibold text-foreground mb-4">Features & Benefits</h4>
-              <div className="grid md:grid-cols-2 gap-6">
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">HFO-1234yf refrigerant (GWP &lt; 5) meets 2030 F-Gas targets</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">70 – 180 kW chilled-water output; modules parallel up to MW scale</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Heat-pump coil delivers free hot-water recovery, seasonal COP &gt; 4</span>
-                  </li>
-                </ul>
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">EC condenser fans &amp; inverter compressors slash part-load energy draw; noise ≤ 68 dB(A)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Outdoor-rated, –10 °C to +43 °C ambient, Modbus/RS-485 monitoring</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
 
         </div>
       </div>
