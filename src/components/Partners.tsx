@@ -273,20 +273,20 @@ const Partners = () => {
           {/* Partner Statistics */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-2">100%</div>
-              <div className="text-muted-foreground">Revenue Growth</div>
+              <div className="text-2xl md:text-3xl font-bold text-orange-500 mb-2">Answer in <span className="tracking-tighter">20sec</span></div>
+              <div className="text-muted-foreground">AI voice agent picks up now—escalates to a human only if you need one.</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-2">28%</div>
-              <div className="text-muted-foreground">Average Margin</div>
+              <div className="text-2xl md:text-3xl font-bold text-orange-500 mb-2">First-install on us</div>
+              <div className="text-muted-foreground">We co-commission your debut project (remote or on-site) at no extra cost.</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-2">800+</div>
-              <div className="text-muted-foreground">Installations</div>
+              <div className="text-2xl md:text-3xl font-bold text-orange-500 mb-2"><span className="tracking-tighter">48h</span> parts promise</div>
+              <div className="text-muted-foreground">Critical spares leave our SA stockroom within two business days—or shipping is free.</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-2">99%</div>
-              <div className="text-muted-foreground">Customer Satisfaction</div>
+              <div className="text-2xl md:text-3xl font-bold text-orange-500 mb-2"><span className="tracking-tighter">30-day</span> performance pledge</div>
+              <div className="text-muted-foreground">If the unit can't hold spec in the first month, we fix it at our expense.</div>
             </div>
           </div>
 
