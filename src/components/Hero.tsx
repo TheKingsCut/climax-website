@@ -81,9 +81,6 @@ const Hero = () => {
             <p className="text-sm text-muted-foreground mb-3">
               electric or heat-pump heating delivered through the same coil set.
             </p>
-            <div className="bg-white rounded-lg p-2">
-              <div className="text-primary font-semibold text-sm">5°C to 40°C Range</div>
-            </div>
           </div>
 
           {/* Efficient Cooling */}
@@ -99,9 +96,6 @@ const Hero = () => {
             <p className="text-sm text-muted-foreground mb-3">
               water-cooled EER &gt; 4.5 for class-leading kWh/BTU performance.
             </p>
-            <div className="bg-white rounded-lg p-2">
-              <div className="text-primary font-semibold text-sm">7-60 kW Range</div>
-            </div>
           </div>
 
           {/* Smart Dehumidification */}
@@ -117,9 +111,6 @@ const Hero = () => {
             <p className="text-sm text-muted-foreground mb-3">
               moisture removal with free hot-water recovery for reuse.
             </p>
-            <div className="bg-white rounded-lg p-2">
-              <div className="text-primary font-semibold text-sm">32% RH Accuracy</div>
-            </div>
           </div>
         </div>
 
