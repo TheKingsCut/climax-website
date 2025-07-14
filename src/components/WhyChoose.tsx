@@ -94,16 +94,16 @@ const WhyChoose = () => {
         {/* Statistics */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-2">99%</div>
-            <div className="text-muted-foreground">Humidity Accuracy</div>
+            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-2">±2% RH</div>
+            <div className="text-muted-foreground">Humidity Stability</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-2">50%</div>
-            <div className="text-muted-foreground">Waste Reduction</div>
+            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-2">15%</div>
+            <div className="text-muted-foreground">Yield Increase</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-2">24/7</div>
-            <div className="text-muted-foreground">Monitoring</div>
+            <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-2">AI 24/7</div>
+            <div className="text-muted-foreground">support</div>
           </div>
           <div className="text-center">
             <div className="text-4xl md:text-5xl font-bold text-orange-500 mb-2">18mo</div>
