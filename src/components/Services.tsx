@@ -143,7 +143,7 @@ const Services = () => {
             Ready to get started?
           </h3>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Contact us today to discuss your environmental control needs and discover how we can help optimize your facility.
+            Talk to us today—let's pinpoint your climate-control challenges and show you how Cli-Max might transform your facility's performance.
           </p>
           <Button 
             onClick={scrollToContact}
