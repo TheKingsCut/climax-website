@@ -292,18 +292,12 @@ const Partners = () => {
 
           {/* Partner CTA */}
           <div className="text-center">
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
+            <div className="text-center mb-4">
               <Button 
                 onClick={scrollToContact}
                 className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 transition-all duration-300 transform hover:scale-105"
               >
                 Apply for Partnership
-              </Button>
-              <Button 
-                variant="outline" 
-                className="border-2 border-foreground text-foreground hover:bg-foreground hover:text-white px-8 py-3 transition-all duration-300 transform hover:scale-105"
-              >
-                Download Partner Information
               </Button>
             </div>
             <p className="text-muted-foreground">
