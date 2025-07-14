@@ -21,7 +21,7 @@ const Products = () => {
           {/* 1. Inverter Air Cooled MAX 5.0 Combo Series */}
           <div id="inverter-air-cooled" className="product-category">
             <div className="flex items-center gap-4 mb-8">
-              <h3 className="text-3xl font-bold text-foreground">Inverter Air Cooled MAX 5.0 Combo Series</h3>
+              <h3 className="text-3xl font-bold text-foreground">Inverter Air-Cooled MAX 5.0 Combo Series (70 – 180 kW)</h3>
               <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">Most Popular</span>
             </div>
             
@@ -57,37 +57,25 @@ const Products = () => {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Outdoor installation ready with weather-resistant construction</span>
+                    <span className="text-muted-foreground">Variable-speed scroll compressors deliver 70 – 180 kW cooling with tight temperature control</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Advanced inverter technology for precise temperature control</span>
+                    <span className="text-muted-foreground">All-in-one heat-pump coil provides year-round cooling + heating—no external boiler or chiller loop</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Energy-efficient operation with significant power savings</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Quiet operation with advanced noise reduction technology</span>
+                    <span className="text-muted-foreground">Charged with ultra-low-GWP HFO-1234yf (GWP &lt; 5) for EU compliance</span>
                   </li>
                 </ul>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Remote monitoring and control capabilities</span>
+                    <span className="text-muted-foreground">Integrated free-hot-water recovery and inverter fans cut energy use by up to 35 % vs fixed-speed DX*</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">CE certification and European engineering standards</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Modular design for easy maintenance and scalability</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Advanced diagnostics for predictive maintenance</span>
+                    <span className="text-muted-foreground">Outdoor-rated package: roof or pad mount, sound pressure ≤ 70 dB(A) at 10 m</span>
                   </li>
                 </ul>
               </div>
@@ -433,7 +421,7 @@ const Products = () => {
 
           {/* 2. Water Cooled Inverter MAX 5.0 Series */}
           <div id="water-cooled-inverter" className="product-category">
-            <h3 className="text-3xl font-bold text-foreground mb-8">Inverter Water Cooled MAX 5.0 Combo Series</h3>
+            <h3 className="text-3xl font-bold text-foreground mb-8">Inverter Water-Cooled MAX 5.0 (6 – 30 kW)</h3>
 
             {/* Features & Benefits */}
             <div className="mb-8">
@@ -442,37 +430,25 @@ const Products = () => {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Free hot water generation while cooling</span>
+                    <span className="text-muted-foreground">Variable-speed rotary/scroll compressor for tight temp &amp; humidity control</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Superior energy efficiency with water-cooled condenser</span>
+                    <span className="text-muted-foreground">Cooling 6 – 30 kW, dehumidification 2.2 – 12.2 ℓ/h with free hot-water recovery</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Precise temperature and humidity control</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Compact indoor installation design</span>
+                    <span className="text-muted-foreground">Integrated electric heater 3 – 9 kW (model-dependent) for year-round climate stability</span>
                   </li>
                 </ul>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Intelligent control with remote monitoring</span>
+                    <span className="text-muted-foreground">High-efficiency water circuit, airflow 1 200 – 6 000 m³/h, noise 50 – 62 dB(A)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">European quality with CE certification</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Low noise operation for sensitive environments</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Advanced diagnostics and maintenance alerts</span>
+                    <span className="text-muted-foreground">Built-in safety suite: high/low pressure, over-heat, over-current, water-break protection; R410A refrigerant</span>
                   </li>
                 </ul>
               </div>
