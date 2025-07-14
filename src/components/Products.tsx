@@ -1833,6 +1833,17 @@ const Products = () => {
           <div id="air-cooled-chiller" className="product-category">
             <h3 className="text-3xl font-bold text-foreground mb-8">Air-Cooled Chiller MAX 6.0 HFO (70 – 180 kW)</h3>
             
+            {/* Product Image */}
+            <div className="grid grid-cols-1 gap-6 mb-8">
+              <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img 
+                  src="/lovable-uploads/c84983ab-f60b-4665-b1ca-bf2d9226d7e5.png"
+                  alt="Air-Cooled Chiller MAX 6.0 HFO Series"
+                  className="w-full h-48 lg:h-64 object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </div>
+
             {/* Features & Benefits */}
             <div className="mb-8">
               <h4 className="text-xl font-semibold text-foreground mb-4">Features & Benefits</h4>
