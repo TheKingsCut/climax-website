@@ -157,7 +157,7 @@ const Hero = () => {
               <div className="text-sm text-muted-foreground">SA Projects Delivered</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">± 0.5 °C</div>
+              <div className="text-4xl font-bold text-primary mb-2">±0.5°C</div>
               <div className="text-sm text-muted-foreground">Temp Precision</div>
             </div>
           </div>
