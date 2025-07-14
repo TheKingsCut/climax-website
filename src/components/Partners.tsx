@@ -248,7 +248,7 @@ const Partners = () => {
               <div className="text-center">
                 <div className="w-12 h-12 bg-orange-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
                 <h4 className="font-semibold text-foreground mb-2">Train</h4>
-                <p className="text-sm text-muted-foreground">Complete comprehensive training on products and systems.</p>
+                <p className="text-sm text-muted-foreground">Factory training + live co-install on your first project, then AI 24/7 phone support for every job after that.</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-orange-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">4</div>
