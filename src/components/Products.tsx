@@ -10,8 +10,7 @@ const Products = () => {
             Our Products
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Professional-grade environmental control systems engineered for reliability, efficiency, and 
-            precise performance across diverse applications.
+            They may look like ordinary boxes, but inside is the brain and brawn that keeps temperature and humidity locked on spec—24/7, no drama.
           </p>
         </div>
 
