@@ -927,37 +927,25 @@ const Products = () => {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Energy-efficient evaporative cooling technology</span>
+                    <span className="text-muted-foreground">100 % fresh-air evaporative cooling, 17.5 – 87.5 kW sensible capacity</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Natural air cooling with fresh outdoor air</span>
+                    <span className="text-muted-foreground">Airflow 4 250 – 17 000 m³/h, ESP to 350 Pa for ducted runs</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Low operating costs compared to traditional AC</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Environmentally friendly with no refrigerants</span>
+                    <span className="text-muted-foreground">Ultra-low input 2.35 – 5.56 kW; water use 40 – 185 L/h</span>
                   </li>
                 </ul>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Suitable for dry climate applications</span>
+                    <span className="text-muted-foreground">Compressor-free design—no refrigerants, no F-Gas reporting (IPx4 cabinet)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Simple installation and maintenance</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Robust construction for industrial use</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Variable speed control for optimal efficiency</span>
+                    <span className="text-muted-foreground">Variable-speed fan keeps sound ≤ 85 dB(A) and cuts kWh by ≈ 80 % vs DX AC</span>
                   </li>
                 </ul>
               </div>
