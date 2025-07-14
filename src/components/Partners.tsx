@@ -130,7 +130,7 @@ const Partners = () => {
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">High Margins</h3>
               <p className="text-muted-foreground text-sm">
-                20-30% margins on premium European-quality products with strong market demand.
+                20–35 % dealer margin
               </p>
             </div>
 
@@ -140,7 +140,7 @@ const Partners = () => {
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">Premium Products</h3>
               <p className="text-muted-foreground text-sm">
-                CE-certified, high-quality systems that differentiate you from competitors.
+                CE-certified, low-GWP units
               </p>
             </div>
 
@@ -150,7 +150,7 @@ const Partners = () => {
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">Full Support</h3>
               <p className="text-muted-foreground text-sm">
-                Training, marketing materials, technical support, and dedicated account management.
+                AI-assisted 24 / 7 phone-line to HQ, remote commissioning, parts hubs
               </p>
             </div>
 
@@ -160,7 +160,7 @@ const Partners = () => {
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">Partnership Approach</h3>
               <p className="text-muted-foreground text-sm">
-                Long-term relationships built on mutual success and shared expertise.
+                exclusivity, co-marketing, QBRs
               </p>
             </div>
           </div>
