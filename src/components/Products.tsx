@@ -1540,37 +1540,25 @@ const Products = () => {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Wide humidification capacity range from 1.6kg/h to 18kg/h for diverse applications</span>
+                    <span className="text-muted-foreground">Fine-mist atomisation 1 – 5 µm at 99 % efficiency</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Coverage area from 10m² to 200m² with precise humidity control (10%-99%)</span>
+                    <span className="text-muted-foreground">Output 1.6 – 18 kg/h covers 25 – 200 m² with 10 – 95 % RH control</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Advanced ultrasonic atomization technology with 99% atomization efficiency</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Ultra-fine water mist particles (1-5 microns) for uniform humidification</span>
+                    <span className="text-muted-foreground">Ultra-low power 0.12 – 1.8 kW (≈ 0.07–0.10 kW per kg/h)</span>
                   </li>
                 </ul>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Exceptional energy efficiency - only 0.06kW per 1kg water atomization</span>
+                    <span className="text-muted-foreground">Up to 3 spray jets; automatic/manual controller</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Dedicated waterproof fan with delay function prevents mist backflow</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Direct water pipe connection with automatic level adjustment</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                    <span className="text-muted-foreground">Prevents plant decay and germ breeding through condensation rejection</span>
+                    <span className="text-muted-foreground">Direct mains-water feed with level sensor; IP-rated cabinet</span>
                   </li>
                 </ul>
               </div>
