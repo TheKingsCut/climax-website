@@ -69,7 +69,7 @@ const WhyChoose = () => {
             </div>
             <h3 className="text-xl font-bold text-foreground mb-4">Proven Results</h3>
             <p className="text-muted-foreground text-sm">
-              6 000 + OptiClimate systems operating worldwide in CEA facilities.
+              6 000 + systems operating worldwide in CEA facilities.
             </p>
           </div>
         </div>
