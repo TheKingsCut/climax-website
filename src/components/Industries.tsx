@@ -49,9 +49,9 @@ const Industries = () => {
 
   const stats = [
     { number: "10+", label: "Industries Served" },
-    { number: "1000+", label: "Installations" },
-    { number: "99.9%", label: "Uptime" },
-    { number: "24/7", label: "Support" }
+    { number: "6000+", label: "Installations" },
+    { number: "<48h", label: "Parts Dispatch" },
+    { number: "AI 24/7", label: "Support" }
   ];
 
   return (
