@@ -9,9 +9,6 @@ const WhyChoose = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Why Choose Cli-Max?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-            More than just environmental control – we deliver complete solutions Built to CE-certified European standards and backed by local support.
-          </p>
         </div>
 
         {/* Benefits Grid */}
