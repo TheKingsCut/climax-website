@@ -281,12 +281,12 @@ const Partners = () => {
               <div className="text-muted-foreground">We co-commission your debut project (remote or on-site) at no extra cost.</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-orange-500 mb-2"><span className="tracking-tighter">48h</span> parts promise</div>
-              <div className="text-muted-foreground">Critical spares leave our SA stockroom within two business days—or shipping is free.</div>
-            </div>
-            <div className="text-center">
               <div className="text-2xl md:text-3xl font-bold text-orange-500 mb-2"><span className="tracking-tighter">30-day</span> performance pledge</div>
               <div className="text-muted-foreground">If the unit can't hold spec in the first month, we fix it at our expense.</div>
+            </div>
+            <div className="text-center">
+              <div className="text-2xl md:text-3xl font-bold text-orange-500 mb-2"><span className="tracking-tighter">48h</span> parts promise</div>
+              <div className="text-muted-foreground">Critical spares leave our SA stockroom within two business days—or shipping is free.</div>
             </div>
           </div>
 
