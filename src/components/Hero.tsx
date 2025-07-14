@@ -1,7 +1,45 @@
 import { Button } from "@/components/ui/button";
+import { useEffect, useRef } from "react";
 import unitImage from "@/assets/unit-image-10.png";
 
+// Declare the Vapi widget type for TypeScript
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'vapi-widget': {
+        'assistant-id': string;
+        'public-key': string;
+        style?: React.CSSProperties;
+      };
+    }
+  }
+}
+
 const Hero = () => {
+  const vapiRef = useRef<HTMLDivElement>(null);
+
+  // Load Vapi widget dynamically
+  useEffect(() => {
+    const checkVapiLoaded = () => {
+      if (typeof window !== 'undefined' && window.customElements && window.customElements.get('vapi-widget')) {
+        // Create the widget element
+        const vapiWidget = document.createElement('vapi-widget');
+        vapiWidget.setAttribute('assistant-id', 'dffc7682-fdc0-473f-b558-ed04e5911ee1');
+        vapiWidget.setAttribute('public-key', '096acd6b-0b19-4863-8cc3-b736305b05ff');
+        
+        // Clear any existing content and append the widget
+        if (vapiRef.current) {
+          vapiRef.current.innerHTML = '';
+          vapiRef.current.appendChild(vapiWidget);
+        }
+      } else {
+        // Retry after a short delay
+        setTimeout(checkVapiLoaded, 100);
+      }
+    };
+
+    checkVapiLoaded();
+  }, []);
   const scrollToProducts = () => {
     const element = document.getElementById('products');
     if (element) {
@@ -151,6 +189,11 @@ const Hero = () => {
               <div className="text-4xl font-bold text-primary mb-2">±0.5°C</div>
               <div className="text-sm text-muted-foreground">Temp Precision</div>
             </div>
+          </div>
+
+          {/* Vapi AI Assistant */}
+          <div ref={vapiRef} className="flex justify-center mt-8">
+            {/* Vapi widget will be inserted here dynamically */}
           </div>
         </div>
 

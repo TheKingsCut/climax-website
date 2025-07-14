@@ -1,50 +1,8 @@
 import { ChevronUp, MessageSquare } from "lucide-react";
 import { useBackToTop } from "@/hooks/useBackToTop";
 
-// Declare the Vapi widget type for TypeScript
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      'vapi-widget': {
-        'assistant-id': string;
-        'public-key': string;
-        style?: React.CSSProperties;
-      };
-    }
-  }
-}
-
-// Add useEffect to check for Vapi script loading
-import { useEffect, useRef } from 'react';
-
 const FloatingActionButtons = () => {
   const { isVisible, scrollToTop } = useBackToTop();
-  const vapiRef = useRef<HTMLDivElement>(null);
-
-  // Load Vapi widget dynamically
-  useEffect(() => {
-    if (!isVisible || !vapiRef.current) return;
-
-    const checkVapiLoaded = () => {
-      if (typeof window !== 'undefined' && window.customElements && window.customElements.get('vapi-widget')) {
-        // Create the widget element
-        const vapiWidget = document.createElement('vapi-widget');
-        vapiWidget.setAttribute('assistant-id', 'dffc7682-fdc0-473f-b558-ed04e5911ee1');
-        vapiWidget.setAttribute('public-key', '096acd6b-0b19-4863-8cc3-b736305b05ff');
-        
-        // Clear any existing content and append the widget
-        if (vapiRef.current) {
-          vapiRef.current.innerHTML = '';
-          vapiRef.current.appendChild(vapiWidget);
-        }
-      } else {
-        // Retry after a short delay
-        setTimeout(checkVapiLoaded, 100);
-      }
-    };
-
-    checkVapiLoaded();
-  }, [isVisible]);
 
   const scrollToContact = () => {
     document.getElementById('contact')?.scrollIntoView({ 
@@ -55,13 +13,7 @@ const FloatingActionButtons = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-6 right-6 flex flex-col space-y-3 z-50 animate-fade-in">
-      {/* Vapi AI Assistant */}
-      <div ref={vapiRef} className="flex justify-end">
-        {/* Vapi widget will be inserted here dynamically */}
-      </div>
-
-      <div className="flex space-x-3">
+    <div className="fixed bottom-6 right-6 flex space-x-3 z-50 animate-fade-in">
         {/* Get Quote Button */}
         <button
           onClick={scrollToContact}
@@ -85,8 +37,7 @@ const FloatingActionButtons = () => {
             size={24} 
             className="mx-auto group-hover:scale-110 transition-transform duration-200" 
           />
-        </button>
-      </div>
+      </button>
     </div>
   );
 };
