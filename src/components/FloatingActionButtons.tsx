@@ -14,8 +14,17 @@ declare global {
   }
 }
 
+// Add useEffect to check for Vapi script loading
+import { useEffect } from 'react';
+
 const FloatingActionButtons = () => {
   const { isVisible, scrollToTop } = useBackToTop();
+
+  // Debug: Check if Vapi script loaded
+  useEffect(() => {
+    console.log('FloatingActionButtons mounted, isVisible:', isVisible);
+    console.log('Vapi script element:', document.querySelector('script[src*="vapi-ai"]'));
+  }, [isVisible]);
 
   const scrollToContact = () => {
     document.getElementById('contact')?.scrollIntoView({ 
@@ -23,7 +32,8 @@ const FloatingActionButtons = () => {
     });
   };
 
-  if (!isVisible) return null;
+  // Always show for testing - remove this line once working
+  // if (!isVisible) return null;
 
   return (
     <div className="fixed bottom-6 right-6 flex flex-col space-y-3 z-50 animate-fade-in">
