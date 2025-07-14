@@ -12,37 +12,37 @@ const Industries = () => {
     {
       icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Meat_Curing.gif",
       title: "Meat Curing & Charcuterie",
-      details: ["Stable 75% RH control", "Temperature stable", "Quality consistency"],
+      details: ["Holds 12–15 °C & 73–78 % RH (±2 %); dry-down curve shortens cure by up to 20 %; food-grade coils limit mould."],
       isCustomIcon: true
     },
     {
       icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Musical_Instrument_01.gif",
       title: "Musical Instruments",
-      details: ["40-55% RH control", "Temperature protection", "Insurance compliance"],
+      details: ["Keeps 45–55 % RH (±3 %); inverter fans < 45 dB; cloud logs meet insurer requirements."],
       isCustomIcon: true
     },
     {
       icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Electronics_Manufacturing_01.gif",
       title: "Electronics Manufacturing", 
-      details: ["ESD prevention", "Quality control", "Yield improvement"],
+      details: ["40–60 % RH band cuts ESD rejects > 60 %; ±0.5 °C temp stability; ISO 7–8 HEPA-ready."],
       isCustomIcon: true
     },
     {
       icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Food_Processing_01.gif",
       title: "Food Processing",
-      details: ["Food safety", "Shelf life extension", "Quality assurance"],
+      details: ["Chilled 2–8 °C low-dew air extends shelf life; IPX4 wash-down coils; heat-reclaim pre-heats wash water."],
       isCustomIcon: true
     },
     {
       icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Plant_Cultivation.gif",
       title: "Plant Cultivation",
-      details: ["Optimal growing conditions", "Yield maximization", "Quality control"],
+      details: ["VPD day/night set-points boost yield 10–15 %; condensate recovery reduces water use."],
       isCustomIcon: true
     },
     {
       icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Wine_Beverage_01.gif",
       title: "Wine & Beverage", 
-      details: ["Fermentation control", "Storage optimization", "Quality consistency"],
+      details: ["Cellar 12–16 °C & 65–75 % RH; laminar flow keeps corks hydrated; night-setback < 1 kWh/h."],
       isCustomIcon: true
     }
   ];
