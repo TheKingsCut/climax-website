@@ -79,8 +79,7 @@ const Industries = () => {
                 <h3 className="text-xl font-bold text-foreground mb-4 text-center">{industry.title}</h3>
                 <ul className="space-y-2">
                   {industry.details.map((detail, detailIndex) => (
-                    <li key={detailIndex} className="text-sm text-muted-foreground flex items-center">
-                      <span className="w-2 h-2 bg-primary rounded-full mr-3 flex-shrink-0"></span>
+                    <li key={detailIndex} className="text-sm text-muted-foreground">
                       {detail}
                     </li>
                   ))}
