@@ -153,7 +153,7 @@ const Hero = () => {
               <div className="text-sm text-muted-foreground">Energy Savings</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">R 8 M</div>
+              <div className="text-4xl font-bold text-primary mb-2">R8M</div>
               <div className="text-sm text-muted-foreground">SA Projects Delivered</div>
             </div>
             <div className="text-center">
