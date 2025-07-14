@@ -169,37 +169,64 @@ const Partners = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <div className="bg-gray-50 rounded-lg p-8">
               <h3 className="text-xl font-bold text-foreground mb-4">HVAC Contractors</h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-base text-muted-foreground mb-6">
                 Grow your revenue with an all-in-one climate package that drops into place faster than any multi-vendor stack.
               </p>
-              <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• 40 % faster installs – one pre-charged unit instead of four separate coils, pumps and ducts.</li>
-                <li>• Factory training + live co-install on your first project, then AI 24 / 7 phone support for every job after that.</li>
-                <li>• Qualified Cli-Max leads sent straight to certified contractors in your territory.</li>
+              <ul className="text-base text-muted-foreground space-y-3">
+                <li className="flex items-start">
+                  <span className="text-orange-500 mr-3 mt-1">•</span>
+                  <span>40 % faster installs – one pre-charged unit instead of four separate coils, pumps and ducts.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-500 mr-3 mt-1">•</span>
+                  <span>Factory training + live co-install on your first project, then AI 24 / 7 phone support for every job after that.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-500 mr-3 mt-1">•</span>
+                  <span>Qualified Cli-Max leads sent straight to certified contractors in your territory.</span>
+                </li>
               </ul>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-8">
               <h3 className="text-xl font-bold text-foreground mb-4">Consulting Engineers</h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-base text-muted-foreground mb-6">
                 Win bids with a spec that slashes plant-room space, meets 2030 F-Gas rules and boosts system COP.
               </p>
-              <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• BIM/Revit families, load-calc sheets and editable CSI specs ready to drop into your drawing set.</li>
-                <li>• Direct line to Cli-Max design engineers for atypical footprints or high latent loads—no gatekeepers.</li>
-                <li>• CPD-eligible webinars on VPD, low-GWP refrigerants and integrated climate control (ECSA accreditation pending).</li>
+              <ul className="text-base text-muted-foreground space-y-3">
+                <li className="flex items-start">
+                  <span className="text-orange-500 mr-3 mt-1">•</span>
+                  <span>BIM/Revit families, load-calc sheets and editable CSI specs ready to drop into your drawing set.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-500 mr-3 mt-1">•</span>
+                  <span>Direct line to Cli-Max design engineers for atypical footprints or high latent loads—no gatekeepers.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-500 mr-3 mt-1">•</span>
+                  <span>CPD-eligible webinars on VPD, low-GWP refrigerants and integrated climate control (ECSA accreditation pending).</span>
+                </li>
               </ul>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-8">
               <h3 className="text-xl font-bold text-foreground mb-4">Equipment Distributors</h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-base text-muted-foreground mb-6">
                 Add a premium European-engineered brand without tying up capital in slow-moving stock.
               </p>
-              <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• Factory-direct shipments—door-to-door lead time 4–6 weeks; critical spares held locally for &lt; 48 h dispatch.</li>
-                <li>• Exclusive territory rights plus sales-incentive rebates and joint marketing funds for trade shows & digital campaigns.</li>
-                <li>• High-margin consumables (filters, pads, probes) create steady repeat sales after each install.</li>
+              <ul className="text-base text-muted-foreground space-y-3">
+                <li className="flex items-start">
+                  <span className="text-orange-500 mr-3 mt-1">•</span>
+                  <span>Factory-direct shipments—door-to-door lead time 4–6 weeks; critical spares held locally for &lt; 48 h dispatch.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-500 mr-3 mt-1">•</span>
+                  <span>Exclusive territory rights plus sales-incentive rebates and joint marketing funds for trade shows & digital campaigns.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-500 mr-3 mt-1">•</span>
+                  <span>High-margin consumables (filters, pads, probes) create steady repeat sales after each install.</span>
+                </li>
               </ul>
             </div>
           </div>
