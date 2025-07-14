@@ -118,7 +118,7 @@ const Hero = () => {
         {/* Description and CTAs */}
         <div className="text-center mb-16">
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-4xl mx-auto">
-            Reduce complexity, maintenance costs, and installation time while improving performance and energy efficiency. Our integrated approach delivers superior results with simplified operations through integrated heating, cooling, and dehumidification in a single professional-grade unit. European quality, simplified installation, and superior performance—backed by local South African support.
+            We know—it's basically a big, plain white box. Not exactly showroom art. But inside that sheet-metal slab is a climate-control tank: inverter compressors, bullet-proof coils and a brain that holds temp and humidity steady while sipping power. We run these units in our own facilities because, when crops and product quality are on the line, pretty finishes don't pay the bills—reliability does.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
