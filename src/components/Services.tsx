@@ -8,28 +8,47 @@ const Services = () => {
       icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/System_Design_01.gif",
       title: "System Design & Installation",
       description: "Custom environmental control solutions tailored to your specific requirements and industry standards.",
-      features: ["Site assessment", "Custom design", "Professional installation", "System commissioning"]
+      features: [
+        "Detailed site survey & heat-load calculation",
+        "BIM-ready drawings & schedules", 
+        "Cli-Max coordinates certified local installers",
+        "Factory-trained commissioning & operator training"
+      ]
     },
     {
       icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Maintenance_Service_01.gif",
       title: "Maintenance & Service",
       description: "Comprehensive maintenance programs to ensure optimal performance and extend system lifespan.",
-      features: ["Preventive maintenance", "Emergency repairs", "Parts replacement", "Performance optimization"]
+      features: [
+        "Industry-standard SLA response times via local partners & Cli-Max HQ",
+        "24 / 7 AI-assisted phone support + remote diagnostics",
+        "Regional spare-parts hubs for fast dispatch",
+        "PM plans aligned with ISO / ASHRAE guidelines"
+      ]
     }
   ];
 
   const warranties = [
     {
       icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Warranty_1year_01.gif",
-      title: "Standard Warranty",
+      title: "Standard Warranty (1 Year)",
       description: "All our environmental control systems come with a comprehensive 1-year warranty included at no additional cost.",
-      features: ["Full parts coverage", "Labor included", "Emergency support", "Performance guarantee"]
+      features: [
+        "Parts cover + unlimited remote support",
+        "Labour for warranty repairs (travel at cost)",
+        "Performance guarantee when certified-installed"
+      ]
     },
     {
       icon: "https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/ICONS/Warranty_5year_01.gif",
-      title: "Extended Warranty",
+      title: "Extended Warranty (Up to 5 Years)",
       description: "Extend your peace of mind with warranty coverage up to 5 years for maximum protection and value.",
-      features: ["Up to 5 years coverage", "Priority service", "Preventive maintenance", "Cost predictability"]
+      features: [
+        "Parts + labour to 3 or 5 years",
+        "Annual on-site PM visit",
+        "Priority parts & discounted upgrades",
+        "Transferable coverage"
+      ]
     }
   ];
 
