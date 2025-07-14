@@ -170,39 +170,36 @@ const Partners = () => {
             <div className="bg-gray-50 rounded-lg p-8">
               <h3 className="text-xl font-bold text-foreground mb-4">HVAC Contractors</h3>
               <p className="text-muted-foreground mb-6">
-                Expand your service offerings with integrated environmental control solutions. Perfect for existing 
-                HVAC professionals looking to enter specialized markets.
+                Grow your revenue with an all-in-one climate package that drops into place faster than any multi-vendor stack.
               </p>
               <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• Installation training provided</li>
-                <li>• Technical support included</li>
-                <li>• Marketing materials supplied</li>
+                <li>• 40 % faster installs – one pre-charged unit instead of four separate coils, pumps and ducts.</li>
+                <li>• Factory training + live co-install on your first project, then AI 24 / 7 phone support for every job after that.</li>
+                <li>• Qualified Cli-Max leads sent straight to certified contractors in your territory.</li>
               </ul>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-8">
               <h3 className="text-xl font-bold text-foreground mb-4">Consulting Engineers</h3>
               <p className="text-muted-foreground mb-6">
-                Specify cutting-edge environmental control technology for your clients. Access technical resources and design 
-                support.
+                Win bids with a spec that slashes plant-room space, meets 2030 F-Gas rules and boosts system COP.
               </p>
               <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• Design support available</li>
-                <li>• Technical documentation</li>
-                <li>• Project consultation</li>
+                <li>• BIM/Revit families, load-calc sheets and editable CSI specs ready to drop into your drawing set.</li>
+                <li>• Direct line to Cli-Max design engineers for atypical footprints or high latent loads—no gatekeepers.</li>
+                <li>• CPD-eligible webinars on VPD, low-GWP refrigerants and integrated climate control (ECSA accreditation pending).</li>
               </ul>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-8">
               <h3 className="text-xl font-bold text-foreground mb-4">Equipment Distributors</h3>
               <p className="text-muted-foreground mb-6">
-                Add premium European products to your portfolio. Benefit from exclusive territory rights and 
-                comprehensive support.
+                Add a premium European-engineered brand without tying up capital in slow-moving stock.
               </p>
               <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• Territory protection</li>
-                <li>• Inventory support</li>
-                <li>• Sales training programs</li>
+                <li>• Factory-direct shipments—door-to-door lead time 4–6 weeks; critical spares held locally for &lt; 48 h dispatch.</li>
+                <li>• Exclusive territory rights plus sales-incentive rebates and joint marketing funds for trade shows & digital campaigns.</li>
+                <li>• High-margin consumables (filters, pads, probes) create steady repeat sales after each install.</li>
               </ul>
             </div>
           </div>
