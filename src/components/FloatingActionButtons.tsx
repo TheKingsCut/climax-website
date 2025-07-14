@@ -15,15 +15,35 @@ declare global {
 }
 
 // Add useEffect to check for Vapi script loading
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 const FloatingActionButtons = () => {
   const { isVisible, scrollToTop } = useBackToTop();
+  const vapiRef = useRef<HTMLDivElement>(null);
 
-  // Debug: Check if Vapi script loaded
+  // Load Vapi widget dynamically
   useEffect(() => {
-    console.log('FloatingActionButtons mounted, isVisible:', isVisible);
-    console.log('Vapi script element:', document.querySelector('script[src*="vapi-ai"]'));
+    if (!isVisible || !vapiRef.current) return;
+
+    const checkVapiLoaded = () => {
+      if (typeof window !== 'undefined' && window.customElements && window.customElements.get('vapi-widget')) {
+        // Create the widget element
+        const vapiWidget = document.createElement('vapi-widget');
+        vapiWidget.setAttribute('assistant-id', 'dffc7682-fdc0-473f-b558-ed04e5911ee1');
+        vapiWidget.setAttribute('public-key', '096acd6b-0b19-4863-8cc3-b736305b05ff');
+        
+        // Clear any existing content and append the widget
+        if (vapiRef.current) {
+          vapiRef.current.innerHTML = '';
+          vapiRef.current.appendChild(vapiWidget);
+        }
+      } else {
+        // Retry after a short delay
+        setTimeout(checkVapiLoaded, 100);
+      }
+    };
+
+    checkVapiLoaded();
   }, [isVisible]);
 
   const scrollToContact = () => {
@@ -32,21 +52,13 @@ const FloatingActionButtons = () => {
     });
   };
 
-  // Always show for testing - remove this line once working
-  // if (!isVisible) return null;
+  if (!isVisible) return null;
 
   return (
     <div className="fixed bottom-6 right-6 flex flex-col space-y-3 z-50 animate-fade-in">
       {/* Vapi AI Assistant */}
-      <div className="flex justify-end">
-        <vapi-widget 
-          assistant-id="dffc7682-fdc0-473f-b558-ed04e5911ee1"
-          public-key="096acd6b-0b19-4863-8cc3-b736305b05ff"
-          style={{
-            position: 'relative',
-            zIndex: 1000
-          }}
-        />
+      <div ref={vapiRef} className="flex justify-end">
+        {/* Vapi widget will be inserted here dynamically */}
       </div>
 
       <div className="flex space-x-3">
