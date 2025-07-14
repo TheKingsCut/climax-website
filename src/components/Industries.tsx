@@ -62,8 +62,7 @@ const Industries = () => {
             Trusted by Professionals Across Industries
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            From precision manufacturing to artisanal crafts, our environmental control systems deliver 
-            reliable performance where it matters most.
+            From charcuterie cellars to cleanrooms, Cli-Max keeps the climate boringly stable—so your craft can shine.
           </p>
         </div>
 
