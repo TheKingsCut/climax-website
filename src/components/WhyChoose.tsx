@@ -27,8 +27,7 @@ const WhyChoose = () => {
             </div>
             <h3 className="text-xl font-bold text-foreground mb-4">European Quality</h3>
             <p className="text-muted-foreground text-sm">
-              CE certification, European engineering standards, and full regulatory compliance for 
-              demanding applications.
+              CE-certified engineering with low-GWP HFO-1234yf refrigerant.
             </p>
           </div>
 
@@ -42,7 +41,7 @@ const WhyChoose = () => {
             </div>
             <h3 className="text-xl font-bold text-foreground mb-4">Energy Efficiency</h3>
             <p className="text-muted-foreground text-sm">
-              Up to 40% energy savings with inverter technology and intelligent control systems.
+              Up to 80 % energy savings with FAO-2 fresh-air modules; water-cooled PRO5 delivers EER &gt; 4.5.
             </p>
           </div>
 
@@ -56,7 +55,7 @@ const WhyChoose = () => {
             </div>
             <h3 className="text-xl font-bold text-foreground mb-4">Local Support</h3>
             <p className="text-muted-foreground text-sm">
-              South African technical team providing 24/7 service, maintenance, and training support.
+              South-African technical team providing 24 / 7 service, maintenance and training.
             </p>
           </div>
 
@@ -70,7 +69,7 @@ const WhyChoose = () => {
             </div>
             <h3 className="text-xl font-bold text-foreground mb-4">Proven Results</h3>
             <p className="text-muted-foreground text-sm">
-              R8 million in successful installations across diverse industries and applications.
+              6 000 + OptiClimate systems operating worldwide in CEA facilities.
             </p>
           </div>
         </div>

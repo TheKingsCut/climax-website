@@ -32,7 +32,7 @@ const Hero = () => {
           </h1>
           
           <h2 className="text-2xl text-primary font-semibold mb-8">
-            HVAC Solutions for Every Application
+            HVAC engineered for controlled-environment agriculture
           </h2>
         </div>
 
@@ -77,9 +77,9 @@ const Hero = () => {
                 className="w-12 h-12 object-contain"
               />
             </div>
-            <h3 className="text-lg font-bold text-foreground mb-2">Precision Heating</h3>
+            <h3 className="text-lg font-bold text-foreground mb-2">Integrated Heating</h3>
             <p className="text-sm text-muted-foreground mb-3">
-              Advanced heating technology maintains exact temperature control for optimal environmental conditions.
+              electric or heat-pump heating delivered through the same coil set.
             </p>
             <div className="bg-white rounded-lg p-2">
               <div className="text-primary font-semibold text-sm">5°C to 40°C Range</div>
@@ -97,7 +97,7 @@ const Hero = () => {
             </div>
             <h3 className="text-lg font-bold text-foreground mb-2">Efficient Cooling</h3>
             <p className="text-sm text-muted-foreground mb-3">
-              High-performance cooling system with intelligent load management for stable temperatures.
+              water-cooled EER &gt; 4.5 for class-leading kWh/BTU performance.
             </p>
             <div className="bg-white rounded-lg p-2">
               <div className="text-primary font-semibold text-sm">7-60 kW Range</div>
@@ -115,7 +115,7 @@ const Hero = () => {
             </div>
             <h3 className="text-lg font-bold text-foreground mb-2">Smart Dehumidification</h3>
             <p className="text-sm text-muted-foreground mb-3">
-              Integrated moisture control prevents humidity fluctuations that damage sensitive products.
+              moisture removal with free hot-water recovery for reuse.
             </p>
             <div className="bg-white rounded-lg p-2">
               <div className="text-primary font-semibold text-sm">32% RH Accuracy</div>
