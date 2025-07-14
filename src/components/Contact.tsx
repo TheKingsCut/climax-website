@@ -79,8 +79,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-            Get in touch with our technical team for expert consultation and customized solutions for your 
-            specific application requirements.
+            Reach out to our tech team—tell us your challenge, and we'll craft a climate-control solution built just for you.
           </p>
         </div>
 
