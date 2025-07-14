@@ -92,29 +92,5 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script>
-      var vapiInstance = null;
-      const assistant = "dffc7682-fdc0-473f-b558-ed04e5911ee1"; // Your assistant ID
-      const apiKey = "096acd6b-0b19-4863-8cc3-b736305b05ff"; // Your Public key from Vapi Dashboard
-      const buttonConfig = {}; // Modify this as required
-
-      (function (d, t) {
-        var g = document.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-        g.src =
-          "https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js";
-        g.defer = true;
-        g.async = true;
-        s.parentNode.insertBefore(g, s);
-
-        g.onload = function () {
-          vapiInstance = window.vapiSDK.run({
-            apiKey: apiKey, // mandatory
-            assistant: assistant, // mandatory
-            config: buttonConfig, // optional
-          });
-        };
-      })(document, "script");
-    </script>
   </body>
 </html>

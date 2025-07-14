@@ -1,5 +1,6 @@
 import { ChevronUp, MessageSquare } from "lucide-react";
 import { useBackToTop } from "@/hooks/useBackToTop";
+import VapiButton from "./VapiButton";
 
 const FloatingActionButtons = () => {
   const { isVisible, scrollToTop } = useBackToTop();
@@ -13,7 +14,13 @@ const FloatingActionButtons = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-6 right-6 flex space-x-3 z-50 animate-fade-in">
+    <div className="fixed bottom-6 right-6 flex flex-col space-y-3 z-50 animate-fade-in">
+      {/* Vapi AI Assistant */}
+      <div className="flex justify-end">
+        <VapiButton />
+      </div>
+
+      <div className="flex space-x-3">
         {/* Get Quote Button */}
         <button
           onClick={scrollToContact}
@@ -38,6 +45,7 @@ const FloatingActionButtons = () => {
             className="mx-auto group-hover:scale-110 transition-transform duration-200" 
           />
       </button>
+      </div>
     </div>
   );
 };
