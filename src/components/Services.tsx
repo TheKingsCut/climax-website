@@ -67,8 +67,7 @@ const Services = () => {
             Our <span className="text-primary">Services and Warranties</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Comprehensive environmental control services from initial design to ongoing support, 
-            backed by industry-leading warranties.
+            With us, the help starts at first sketch and never stops—and we back every step with warranties that actually mean something.
           </p>
         </div>
 
