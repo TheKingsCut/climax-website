@@ -44,10 +44,10 @@ const Partners = () => {
                     <span>Installation Complexity</span>
                   </div>
                 <div className="bg-gray-100 p-4 rounded-lg text-gray-700 font-medium">
-                  Multiple systems, complex integration
+                  Four separate units + field piping
                 </div>
                 <div className="bg-orange-50 p-4 rounded-lg text-orange-700 font-medium">
-                  Single system, simple installation
+                  All-in-one package; power, water, CAT-5—1-day commission
                 </div>
               </div>
               
@@ -59,10 +59,10 @@ const Partners = () => {
                     <span>Maintenance</span>
                   </div>
                 <div className="bg-gray-100 p-4 rounded-lg text-gray-700 font-medium">
-                  Multiple service contracts
+                  Multiple contracts & spares
                 </div>
                 <div className="bg-orange-50 p-4 rounded-lg text-orange-700 font-medium">
-                  One comprehensive service
+                  Single vendor & cloud diagnostics
                 </div>
               </div>
               
@@ -74,10 +74,10 @@ const Partners = () => {
                     <span>Energy Efficiency</span>
                   </div>
                 <div className="bg-gray-100 p-4 rounded-lg text-gray-700 font-medium">
-                  Higher operating costs
+                  Duplicate compressors + heaters
                 </div>
                 <div className="bg-orange-50 p-4 rounded-lg text-orange-700 font-medium">
-                  Up to 40% energy savings
+                  Up to 40–60 % kWh savings
                 </div>
               </div>
               
@@ -89,10 +89,10 @@ const Partners = () => {
                     <span>Control Integration</span>
                   </div>
                 <div className="bg-gray-100 p-4 rounded-lg text-gray-700 font-medium">
-                  Separate control systems
+                  Separate PLCs & thermostats
                 </div>
                 <div className="bg-orange-50 p-4 rounded-lg text-orange-700 font-medium">
-                  Unified intelligent control
+                  Unified Siemens PLC with Modbus/TCP
                 </div>
               </div>
             </div>
