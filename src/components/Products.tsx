@@ -1164,44 +1164,48 @@ const Products = () => {
               <h4 className="text-xl font-semibold text-foreground mb-4">Features & Benefits</h4>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h5 className="font-semibold text-foreground mb-2">Floor Standing Type</h5>
+                  <h5 className="font-semibold text-foreground mb-2">Floor-standing units</h5>
                   <ul className="space-y-2">
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                      <span className="text-muted-foreground">Portable design for flexible placement</span>
+                      <span className="text-muted-foreground">Capacity 138 – 960 L/day for 150 – 1 300 m² spaces</span>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                      <span className="text-muted-foreground">Easy installation and maintenance access</span>
+                      <span className="text-muted-foreground">Single-phase models to 156 L/day; three-phase for larger sizes</span>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                      <span className="text-muted-foreground">Integrated condensate pump</span>
+                      <span className="text-muted-foreground">Precise control ± 3 % RH across 10 – 95 % RH</span>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                      <span className="text-muted-foreground">Digital humidity control display</span>
+                      <span className="text-muted-foreground">Built-in condensate pump, IPX4 cabinet; 5 – 38 °C operating window</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                      <span className="text-muted-foreground">Noise 50 – 62 dB(A)</span>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h5 className="font-semibold text-foreground mb-2">Ceiling Type</h5>
+                  <h5 className="font-semibold text-foreground mb-2">Ceiling-mounted units</h5>
                   <ul className="space-y-2">
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                      <span className="text-muted-foreground">Space-saving ceiling-mounted installation</span>
+                      <span className="text-muted-foreground">Capacity 136 – 480 L/day in compact overhead form</span>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                      <span className="text-muted-foreground">Ducted air distribution capability</span>
+                      <span className="text-muted-foreground">Airflow 1 300 – 6 000 m³/h; power 2.5 – 10 kW</span>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                      <span className="text-muted-foreground">High-efficiency heat exchanger</span>
+                      <span className="text-muted-foreground">Serves 150 – 800 m² while clearing floor space</span>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
-                      <span className="text-muted-foreground">Remote control and monitoring</span>
+                      <span className="text-muted-foreground">Optional ± 1 % RH controller; IPx4 cabinet</span>
                     </li>
                   </ul>
                 </div>
