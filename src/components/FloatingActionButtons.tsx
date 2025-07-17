@@ -12,10 +12,8 @@ const FloatingActionButtons = () => {
     });
   };
 
-  if (!isVisible) return null;
-
   return (
-    <div className="fixed bottom-6 right-6 flex flex-col space-y-3 z-50 animate-fade-in opacity-0 animate-[fade-in_0.5s_ease-out_forwards]">
+    <div className={`fixed bottom-6 right-6 flex flex-col space-y-3 z-50 transition-opacity duration-500 ${isVisible ? 'opacity-100 animate-fade-in' : 'opacity-0 pointer-events-none'}`}>
       {/* Max Mascot */}
       <div className="flex justify-end">
         <img 
