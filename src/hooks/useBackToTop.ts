@@ -5,15 +5,15 @@ export const useBackToTop = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const productsSection = document.getElementById('products');
+      const whyChooseSection = document.getElementById('why-choose');
       
-      if (!productsSection) return;
+      if (!whyChooseSection) return;
 
-      const productsSectionTop = productsSection.offsetTop;
+      const whyChooseSectionTop = whyChooseSection.offsetTop;
       const scrollPosition = window.scrollY + 200; // Offset for header
 
-      // Show back to top button when scrolled past the products section
-      setIsVisible(scrollPosition > productsSectionTop);
+      // Show back to top button when scrolled past the Why Choose section
+      setIsVisible(scrollPosition > whyChooseSectionTop);
     };
 
     window.addEventListener('scroll', handleScroll);
