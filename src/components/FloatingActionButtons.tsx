@@ -1,7 +1,7 @@
 import { ChevronUp, MessageSquare } from "lucide-react";
 import { useBackToTop } from "@/hooks/useBackToTop";
 import VapiButton from "./VapiButton";
-import maxHelloImage from "@/assets/max-hello-new.png";
+import maxHelloImage from "@/assets/max-hello-v2.png";
 
 const FloatingActionButtons = () => {
   const { isVisible, scrollToTop } = useBackToTop();
