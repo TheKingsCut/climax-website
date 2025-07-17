@@ -1,10 +1,12 @@
 import { ChevronUp, MessageSquare } from "lucide-react";
 import { useBackToTop } from "@/hooks/useBackToTop";
+import { useIsMobile } from "@/hooks/use-mobile";
 import VapiButton from "./VapiButton";
 import maxHelloImage from "@/assets/max-hello-v2.png";
 
 const FloatingActionButtons = () => {
   const { isVisible, scrollToTop } = useBackToTop();
+  const isMobile = useIsMobile();
 
   const scrollToContact = () => {
     document.getElementById('contact')?.scrollIntoView({ 
@@ -14,14 +16,16 @@ const FloatingActionButtons = () => {
 
   return (
     <div className={`fixed bottom-6 right-6 flex flex-col space-y-3 z-50 transition-opacity duration-500 ${isVisible ? 'opacity-100 animate-fade-in' : 'opacity-0 pointer-events-none'}`}>
-      {/* Max Mascot */}
-      <div className="flex justify-end">
-        <img 
-          src={maxHelloImage} 
-          alt="Max mascot saying hello" 
-          className="w-52 h-auto animate-fade-in"
-        />
-      </div>
+      {/* Max Mascot - Hidden on mobile */}
+      {!isMobile && (
+        <div className="flex justify-end">
+          <img 
+            src={maxHelloImage} 
+            alt="Max mascot saying hello" 
+            className="w-52 h-auto animate-fade-in"
+          />
+        </div>
+      )}
 
       {/* Three Buttons Row */}
       <div className="flex justify-end space-x-3">
