@@ -47,19 +47,19 @@ const Header = () => {
           </nav>
 
           {/* Desktop Contact */}
-          <div className="hidden lg:flex items-center space-x-6">
+          <div className="hidden lg:flex items-center space-x-4">
             <a
               href="https://wa.me/27647576648"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+              className="flex items-center space-x-1 text-sm text-muted-foreground hover:text-primary transition-colors whitespace-nowrap"
             >
               <Phone className="h-4 w-4" />
               <span>+27 (64) 757 6648</span>
             </a>
             <a
               href="mailto:hello@cli-max.co.za"
-              className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+              className="flex items-center space-x-1 text-sm text-muted-foreground hover:text-primary transition-colors whitespace-nowrap"
             >
               <Mail className="h-4 w-4" />
               <span>hello@cli-max.co.za</span>
