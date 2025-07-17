@@ -12,7 +12,10 @@ const productButtons = [
 const StickyProductNav = () => {
   const { isVisible, activeSection, scrollToSection } = useProductNavigation();
 
-  if (!isVisible) return null;
+  // Hide on mobile to prevent scroll interference
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+  
+  if (!isVisible || isMobile) return null;
 
   return (
     <div className="fixed top-0 left-0 right-0 z-40 bg-white shadow-lg border-b transition-all duration-300">

@@ -17,19 +17,44 @@ const Header = () => {
   ];
 
   const scrollToSection = (href: string) => {
+    console.log('Attempting to scroll to:', href);
     const element = document.querySelector(href);
+    
     if (element) {
-      // Use consistent offset like the product navigation
-      const offset = 200; // Account for sticky header and potential product nav
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - offset;
+      console.log('Element found:', element);
       
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
+      // Close mobile menu first
+      setIsOpen(false);
+      
+      // Add delay for mobile to allow sheet to close
+      const isMobile = window.innerWidth < 768;
+      const delay = isMobile ? 400 : 100;
+      
+      setTimeout(() => {
+        // Recalculate position after menu closes
+        const rect = element.getBoundingClientRect();
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const elementTop = rect.top + scrollTop;
+        
+        // Check if sticky product nav is visible
+        const stickyNav = document.querySelector('[class*="fixed"][class*="top-0"]');
+        const stickyNavHeight = stickyNav ? stickyNav.clientHeight : 0;
+        
+        // Mobile-friendly offset calculation
+        const headerHeight = 80;
+        const offset = isMobile ? headerHeight + 20 : headerHeight + stickyNavHeight + 20;
+        const targetPosition = Math.max(0, elementTop - offset);
+        
+        console.log('Scrolling to position:', targetPosition, 'with offset:', offset);
+        
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }, delay);
+    } else {
+      console.log('Element not found for:', href);
     }
-    setIsOpen(false);
   };
 
   return (
