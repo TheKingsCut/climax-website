@@ -1,6 +1,7 @@
 import { ChevronUp, MessageSquare } from "lucide-react";
 import { useBackToTop } from "@/hooks/useBackToTop";
 import VapiButton from "./VapiButton";
+import maxHelloImage from "@/assets/max-hello.png";
 
 const FloatingActionButtons = () => {
   const { isVisible, scrollToTop } = useBackToTop();
@@ -18,6 +19,15 @@ const FloatingActionButtons = () => {
       {/* Vapi AI Assistant */}
       <div className="flex justify-end">
         <VapiButton />
+      </div>
+
+      {/* Max Mascot */}
+      <div className="flex justify-end mb-2">
+        <img 
+          src={maxHelloImage} 
+          alt="Max mascot saying hello" 
+          className="w-48 h-auto animate-fade-in"
+        />
       </div>
 
       <div className="flex space-x-3">
