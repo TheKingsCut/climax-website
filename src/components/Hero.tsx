@@ -32,7 +32,7 @@ const Hero = () => {
           </h1>
           
           <h2 className="text-2xl text-primary font-semibold mb-8">
-            HVAC engineered for controlled-environment agriculture
+            Engineered HVAC for agriculture, electronics, food and pharma.
           </h2>
         </div>
 
