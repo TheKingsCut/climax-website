@@ -1559,6 +1559,10 @@ const Products = () => {
                     <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
                     <span className="text-muted-foreground">Direct mains-water feed with level sensor; IP-rated cabinet</span>
                   </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2"></span>
+                    <span className="text-muted-foreground">Ultrasonic technology delivers precise, energy-efficient humidity control without heat or waste. Ideal for sensitive environments.</span>
+                  </li>
                 </ul>
               </div>
             </div>
