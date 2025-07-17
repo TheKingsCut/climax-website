@@ -21,7 +21,7 @@ const FloatingActionButtons = () => {
         <img 
           src={maxHelloImage} 
           alt="Max mascot saying hello" 
-          className="h-auto animate-fade-in"
+          className="w-52 h-auto animate-fade-in"
         />
       </div>
 
