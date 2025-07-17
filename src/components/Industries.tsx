@@ -51,7 +51,7 @@ const Industries = () => {
     { number: "10+", label: "Industries Served" },
     { number: "6000+", label: "Installations" },
     { number: "<48h", label: "Parts Dispatch" },
-    { number: "AI 24/7", label: "Support" }
+    { number: "24/7", label: "Immediate AI trained support, backed by industry experts" }
   ];
 
   return (
