@@ -94,7 +94,7 @@ const Hero = () => {
             </div>
             <h3 className="text-lg font-bold text-foreground mb-2">Efficient Cooling</h3>
             <p className="text-sm text-muted-foreground mb-3">
-              water-cooled EER &gt; 4.5 for class-leading kWh/BTU performance.
+              water-cooled EER~3 + for class-leading kWh/BTU performance.
             </p>
           </div>
 
