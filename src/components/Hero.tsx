@@ -5,9 +5,12 @@ const Hero = () => {
   const scrollToProducts = () => {
     const element = document.getElementById('products');
     if (element) {
-      const offsetTop = element.offsetTop - 200; // Account for sticky header and product nav
+      const offset = 200; // Account for sticky header and product nav
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+      
       window.scrollTo({
-        top: offsetTop,
+        top: offsetPosition,
         behavior: 'smooth'
       });
     }
@@ -16,7 +19,14 @@ const Hero = () => {
   const scrollToContact = () => {
     const element = document.querySelector("#contact");
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const offset = 200; // Account for sticky header and product nav
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
     }
   };
 
