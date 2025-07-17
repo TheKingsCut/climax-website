@@ -2,7 +2,6 @@ import { ChevronUp, MessageSquare } from "lucide-react";
 import { useBackToTop } from "@/hooks/useBackToTop";
 import { useIsMobile } from "@/hooks/use-mobile";
 import VapiButton from "./VapiButton";
-import maxHelloImage from "@/assets/max-hello-v2.png";
 
 const FloatingActionButtons = () => {
   const { isVisible, scrollToTop } = useBackToTop();
@@ -20,7 +19,7 @@ const FloatingActionButtons = () => {
       {!isMobile && (
         <div className="flex justify-end">
           <img 
-            src={maxHelloImage} 
+            src="https://kbnrphtmumnzxxcxahir.supabase.co/storage/v1/object/public/assets/MAX/Max_Hello_SML_03.png" 
             alt="Max mascot saying hello" 
             className="w-52 h-auto animate-fade-in"
           />
