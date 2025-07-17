@@ -79,7 +79,7 @@ const Hero = () => {
             </div>
             <h3 className="text-lg font-bold text-foreground mb-2">Integrated Heating</h3>
             <p className="text-sm text-muted-foreground mb-3">
-              electric or heat-pump heating delivered through the same coil set.
+              electric or heat-pump heating delivered through the same coil set. COP~3,4+
             </p>
           </div>
 
