@@ -174,7 +174,7 @@ const Contact = () => {
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger className="mt-1">
-                            <SelectValue placeholder="Select why you're contacting us" />
+                            <SelectValue placeholder="How can we help?" />
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
