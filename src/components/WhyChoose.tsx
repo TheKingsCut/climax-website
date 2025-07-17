@@ -37,7 +37,7 @@ const WhyChoose = () => {
             </div>
             <h3 className="text-xl font-bold text-foreground mb-4">Energy Efficiency</h3>
             <p className="text-muted-foreground text-sm">
-              Up to 80 % energy savings with FAO-2 fresh-air modules; water-cooled PRO5 delivers EER &gt; 4.5.
+              Up to 80 % energy savings with FAO-2 fresh-air modules; water-cooled PRO5 delivers EER ~ 3+ and COP~3,4+
             </p>
           </div>
 
