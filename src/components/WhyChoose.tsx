@@ -51,7 +51,7 @@ const WhyChoose = () => {
             </div>
             <h3 className="text-xl font-bold text-foreground mb-4">Local Support</h3>
             <p className="text-muted-foreground text-sm">
-              South-African technical team providing 24 / 7 service, maintenance and training.
+              South-African technical team providing service maintenance and training.
             </p>
           </div>
 
