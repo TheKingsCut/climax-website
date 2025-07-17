@@ -2,7 +2,7 @@ import { Award, Zap, Headphones, TrendingUp, Quote } from "lucide-react";
 
 const WhyChoose = () => {
   return (
-    <section className="pt-8 pb-20 bg-gray-50">
+    <section id="why-choose" className="pt-8 pb-20 bg-gray-50">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-10">
