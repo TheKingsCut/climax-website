@@ -16,19 +16,19 @@ const FloatingActionButtons = () => {
 
   return (
     <div className="fixed bottom-6 right-6 flex flex-col space-y-3 z-50 animate-fade-in">
-      {/* Vapi AI Assistant */}
+      {/* Max Mascot */}
       <div className="flex justify-end">
-        <VapiButton />
-      </div>
-
-      {/* Max Mascot and Get Quote Button Row */}
-      <div className="flex items-end space-x-3">
-        {/* Max Mascot */}
         <img 
           src={maxHelloImage} 
           alt="Max mascot saying hello" 
           className="h-auto animate-fade-in"
         />
+      </div>
+
+      {/* Three Buttons Row */}
+      <div className="flex justify-end space-x-3">
+        {/* Vapi AI Assistant */}
+        <VapiButton />
         
         {/* Get Quote Button */}
         <button
@@ -42,10 +42,8 @@ const FloatingActionButtons = () => {
           />
           <span>Get Quote</span>
         </button>
-      </div>
 
-      {/* Back to Top Button */}
-      <div className="flex justify-end">
+        {/* Back to Top Button */}
         <button
           onClick={scrollToTop}
           className="w-14 h-14 bg-primary hover:bg-primary-dark text-primary-foreground rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-50 touch-target group"
