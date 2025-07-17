@@ -52,16 +52,16 @@ const Header = () => {
               href="https://wa.me/27647576648"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-1 text-sm text-muted-foreground hover:text-primary transition-colors whitespace-nowrap"
+              className="flex items-center space-x-1 text-xs text-muted-foreground hover:text-primary transition-colors whitespace-nowrap"
             >
-              <Phone className="h-4 w-4" />
+              <Phone className="h-3 w-3" />
               <span>+27 (64) 757 6648</span>
             </a>
             <a
               href="mailto:hello@cli-max.co.za"
-              className="flex items-center space-x-1 text-sm text-muted-foreground hover:text-primary transition-colors whitespace-nowrap"
+              className="flex items-center space-x-1 text-xs text-muted-foreground hover:text-primary transition-colors whitespace-nowrap"
             >
-              <Mail className="h-4 w-4" />
+              <Mail className="h-3 w-3" />
               <span>hello@cli-max.co.za</span>
             </a>
           </div>
