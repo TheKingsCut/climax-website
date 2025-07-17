@@ -1138,7 +1138,7 @@ const Products = () => {
 
           {/* 5. Dehumidifier Series */}
           <div id="dehumidifiers" className="product-category">
-            <h3 className="text-3xl font-bold text-foreground mb-8">Dehumidifier Series</h3>
+            <h3 className="text-3xl font-bold text-foreground mb-8">Standalone Dehumidifier Series</h3>
             
             {/* Product Images */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
