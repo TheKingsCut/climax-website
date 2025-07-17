@@ -211,7 +211,7 @@ const Partners = () => {
             <div className="bg-gray-50 rounded-lg p-8">
               <h3 className="text-xl font-bold text-foreground mb-4">Equipment Distributors</h3>
               <p className="text-base text-muted-foreground mb-6">
-                Add a premium European-engineered brand without tying up capital in slow-moving stock.
+                Offer a premium CE-certified system built with European components—without tying up capital in slow-moving stock.
               </p>
               <ul className="text-base text-muted-foreground space-y-3">
                 <li className="flex items-start">
